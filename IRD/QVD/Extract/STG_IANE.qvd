@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
  <QvdTableHeader>
    <QvBuildNo>50600</QvBuildNo>
-   <CreatorDoc>C:\Users\Paulo\Documents\Qlik\Sense\Apps\CEMIG\IRD\Extract\EXT_IRD.qvf</CreatorDoc>
-   <CreateUtcTime>2018-09-24 20:11:10</CreateUtcTime>
+   <CreatorDoc>C:\Users\Paulo\Documents\Qlik\Sense\Apps\CEMIG\DGE\Extract\EXT_IRD.qvf</CreatorDoc>
+   <CreateUtcTime>2018-09-24 20:57:24</CreateUtcTime>
    <SourceCreateUtcTime></SourceCreateUtcTime>
    <SourceFileUtcTime></SourceFileUtcTime>
    <SourceFileSize>-1</SourceFileSize>
