@@ -2,7 +2,7 @@
  <QvdTableHeader>
    <QvBuildNo>50600</QvBuildNo>
    <CreatorDoc>C:\Users\Paulo\Documents\Qlik\Sense\Apps\CEMIG\DGE\Extract\EXT_IRD.qvf</CreatorDoc>
-   <CreateUtcTime>2018-09-28 17:57:08</CreateUtcTime>
+   <CreateUtcTime>2018-10-04 19:11:26</CreateUtcTime>
    <SourceCreateUtcTime></SourceCreateUtcTime>
    <SourceFileUtcTime></SourceFileUtcTime>
    <SourceFileSize>-1</SourceFileSize>
@@ -92,7 +92,6 @@
        <Length>15</Length>
        <Comment></Comment>
        <Tags>
-         <String>$text</String>
          <String>$numeric</String>
          <String>$integer</String>
        </Tags>

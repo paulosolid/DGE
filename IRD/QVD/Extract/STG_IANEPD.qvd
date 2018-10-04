@@ -1,0 +1,1976 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+ <QvdTableHeader>
+   <QvBuildNo>50600</QvBuildNo>
+   <CreatorDoc>C:\Users\Paulo\Documents\Qlik\Sense\Apps\CEMIG\DGE\Extract\EXT_IRD.qvf</CreatorDoc>
+   <CreateUtcTime>2018-10-04 19:11:25</CreateUtcTime>
+   <SourceCreateUtcTime></SourceCreateUtcTime>
+   <SourceFileUtcTime></SourceFileUtcTime>
+   <SourceFileSize>-1</SourceFileSize>
+   <StaleUtcTime></StaleUtcTime>
+   <TableName>STG_IANEPD</TableName>
+   <Fields>
+     <QvdFieldHeader>
+       <FieldName>EMPRESA</FieldName>
+       <BitOffset>326</BitOffset>
+       <BitWidth>3</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>REAL</Type>
+         <nDec>14</nDec>
+         <UseThou>1</UseThou>
+         <Fmt>##############</Fmt>
+         <Dec>,</Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>4</NoOfSymbols>
+       <Offset>0</Offset>
+       <Length>50</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>MACROPROJETO</FieldName>
+       <BitOffset>41</BitOffset>
+       <BitWidth>5</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>REAL</Type>
+         <nDec>14</nDec>
+         <UseThou>1</UseThou>
+         <Fmt>##############</Fmt>
+         <Dec>,</Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>20</NoOfSymbols>
+       <Offset>50</Offset>
+       <Length>698</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>ORGAO_RESPONSAVEL</FieldName>
+       <BitOffset>46</BitOffset>
+       <BitWidth>6</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>REAL</Type>
+         <nDec>14</nDec>
+         <UseThou>1</UseThou>
+         <Fmt>##############</Fmt>
+         <Dec>,</Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>39</NoOfSymbols>
+       <Offset>748</Offset>
+       <Length>315</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$text</String>
+         <String>$ascii</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>RESPONSAVEL</FieldName>
+       <BitOffset>9</BitOffset>
+       <BitWidth>7</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>REAL</Type>
+         <nDec>14</nDec>
+         <UseThou>1</UseThou>
+         <Fmt>##############</Fmt>
+         <Dec>,</Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>65</NoOfSymbols>
+       <Offset>1063</Offset>
+       <Length>1384</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>ORGAO_DEMANDANTE</FieldName>
+       <BitOffset>52</BitOffset>
+       <BitWidth>6</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>REAL</Type>
+         <nDec>14</nDec>
+         <UseThou>1</UseThou>
+         <Fmt>##############</Fmt>
+         <Dec>,</Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>39</NoOfSymbols>
+       <Offset>2447</Offset>
+       <Length>315</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$text</String>
+         <String>$ascii</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>DEMANDANTE</FieldName>
+       <BitOffset>96</BitOffset>
+       <BitWidth>7</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>REAL</Type>
+         <nDec>14</nDec>
+         <UseThou>1</UseThou>
+         <Fmt>##############</Fmt>
+         <Dec>,</Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>65</NoOfSymbols>
+       <Offset>2762</Offset>
+       <Length>1384</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>DIRETORIA</FieldName>
+       <BitOffset>329</BitOffset>
+       <BitWidth>3</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>REAL</Type>
+         <nDec>14</nDec>
+         <UseThou>1</UseThou>
+         <Fmt>##############</Fmt>
+         <Dec>,</Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>4</NoOfSymbols>
+       <Offset>4146</Offset>
+       <Length>20</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$text</String>
+         <String>$ascii</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>CPO</FieldName>
+       <BitOffset>58</BitOffset>
+       <BitWidth>6</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>REAL</Type>
+         <nDec>14</nDec>
+         <UseThou>1</UseThou>
+         <Fmt>##############</Fmt>
+         <Dec>,</Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>41</NoOfSymbols>
+       <Offset>4166</Offset>
+       <Length>358</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$text</String>
+         <String>$ascii</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>COLETOR</FieldName>
+       <BitOffset>325</BitOffset>
+       <BitWidth>1</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>REAL</Type>
+         <nDec>14</nDec>
+         <UseThou>1</UseThou>
+         <Fmt>##############</Fmt>
+         <Dec>,</Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>0</NoOfSymbols>
+       <Offset>4524</Offset>
+       <Length>0</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$text</String>
+         <String>$ascii</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>TITULO_PROJETO</FieldName>
+       <BitOffset>0</BitOffset>
+       <BitWidth>9</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>REAL</Type>
+         <nDec>14</nDec>
+         <UseThou>1</UseThou>
+         <Fmt>##############</Fmt>
+         <Dec>,</Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>330</NoOfSymbols>
+       <Offset>4524</Offset>
+       <Length>17794</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>DESCRICAO_PROJETO</FieldName>
+       <BitOffset>32</BitOffset>
+       <BitWidth>9</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>REAL</Type>
+         <nDec>14</nDec>
+         <UseThou>1</UseThou>
+         <Fmt>##############</Fmt>
+         <Dec>,</Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>309</NoOfSymbols>
+       <Offset>22318</Offset>
+       <Length>43681</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>RISCOS_NAO_EXECUCAO</FieldName>
+       <BitOffset>16</BitOffset>
+       <BitWidth>8</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>REAL</Type>
+         <nDec>14</nDec>
+         <UseThou>1</UseThou>
+         <Fmt>##############</Fmt>
+         <Dec>,</Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>237</NoOfSymbols>
+       <Offset>65999</Offset>
+       <Length>45204</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>JUSTIFICATIVA</FieldName>
+       <BitOffset>383</BitOffset>
+       <BitWidth>1</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>REAL</Type>
+         <nDec>14</nDec>
+         <UseThou>1</UseThou>
+         <Fmt>##############</Fmt>
+         <Dec>,</Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>0</NoOfSymbols>
+       <Offset>111203</Offset>
+       <Length>0</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>P_PD_01_2018</FieldName>
+       <BitOffset>261</BitOffset>
+       <BitWidth>2</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>REAL</Type>
+         <nDec>14</nDec>
+         <UseThou>1</UseThou>
+         <Fmt>##############</Fmt>
+         <Dec>,</Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>2</NoOfSymbols>
+       <Offset>111203</Offset>
+       <Length>8</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>P_PD_02_2018</FieldName>
+       <BitOffset>293</BitOffset>
+       <BitWidth>2</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>REAL</Type>
+         <nDec>14</nDec>
+         <UseThou>1</UseThou>
+         <Fmt>##############</Fmt>
+         <Dec>,</Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>2</NoOfSymbols>
+       <Offset>111211</Offset>
+       <Length>8</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>P_03_2018</FieldName>
+       <BitOffset>167</BitOffset>
+       <BitWidth>5</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>REAL</Type>
+         <nDec>14</nDec>
+         <UseThou>1</UseThou>
+         <Fmt>##############</Fmt>
+         <Dec>,</Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>29</NoOfSymbols>
+       <Offset>111219</Offset>
+       <Length>159</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>P_PD_04_2018</FieldName>
+       <BitOffset>172</BitOffset>
+       <BitWidth>5</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>REAL</Type>
+         <nDec>14</nDec>
+         <UseThou>1</UseThou>
+         <Fmt>##############</Fmt>
+         <Dec>,</Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>23</NoOfSymbols>
+       <Offset>111378</Offset>
+       <Length>153</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>P_PD_05_2018</FieldName>
+       <BitOffset>72</BitOffset>
+       <BitWidth>6</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>REAL</Type>
+         <nDec>14</nDec>
+         <UseThou>1</UseThou>
+         <Fmt>##############</Fmt>
+         <Dec>,</Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>32</NoOfSymbols>
+       <Offset>111531</Offset>
+       <Length>174</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>P_PD_06_2018</FieldName>
+       <BitOffset>78</BitOffset>
+       <BitWidth>6</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>REAL</Type>
+         <nDec>14</nDec>
+         <UseThou>1</UseThou>
+         <Fmt>##############</Fmt>
+         <Dec>,</Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>39</NoOfSymbols>
+       <Offset>111705</Offset>
+       <Length>229</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>P_PD_07_2018</FieldName>
+       <BitOffset>177</BitOffset>
+       <BitWidth>5</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>REAL</Type>
+         <nDec>14</nDec>
+         <UseThou>1</UseThou>
+         <Fmt>##############</Fmt>
+         <Dec>,</Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>26</NoOfSymbols>
+       <Offset>111934</Offset>
+       <Length>144</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>P_PD_08_2018</FieldName>
+       <BitOffset>84</BitOffset>
+       <BitWidth>6</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>REAL</Type>
+         <nDec>14</nDec>
+         <UseThou>1</UseThou>
+         <Fmt>##############</Fmt>
+         <Dec>,</Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>48</NoOfSymbols>
+       <Offset>112078</Offset>
+       <Length>294</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>P_PD_09_2018</FieldName>
+       <BitOffset>90</BitOffset>
+       <BitWidth>6</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>REAL</Type>
+         <nDec>14</nDec>
+         <UseThou>1</UseThou>
+         <Fmt>##############</Fmt>
+         <Dec>,</Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>32</NoOfSymbols>
+       <Offset>112372</Offset>
+       <Length>178</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>P_PD_10_2018</FieldName>
+       <BitOffset>103</BitOffset>
+       <BitWidth>6</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>REAL</Type>
+         <nDec>14</nDec>
+         <UseThou>1</UseThou>
+         <Fmt>##############</Fmt>
+         <Dec>,</Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>31</NoOfSymbols>
+       <Offset>112550</Offset>
+       <Length>185</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>P_PD_11_2018</FieldName>
+       <BitOffset>109</BitOffset>
+       <BitWidth>6</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>REAL</Type>
+         <nDec>14</nDec>
+         <UseThou>1</UseThou>
+         <Fmt>##############</Fmt>
+         <Dec>,</Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>34</NoOfSymbols>
+       <Offset>112735</Offset>
+       <Length>192</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>P_PD_12_2018</FieldName>
+       <BitOffset>115</BitOffset>
+       <BitWidth>6</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>REAL</Type>
+         <nDec>14</nDec>
+         <UseThou>1</UseThou>
+         <Fmt>##############</Fmt>
+         <Dec>,</Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>59</NoOfSymbols>
+       <Offset>112927</Offset>
+       <Length>357</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>P_PD_TOTAL_2018</FieldName>
+       <BitOffset>24</BitOffset>
+       <BitWidth>8</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>REAL</Type>
+         <nDec>14</nDec>
+         <UseThou>1</UseThou>
+         <Fmt>##############</Fmt>
+         <Dec>,</Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>133</NoOfSymbols>
+       <Offset>113284</Offset>
+       <Length>829</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>P_PD_01_2019</FieldName>
+       <BitOffset>182</BitOffset>
+       <BitWidth>5</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>REAL</Type>
+         <nDec>14</nDec>
+         <UseThou>1</UseThou>
+         <Fmt>##############</Fmt>
+         <Dec>,</Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>18</NoOfSymbols>
+       <Offset>114113</Offset>
+       <Length>102</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>P_PD_02_2019</FieldName>
+       <BitOffset>187</BitOffset>
+       <BitWidth>5</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>REAL</Type>
+         <nDec>14</nDec>
+         <UseThou>1</UseThou>
+         <Fmt>##############</Fmt>
+         <Dec>,</Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>23</NoOfSymbols>
+       <Offset>114215</Offset>
+       <Length>135</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>P_PD_03_2019</FieldName>
+       <BitOffset>214</BitOffset>
+       <BitWidth>5</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>REAL</Type>
+         <nDec>14</nDec>
+         <UseThou>1</UseThou>
+         <Fmt>##############</Fmt>
+         <Dec>,</Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>30</NoOfSymbols>
+       <Offset>114350</Offset>
+       <Length>182</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>P_PD_04_2019</FieldName>
+       <BitOffset>219</BitOffset>
+       <BitWidth>5</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>REAL</Type>
+         <nDec>14</nDec>
+         <UseThou>1</UseThou>
+         <Fmt>##############</Fmt>
+         <Dec>,</Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>25</NoOfSymbols>
+       <Offset>114532</Offset>
+       <Length>153</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>P_PD_05_2019</FieldName>
+       <BitOffset>224</BitOffset>
+       <BitWidth>5</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>REAL</Type>
+         <nDec>14</nDec>
+         <UseThou>1</UseThou>
+         <Fmt>##############</Fmt>
+         <Dec>,</Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>19</NoOfSymbols>
+       <Offset>114685</Offset>
+       <Length>111</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>P_PD_06_2019</FieldName>
+       <BitOffset>241</BitOffset>
+       <BitWidth>5</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>REAL</Type>
+         <nDec>14</nDec>
+         <UseThou>1</UseThou>
+         <Fmt>##############</Fmt>
+         <Dec>,</Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>29</NoOfSymbols>
+       <Offset>114796</Offset>
+       <Length>169</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>P_PD_07_2019</FieldName>
+       <BitOffset>246</BitOffset>
+       <BitWidth>5</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>REAL</Type>
+         <nDec>14</nDec>
+         <UseThou>1</UseThou>
+         <Fmt>##############</Fmt>
+         <Dec>,</Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>26</NoOfSymbols>
+       <Offset>114965</Offset>
+       <Length>158</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>P_PD_08_2019</FieldName>
+       <BitOffset>251</BitOffset>
+       <BitWidth>5</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>REAL</Type>
+         <nDec>14</nDec>
+         <UseThou>1</UseThou>
+         <Fmt>##############</Fmt>
+         <Dec>,</Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>22</NoOfSymbols>
+       <Offset>115123</Offset>
+       <Length>138</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>P_PD_09_2019</FieldName>
+       <BitOffset>135</BitOffset>
+       <BitWidth>6</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>REAL</Type>
+         <nDec>14</nDec>
+         <UseThou>1</UseThou>
+         <Fmt>##############</Fmt>
+         <Dec>,</Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>35</NoOfSymbols>
+       <Offset>115261</Offset>
+       <Length>227</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>P_PD_10_2019</FieldName>
+       <BitOffset>256</BitOffset>
+       <BitWidth>5</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>REAL</Type>
+         <nDec>14</nDec>
+         <UseThou>1</UseThou>
+         <Fmt>##############</Fmt>
+         <Dec>,</Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>22</NoOfSymbols>
+       <Offset>115488</Offset>
+       <Length>130</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>P_PD_11_2019</FieldName>
+       <BitOffset>263</BitOffset>
+       <BitWidth>5</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>REAL</Type>
+         <nDec>14</nDec>
+         <UseThou>1</UseThou>
+         <Fmt>##############</Fmt>
+         <Dec>,</Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>26</NoOfSymbols>
+       <Offset>115618</Offset>
+       <Length>158</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>P_PD_12_2019</FieldName>
+       <BitOffset>141</BitOffset>
+       <BitWidth>6</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>REAL</Type>
+         <nDec>14</nDec>
+         <UseThou>1</UseThou>
+         <Fmt>##############</Fmt>
+         <Dec>,</Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>54</NoOfSymbols>
+       <Offset>115776</Offset>
+       <Length>350</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>P_PD_TOTAL_2019</FieldName>
+       <BitOffset>121</BitOffset>
+       <BitWidth>7</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>REAL</Type>
+         <nDec>14</nDec>
+         <UseThou>1</UseThou>
+         <Fmt>##############</Fmt>
+         <Dec>,</Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>119</NoOfSymbols>
+       <Offset>116126</Offset>
+       <Length>759</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>P_PD_01_2020</FieldName>
+       <BitOffset>268</BitOffset>
+       <BitWidth>5</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>REAL</Type>
+         <nDec>14</nDec>
+         <UseThou>1</UseThou>
+         <Fmt>##############</Fmt>
+         <Dec>,</Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>27</NoOfSymbols>
+       <Offset>116885</Offset>
+       <Length>153</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>P_PD_02_2020</FieldName>
+       <BitOffset>273</BitOffset>
+       <BitWidth>5</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>REAL</Type>
+         <nDec>14</nDec>
+         <UseThou>1</UseThou>
+         <Fmt>##############</Fmt>
+         <Dec>,</Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>30</NoOfSymbols>
+       <Offset>117038</Offset>
+       <Length>170</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>P_PD_03_2020</FieldName>
+       <BitOffset>278</BitOffset>
+       <BitWidth>5</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>REAL</Type>
+         <nDec>14</nDec>
+         <UseThou>1</UseThou>
+         <Fmt>##############</Fmt>
+         <Dec>,</Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>30</NoOfSymbols>
+       <Offset>117208</Offset>
+       <Length>174</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>P_PD_04_2020</FieldName>
+       <BitOffset>283</BitOffset>
+       <BitWidth>5</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>REAL</Type>
+         <nDec>14</nDec>
+         <UseThou>1</UseThou>
+         <Fmt>##############</Fmt>
+         <Dec>,</Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>20</NoOfSymbols>
+       <Offset>117382</Offset>
+       <Length>116</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>P_PD_05_2020</FieldName>
+       <BitOffset>288</BitOffset>
+       <BitWidth>5</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>REAL</Type>
+         <nDec>14</nDec>
+         <UseThou>1</UseThou>
+         <Fmt>##############</Fmt>
+         <Dec>,</Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>20</NoOfSymbols>
+       <Offset>117498</Offset>
+       <Length>112</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>P_PD_06_2020</FieldName>
+       <BitOffset>295</BitOffset>
+       <BitWidth>5</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>REAL</Type>
+         <nDec>14</nDec>
+         <UseThou>1</UseThou>
+         <Fmt>##############</Fmt>
+         <Dec>,</Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>23</NoOfSymbols>
+       <Offset>117610</Offset>
+       <Length>127</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>P_PD_07_2020</FieldName>
+       <BitOffset>300</BitOffset>
+       <BitWidth>5</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>REAL</Type>
+         <nDec>14</nDec>
+         <UseThou>1</UseThou>
+         <Fmt>##############</Fmt>
+         <Dec>,</Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>24</NoOfSymbols>
+       <Offset>117737</Offset>
+       <Length>132</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>P_PD_08_2020</FieldName>
+       <BitOffset>305</BitOffset>
+       <BitWidth>5</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>REAL</Type>
+         <nDec>14</nDec>
+         <UseThou>1</UseThou>
+         <Fmt>##############</Fmt>
+         <Dec>,</Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>24</NoOfSymbols>
+       <Offset>117869</Offset>
+       <Length>148</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>P_PD_09_2020</FieldName>
+       <BitOffset>310</BitOffset>
+       <BitWidth>5</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>REAL</Type>
+         <nDec>14</nDec>
+         <UseThou>1</UseThou>
+         <Fmt>##############</Fmt>
+         <Dec>,</Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>29</NoOfSymbols>
+       <Offset>118017</Offset>
+       <Length>169</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>P_PD_10_2020</FieldName>
+       <BitOffset>315</BitOffset>
+       <BitWidth>5</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>REAL</Type>
+         <nDec>14</nDec>
+         <UseThou>1</UseThou>
+         <Fmt>##############</Fmt>
+         <Dec>,</Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>23</NoOfSymbols>
+       <Offset>118186</Offset>
+       <Length>135</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>P_PD_11_2020</FieldName>
+       <BitOffset>320</BitOffset>
+       <BitWidth>5</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>REAL</Type>
+         <nDec>14</nDec>
+         <UseThou>1</UseThou>
+         <Fmt>##############</Fmt>
+         <Dec>,</Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>22</NoOfSymbols>
+       <Offset>118321</Offset>
+       <Length>130</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>P_PD_12_2020</FieldName>
+       <BitOffset>147</BitOffset>
+       <BitWidth>6</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>REAL</Type>
+         <nDec>14</nDec>
+         <UseThou>1</UseThou>
+         <Fmt>##############</Fmt>
+         <Dec>,</Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>36</NoOfSymbols>
+       <Offset>118451</Offset>
+       <Length>220</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>P_PD_TOTAL_2020</FieldName>
+       <BitOffset>128</BitOffset>
+       <BitWidth>7</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>REAL</Type>
+         <nDec>14</nDec>
+         <UseThou>1</UseThou>
+         <Fmt>##############</Fmt>
+         <Dec>,</Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>100</NoOfSymbols>
+       <Offset>118671</Offset>
+       <Length>576</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>P_PD_01_2021</FieldName>
+       <BitOffset>332</BitOffset>
+       <BitWidth>5</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>REAL</Type>
+         <nDec>14</nDec>
+         <UseThou>1</UseThou>
+         <Fmt>##############</Fmt>
+         <Dec>,</Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>15</NoOfSymbols>
+       <Offset>119247</Offset>
+       <Length>91</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>P_PD_02_2021</FieldName>
+       <BitOffset>337</BitOffset>
+       <BitWidth>5</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>REAL</Type>
+         <nDec>14</nDec>
+         <UseThou>1</UseThou>
+         <Fmt>##############</Fmt>
+         <Dec>,</Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>16</NoOfSymbols>
+       <Offset>119338</Offset>
+       <Length>96</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>P_PD_03_2021</FieldName>
+       <BitOffset>342</BitOffset>
+       <BitWidth>5</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>REAL</Type>
+         <nDec>14</nDec>
+         <UseThou>1</UseThou>
+         <Fmt>##############</Fmt>
+         <Dec>,</Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>18</NoOfSymbols>
+       <Offset>119434</Offset>
+       <Length>110</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>P_PD_04_2021</FieldName>
+       <BitOffset>347</BitOffset>
+       <BitWidth>5</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>REAL</Type>
+         <nDec>14</nDec>
+         <UseThou>1</UseThou>
+         <Fmt>##############</Fmt>
+         <Dec>,</Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>19</NoOfSymbols>
+       <Offset>119544</Offset>
+       <Length>107</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>P_PD_05_2021</FieldName>
+       <BitOffset>352</BitOffset>
+       <BitWidth>5</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>REAL</Type>
+         <nDec>14</nDec>
+         <UseThou>1</UseThou>
+         <Fmt>##############</Fmt>
+         <Dec>,</Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>24</NoOfSymbols>
+       <Offset>119651</Offset>
+       <Length>136</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>P_PD_06_2021</FieldName>
+       <BitOffset>357</BitOffset>
+       <BitWidth>5</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>REAL</Type>
+         <nDec>14</nDec>
+         <UseThou>1</UseThou>
+         <Fmt>##############</Fmt>
+         <Dec>,</Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>20</NoOfSymbols>
+       <Offset>119787</Offset>
+       <Length>112</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>P_PD_07_2021</FieldName>
+       <BitOffset>362</BitOffset>
+       <BitWidth>6</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>REAL</Type>
+         <nDec>14</nDec>
+         <UseThou>1</UseThou>
+         <Fmt>##############</Fmt>
+         <Dec>,</Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>19</NoOfSymbols>
+       <Offset>119899</Offset>
+       <Length>95</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$integer</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>P_PD_08_2021</FieldName>
+       <BitOffset>368</BitOffset>
+       <BitWidth>5</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>REAL</Type>
+         <nDec>14</nDec>
+         <UseThou>1</UseThou>
+         <Fmt>##############</Fmt>
+         <Dec>,</Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>21</NoOfSymbols>
+       <Offset>119994</Offset>
+       <Length>117</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>P_PD_09_2021</FieldName>
+       <BitOffset>373</BitOffset>
+       <BitWidth>5</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>REAL</Type>
+         <nDec>14</nDec>
+         <UseThou>1</UseThou>
+         <Fmt>##############</Fmt>
+         <Dec>,</Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>19</NoOfSymbols>
+       <Offset>120111</Offset>
+       <Length>103</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>P_PD_10_2021</FieldName>
+       <BitOffset>378</BitOffset>
+       <BitWidth>5</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>REAL</Type>
+         <nDec>14</nDec>
+         <UseThou>1</UseThou>
+         <Fmt>##############</Fmt>
+         <Dec>,</Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>17</NoOfSymbols>
+       <Offset>120214</Offset>
+       <Length>85</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$integer</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>P_PD_11_2021</FieldName>
+       <BitOffset>384</BitOffset>
+       <BitWidth>5</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>REAL</Type>
+         <nDec>14</nDec>
+         <UseThou>1</UseThou>
+         <Fmt>##############</Fmt>
+         <Dec>,</Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>29</NoOfSymbols>
+       <Offset>120299</Offset>
+       <Length>191</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>P_PD_12_2021</FieldName>
+       <BitOffset>389</BitOffset>
+       <BitWidth>5</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>REAL</Type>
+         <nDec>14</nDec>
+         <UseThou>1</UseThou>
+         <Fmt>##############</Fmt>
+         <Dec>,</Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>29</NoOfSymbols>
+       <Offset>120490</Offset>
+       <Length>161</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>P_PD_TOTAL_2021</FieldName>
+       <BitOffset>153</BitOffset>
+       <BitWidth>7</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>REAL</Type>
+         <nDec>14</nDec>
+         <UseThou>1</UseThou>
+         <Fmt>##############</Fmt>
+         <Dec>,</Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>84</NoOfSymbols>
+       <Offset>120651</Offset>
+       <Length>508</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>P_PD_01_2022</FieldName>
+       <BitOffset>198</BitOffset>
+       <BitWidth>4</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>REAL</Type>
+         <nDec>14</nDec>
+         <UseThou>1</UseThou>
+         <Fmt>##############</Fmt>
+         <Dec>,</Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>11</NoOfSymbols>
+       <Offset>121159</Offset>
+       <Length>55</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$integer</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>P_PD_02_2022</FieldName>
+       <BitOffset>202</BitOffset>
+       <BitWidth>4</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>REAL</Type>
+         <nDec>14</nDec>
+         <UseThou>1</UseThou>
+         <Fmt>##############</Fmt>
+         <Dec>,</Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>12</NoOfSymbols>
+       <Offset>121214</Offset>
+       <Length>60</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$integer</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>P_PD_03_2022</FieldName>
+       <BitOffset>394</BitOffset>
+       <BitWidth>6</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>REAL</Type>
+         <nDec>14</nDec>
+         <UseThou>1</UseThou>
+         <Fmt>##############</Fmt>
+         <Dec>,</Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>16</NoOfSymbols>
+       <Offset>121274</Offset>
+       <Length>80</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$integer</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>P_PD_04_2022</FieldName>
+       <BitOffset>206</BitOffset>
+       <BitWidth>4</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>REAL</Type>
+         <nDec>14</nDec>
+         <UseThou>1</UseThou>
+         <Fmt>##############</Fmt>
+         <Dec>,</Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>12</NoOfSymbols>
+       <Offset>121354</Offset>
+       <Length>60</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$integer</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>P_PD_05_2022</FieldName>
+       <BitOffset>210</BitOffset>
+       <BitWidth>4</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>REAL</Type>
+         <nDec>14</nDec>
+         <UseThou>1</UseThou>
+         <Fmt>##############</Fmt>
+         <Dec>,</Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>11</NoOfSymbols>
+       <Offset>121414</Offset>
+       <Length>55</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$integer</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>P_PD_06_2022</FieldName>
+       <BitOffset>229</BitOffset>
+       <BitWidth>4</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>REAL</Type>
+         <nDec>14</nDec>
+         <UseThou>1</UseThou>
+         <Fmt>##############</Fmt>
+         <Dec>,</Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>12</NoOfSymbols>
+       <Offset>121469</Offset>
+       <Length>60</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$integer</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>P_PD_07_2022</FieldName>
+       <BitOffset>233</BitOffset>
+       <BitWidth>4</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>REAL</Type>
+         <nDec>14</nDec>
+         <UseThou>1</UseThou>
+         <Fmt>##############</Fmt>
+         <Dec>,</Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>12</NoOfSymbols>
+       <Offset>121529</Offset>
+       <Length>60</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$integer</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>P_PD_08_2022</FieldName>
+       <BitOffset>400</BitOffset>
+       <BitWidth>5</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>REAL</Type>
+         <nDec>14</nDec>
+         <UseThou>1</UseThou>
+         <Fmt>##############</Fmt>
+         <Dec>,</Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>20</NoOfSymbols>
+       <Offset>121589</Offset>
+       <Length>120</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>P_PD_09_2022</FieldName>
+       <BitOffset>405</BitOffset>
+       <BitWidth>5</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>REAL</Type>
+         <nDec>14</nDec>
+         <UseThou>1</UseThou>
+         <Fmt>##############</Fmt>
+         <Dec>,</Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>16</NoOfSymbols>
+       <Offset>121709</Offset>
+       <Length>92</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>P_PD_10_2022</FieldName>
+       <BitOffset>237</BitOffset>
+       <BitWidth>4</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>REAL</Type>
+         <nDec>14</nDec>
+         <UseThou>1</UseThou>
+         <Fmt>##############</Fmt>
+         <Dec>,</Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>14</NoOfSymbols>
+       <Offset>121801</Offset>
+       <Length>70</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$integer</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>P_PD_11_2022</FieldName>
+       <BitOffset>410</BitOffset>
+       <BitWidth>6</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>REAL</Type>
+         <nDec>14</nDec>
+         <UseThou>1</UseThou>
+         <Fmt>##############</Fmt>
+         <Dec>,</Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>18</NoOfSymbols>
+       <Offset>121871</Offset>
+       <Length>90</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$integer</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>P_PD_12_2022</FieldName>
+       <BitOffset>192</BitOffset>
+       <BitWidth>6</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>REAL</Type>
+         <nDec>14</nDec>
+         <UseThou>1</UseThou>
+         <Fmt>##############</Fmt>
+         <Dec>,</Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>38</NoOfSymbols>
+       <Offset>121961</Offset>
+       <Length>258</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>P_PD_TOTAL_2022</FieldName>
+       <BitOffset>160</BitOffset>
+       <BitWidth>7</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>REAL</Type>
+         <nDec>14</nDec>
+         <UseThou>1</UseThou>
+         <Fmt>##############</Fmt>
+         <Dec>,</Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>68</NoOfSymbols>
+       <Offset>122219</Offset>
+       <Length>432</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>P_PD_TOTAL_CICLO</FieldName>
+       <BitOffset>64</BitOffset>
+       <BitWidth>8</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>REAL</Type>
+         <nDec>14</nDec>
+         <UseThou>1</UseThou>
+         <Fmt>##############</Fmt>
+         <Dec>,</Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>214</NoOfSymbols>
+       <Offset>122651</Offset>
+       <Length>1318</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+       </Tags>
+     </QvdFieldHeader>
+   </Fields>
+   <Compression></Compression>
+   <RecordByteSize>52</RecordByteSize>
+   <NoOfRecords>340</NoOfRecords>
+   <Offset>123969</Offset>
+   <Length>17680</Length>
+   <Lineage></Lineage>
+   <Comment></Comment>
+ </QvdTableHeader>
+ Gera√ß√£o Transmiss√£o Distribui√ß√£o Holding 1-1-4 Ferramentas e Equipamentos G 1-3-1 Edifica√ß√µes e Complementos G 1-3-2-1 TI - Telecomunica√ß√µes (Ativo n√£o el√©trico) G 1-3-3 TI - Microinform√°tica G 1-3-4 Sistema de Inform√°tica G 1-3-5 Ve√≠culos G 2-1-2 Ferramentas e Equipamentos T 2-3-1 Edifica√ß√µes e Complementos T 2-3-2 TI - Telecomunica√ß√µes (Ativo n√£o el√©trico) T 2-3-3 TI - Microinform√°tica T 2-3-4 Sistema de Inform√°tica T 2-3-5 Ve√≠culos T 3-4-1 Ferramentas D 3-4-2 Edifica√ß√µes e Complementos D 3-4-3-1 TI - Telecomunica√ß√µes (Ativos n√£o el√©tricos) D 3-4-4 TI - Microinform√°tica D 3-4-5 Sistema de Inform√°tica D 3-4-6 Ve√≠culos D 4-1-2 TI - Microinform√°tica H 4-1-3 Sistema de Inform√°tica H PO/MG MG/TA MG/LE MG/SB MG/OE MG/UT MG/CS GE/IM SC MG/NT TI/TC TI/IO PO/PE TI/SI PO/MT TI/RT EP/IN MT/CT MT/LE MT/TA MT/CN MT/TA MT/TA MT/SE MT/CN MT/SE MT/LE MT/TA MT/CN MT/SE MT/CN MT/LE MT/LE MT/SE MD/CS OP/AP OP/AC GR/PC RH/EC EM/CE EA/EP EA/EO EA/EL CD/TA MS/QL CO MS/LA Jeferson Marcos Augusto - 34-3088-4901 Leonardo Victoretti  
+SIT-944 351 Luiz Antonio Maia Rangel Ara√∫jo F Martins Diego Thadeu 31-3535-7617 Mateus Trevisani Samuel Matos Fl√°vio Henrique Silva Ros√°rio Evandro Jardim Rog√©rio Elias Ian Garcia F√∫lvio Queiroz Barbosa Francisco Elson Carlos Ara√∫jo Franco Menho Silva Ivan S√©rgio Carneiro √Ålisson Costa Diego Balbi Alexsandro Teixeira Gomes Adriana de Castro Passos Martins Ant√¥nio Carlos Arantes Heberte Faria Pedro Alberto Castello Branco Resende D√©bora Alvarenga JOHNNY SOUZA ANDRADE Ronnie de Lima Diniz Ormindo Coutinho Filho Gustavo Soares/Joel M√°ximo Gustavo Soares/Leandro Veloso Cunha/Joel M√°ximo Gustavo Soares/Eduardo Martins/Adriana de Castro Joel M√°ximo Reis Lisandro Flavio Henrique M. Vieira Thais Freire Daniel Sena Ronaldo Oliveira Denis Eust√°quio Jos√© da Silva Sergio Rocha Afonso Vanderlei Nunes Barbosa Romeraldo Januario Beline Q. A. Fonseca Jos√© William Campomizzi Marlon Paulo M√°rcio Nepomuceno Rodrigo Marques Loan Lauar Daniel Bretas (31-35062945) Marcela Francely Duarte Sales Marques dos Santos 
+
+Rodrigo Elias S.  Santos Jose Cesar Uaded Sebasti√£o Jacinto Francisco Fernando Paulo Cesar Soares Roberto Proen√ßa Alex de Assis Roberto Sebasti√£o Marcus Souto S√©rgio Mourth√© M√°rcio Rosa Giovani Davi Jos√© Fl√°vio/Amaro Freitas PO/MG MG/TA MG/LE MG/SB MG/OE MG/UT MG/CS GE/IM SC MG/NT TI/TC TI/IO PO/PE TI/SI PO/MT TI/RT EP/IN MT/CT MT/LE MT/TA MT/CN MT/TA MT/TA MT/SE MT/CN MT/SE MT/LE MT/TA MT/CN MT/SE MT/CN MT/LE MT/LE MT/SE MD/CS OP/AP OP/AC GR/PC RH/EC EM/CE EA/EP EA/EO EA/EL CD/TA MS/QL CO MS/LA Jeferson Marcos Augusto - 34-3088-4901 Leonardo Victoretti  
+SIT-944 351 Luiz Antonio Maia Rangel Ara√∫jo F Martins Diego Thadeu 31-3535-7617 Mateus Trevisani Samuel Matos Fl√°vio Henrique Silva Ros√°rio Evandro Jardim Rog√©rio Elias Ian Garcia F√∫lvio Queiroz Barbosa Francisco Elson Carlos Ara√∫jo Franco Menho Silva Ivan S√©rgio Carneiro √Ålisson Costa Diego Balbi Alexsandro Teixeira Gomes Adriana de Castro Passos Martins Ant√¥nio Carlos Arantes Heberte Faria Pedro Alberto Castello Branco Resende D√©bora Alvarenga JOHNNY SOUZA ANDRADE Ronnie de Lima Diniz Ormindo Coutinho Filho Gustavo Soares/Joel M√°ximo Gustavo Soares/Leandro Veloso Cunha/Joel M√°ximo Gustavo Soares/Eduardo Martins/Adriana de Castro Joel M√°ximo Reis Lisandro Flavio Henrique M. Vieira Thais Freire Daniel Sena Ronaldo Oliveira Denis Eust√°quio Jos√© da Silva Sergio Rocha Afonso Vanderlei Nunes Barbosa Romeraldo Januario Beline Q. A. Fonseca Jos√© William Campomizzi Marlon Paulo M√°rcio Nepomuceno Rodrigo Marques Loan Lauar Daniel Bretas (31-35062945) Marcela Francely Duarte Sales Marques dos Santos 
+
+Rodrigo Elias S.  Santos Jose Cesar Uaded Sebasti√£o Jacinto Francisco Fernando Paulo Cesar Soares Roberto Proen√ßa Alex de Assis Roberto Sebasti√£o Marcus Souto S√©rgio Mourth√© M√°rcio Rosa Giovani Davi Jos√© Fl√°vio/Amaro Freitas DGT DGE DDC DRH - NA TI00917 TI01415 TI00218 TI02216 TI01115 TI01117 TI01315 SC00318 SC00218 SC00117 SC00118 TI00315 TI01816 TI01715 TI02115 TI03217 TI00118 TI01016 TI02515 TI00617 TI03417 TI04117 TI01813 TI03117 TI02817 TI02516 TI03617 TI03317 TI01317 TI03517 TI00517 TI00417 TI02217 TI02616 TI02316 3240/12 TI01017 TI01114 TI01515 Usinas - Aquisi√ß√£o de Coletor analisador port√°til de dados de vibra√ß√£o para a PO/MG Usinas - Aquisi√ß√£o de Sensores de press√£o Usinas - Aquisi√ß√£o de Instrumenta√ß√£o para an√°lise preditiva nas usinas do grupo CEMIG, composta por sensores de proximidade, sensor de press√£o, aceler√¥metros, base magn√©tica e cabos, conforme conjuntos ou kits espec√≠ficos que ser√£o cadastrados na MS. Usinas - Aquisitor de dados multicanal para an√°lise de par√¢metros din√¢micos de unidades geradoras Aquisi√ß√£o de ferramentas e equipamentos Usinas - Aquisi√ß√£o de Aceler√¥metros contendo base magn√©ticas e cabos Unidade Termov√°cuo de tratamento de √≥leo Lubrificante GLE-INV-PPE-Aq-Eqp-Aquis-dado-multicanal Usinas - Aquisi√ß√£o de Sensor de proximidade Aquisi√ß√£o de 02 Deareadores Usinas - Aquisi√ß√£o de Sensor de rota√ß√£o GLE-INV-PPE-Aq-Eqp-analis-enrolamentos GLE-INV-PPE-Aq-Eqp-analisador-isola√ß√£o
+SAP-IW33-CPDE-1600001869 GLE-INV-PPE- Aquisi√ß√£o de equipamento endosc√≥pio sonda 3m Aquisi√ß√£o de espi√£o rede el√©trica COS/SEs Aquisi√ß√£o de 01 Calibrador de Processo FLUKE - MG/OE GLE-INV-PPE Aquisi√ß√£o de equipamento Analisador disjuntor
+SAP-IW33-CPDE-1600001865 GLE-INV-PPE-Aq-Eqp-termovisor-port√°til Substitui√ß√£o de equipamentos da oficina - adequa√ß√£o NR-12 GLE-INV-PPE- Aquisi√ß√£o de equipamento medidor resist√™ncia ohmica
+SAP-IW33-CPDE-1600001867 GLE-INV-PPE-Aq-Eqp-calibr/gerador-sinais GLE-INV-PPE-Aq-Eqp-oscilosc√≥pio-port√°til GLE-INV-PPE Aquisi√ß√£o de equipamento medidor rela√ß√£o transformador
+SAP-IW33-CPDE-1600001866 Aquisi√ß√£o de 04 Notebooks UTIG Usinas - Aquisi√ß√£o de Transdutor de deslocamento diferencial vari√°vel linear (LVDT's de comprimentos diversos) GLE-INV-PPE-Aq-Eqp-mult√≠metro-profission GLE-INV-PPE-Aq-Eqp-macaco-mec√¢n-30T Aquisi√ß√£o de 02 Notebooks - MG/OE Aquisi√ß√£o de 01 Drone + baterias Aquisi√ß√£o de bomba de press√£o Aquisi√ß√£o de 01 Drone Instrumenta√ß√£o El√©trica - Oscilosc√≥pio GLE-INV-PPE- Aquisi√ß√£o de equipamento macaco hidra√∫lico 25T Aquisi√ß√£o de 01 b√∫ssola de Ge√≥logo Aquisi√ß√£o de 01 Kit para  montagem de rolamento - MG/OE GLE-INV-PPE- Aquisi√ß√£o de equipamento macaco hidra√∫lico 20T GLE-INV-PPE-Aq-Epq-micrometro-int-tubular GLE-INV-PPE- Aquisi√ß√£o de equipamento talha corrente 3T GLE-INV-PPE- Aquisi√ß√£o de equipamento Clor√≠metro Digital Port√°til GLE-INV-PPE- Aquisi√ß√£o de equipamento macaco hidra√∫lico 10T GLE-INV-PPE- Aquisi√ß√£o de equipamento bomba manual Instrumenta√ß√£o El√©trica - Term√¥metro Aquisi√ß√£o de 01 Compressores de Ar Otimiza√ß√£o dos Ativos de Lavras para atendimento da Cemig GT Aquisi√ß√£o de terminal de videoconfer√™ncia de alta defini√ß√£o Aquisi√ß√£o de Equipamentos de Ar Condicionado G Otimiza√ß√£o dos Ativos de Ipatinga para atendimento da Cemig GT Aquisi√ß√£o de mobili√°rio para atendimento cliente interno G Aquisi√ß√£o de Equipamentos para cozinhas, refeit√≥rios e restaurantes Implanta√ß√£o de acesso de seguran√ßa para manuten√ß√£o em pr√©dios da Cemig da Regi√£o Metropolitana de BH Video Monitoramento Anal√≠tico em 12 usinas Instala√ß√£o de 01 sistema de vigilancia patrimonial - UHNP Aquisi√ß√£o de 02 Aparelhos de ar condicionado cassete 48000 BTU - UHNP Aquisi√ß√£o de Bebedouros G GLE-INV-PPE- Aquisi√ß√£o de 3 ar condicionado GLE-INV-PPE- Aquisi√ß√£o de 1 ar condicionado Aquisi√ß√£o de Ar Condicionado UTIG Aquisi√ß√£o de Projetor Multim√≠dia MG/CS GLE-INV-PPE- Aquisi√ß√£o de Equipamento projetor multim√≠dia Atualiza√ß√£o do sistema de m√≠dia do Audit√≥rio do Centro de Refer√™ncia. Aquisi√ß√£o de Projetor Multimidia MG/NT Aquisi√ß√£o de Projetor Multimidia MG/NT-1 GLE-INV-PPE- Aquisi√ß√£o de 2 ar condicionado HSU-INV-PPE- Aquisi√ß√£o de refrigerador vertical 280L HSU-INV-PPE- Aquisi√ß√£o de ar condicionado Redes √ìpticas da Geradora Moderniza√ß√£o do Parque Microinform√°tica (CORPORATIVO) G Aquisi√ß√£o de 15 tablets Licenciamento Microsoft Aquisi√ß√£o de Produtos OSISoft (PI System) Licenciamento de Softwares (Oracle) Licenciamento HEXAGON Upgrade do Software Inspetor Aquisi√ß√£o SIGGA Brizzo Upgrade do Sistema SMO - Laborat√≥rio de √ìleos Aquisi√ß√£o/atualiza√ß√£o de Servidores x86 Novo SIGO (Escopo reduzido) HP SERVICE MANAGER Infraestrutura de Comunica√ß√£o para o Plano de A√ß√µes Emerg√™ncias - PAE em Usinas da Gera√ß√£o Cemig GT Aplicativo para Tramita√ß√£o de Documentos  (processo de Engenharia do propriet√°rio - Customiza√ß√£o GEDEX) Aquisi√ß√£o software de Confiabilidade (RENO, Lambdapredict, DOE e RGA) Desenvolvimento de software de diagn√≥stico e planejamento de investimento de Gera√ß√£o Upgrade/atualiza√ß√£o do software Geo-slope 2012 GLE-INV-PPE-Aq-software-ElipseE3Studio Licen√ßa do software Logic Linx Hardkey Substitui√ß√£o de Ve√≠culos da Diretoria Executiva - Gera√ß√£o Aquisi√ß√£o de ferramentas de manuten√ß√£o diversas Aquisi√ß√£o de 04 cestas a√©reas Ferramentas para o Centro de Monitoramento Preditivo e para o Laborat√≥rio de integra√ß√£o de novos ativos de Prote√ß√£o, Controle, Supervis√£o e Automa√ß√£o da PO/MT Constru√ß√£o de 2 muros AR - P21 - Execu√ß√£o de 2 Muros de Arrimo AR - Constru√ß√£o de muro de arrimo, passeio e sistema de drenagem Constru√ß√£o de 2 abrigos para res√≠duos perigosos e inflam√°veis Substitui√ß√£o de aparelhos de ar condicionado Perfura√ß√£o de um novo Po√ßo artesiano Constru√ß√£o de ferramentaria Aquisi√ß√£o e instala√ß√£o de Sistema de vigil√¢ncia Aquisi√ß√£o de mobili√°rio para atendimento cliente interno T Aquisi√ß√£o de 5 projetores multim√≠dia Aquisi√ß√£o de 5 TV LED Aquisi√ß√£o de 4 Bebedouro industrial T Aquisi√ß√£o de 2 lavadoras Redes √ìpticas da Transmissora Comunica√ß√£o via Sat√©lite Telefonia Moderniza√ß√£o do Parque Microinform√°tica (CORPORATIVO) T Equipamentos e ve√≠culos para a MT Substitui√ß√£o de Ve√≠culos da Diretoria Executiva - Transmiss√£o Programa de Substitui√ß√£o e Moderniza√ß√£o de Ferramentas MD/CS Laborat√≥rio para homologa√ß√£o de equipamentos de automa√ß√£o Aquisi√ß√£o de medidores de qualidade de energia classe A para atendimento aos requisitos dos Procedimentos de Rede e da revis√£o 8 do M√≥dulo 8 do PRODIST. Cemig D - Regionais de manuten√ß√£o Aquisi√ß√£o camara clim√°tica Oscil√≥grafo TDR900 DOBLE TUC 230 (Equipamentos de Laborat√≥rios) Programa de Substitui√ß√£o e Moderniza√ß√£o de Ferramentas EM/CE Equipamento analisador de n√≠vel de sinal celular - AQS Tensionador Leve Moderniza√ß√£o do parque tecnol√≥gio da EA/EP para servi√ßos geod√©sicos. Ferramentas e equipamentos para Laborat√≥rio de testes de equipamentos  em Uberl√¢ndia Medidor de Rela√ß√£o de transforma√ß√£o digital Calibrador tipo Corpo Negro (Fonte de Calor) 2 HI-POTT CA at√© 60 kV Moderniza√ß√£o do parque tecnol√≥gio da EA/EP para servi√ßos topogr√°ficos Aquisi√ß√£o de 4 computadores  Notebook. Testador de rigidez diel√©trica de √≥leo isolante. 2 Alicates Terr√¥metros AquisI√ß√£o de Smartfone para os fiscais de obra, com recurso de internet e boa resolu√ß√£o para registro fotogr√°fico, acesso em campo aos sistemas GESET e GEDEX. 2 Medidores eletr√¥nicos de temperatura e umidade relativa do ar, modelo com tecnologia wi-fi. 2 Alicates amper√≠metros digital com tecnologia wi-fi. Aquisi√ß√£o de 2 computadores do tipo Notebook. Aquisi√ß√£o de uma m√°quina fotogr√°fica Semi profissional 2 Motoserras -Motopoda  TUC 230 (Equipamento de Oficina) 2 Medidores de dist√¢ncia a laser, modelo com tecnologia wi-fi. 2 Anem√¥metros eletr√¥nicos, modelo tecnologia com wi-fi. Aquisi√ß√£o de Equipamento Suparule Adequa√ß√£o do Patio de Trafos em cumprimento do condicionante - CDA Igarap√© Constru√ß√£o de Laborat√≥rio de Ensaios de Materiais da MS/QL em novo CDM. Otimiza√ß√£o dos Ativos de Divin√≥polis Adequa√ß√£o do Anel Rodovi√°rio Otimiza√ß√£o dos Ativos de Varginha Adequa√ß√£o do Q14 - Cidade Industrial Q14/P2 e 3 e P2/Adelaide - Obra de recupera√ß√£o estrutural e instala√ß√µes Otimiza√ß√£o dos Ativos de Tr√™s Cora√ß√µes Otimiza√ß√£o dos Ativos de Barbacena Otimiza√ß√£o dos Ativos de Arax√° Aquisi√ß√£o de Sistema multiponto RPCS VE  Equipado para 40 conex√µes HD ou 80 conex√µes SD Substitui√ß√£o do sistema de abastecimento de √°gua das unidades AR, CI, IT e SE-NA Adequa√ß√£o da √Årea destinada ao armazenamento de equipamentos, produtos e res√≠duos perigosos  em Montes Claros Otimiza√ß√£o dos Ativos de Governador Valadares Aquisi√ß√£o de Equipamentos de Ar Condicionado D Instala√ß√£o do Sistema de Alarme e Combate a Inc√™ndio para obten√ß√£o do AVCB do Q14 Aquisi√ß√£o de baterias para os Nobreaks dos Edif√≠cios J√∫lio Soares e Aureliano Chaves Otimiza√ß√£o dos Ativos de Montes Claros Transfer√™ncia de Base Operativa da MD/MM do Itamb√© para o Anel Rodovi√°rio e Barro Preto (Projeto de Centraliza√ß√£o Administrativa) Otimiza√ß√£o dos Ativos de Almenara Reforma total e impermeabiliza√ß√£o do telhado do im√≥vel Q3 - Bloco A e B - Ag√™ncia de Atendimento Controle de Acesso - AR JUIZ DE FORA - DRENAGEM DE SOLO E ASFALTAMENTO NA √ÅREA DO SERVI√áO DE CAMPO Moderniza√ß√£o de Recursos Pedag√≥gicos Aquisi√ß√£o de Subesta√ß√£o Predial para o Quarteir√£o 14 Pista de Dire√ß√£o Defensiva UBERL√ÇNDIA - SUBSTITUI√á√ÉO TELHADO NO CRIU Otimiza√ß√£o dos Ativos de Patroc√≠nio Equipamentos para cozinhas, refeit√≥rios e restaurantes Regulariza√ß√£o de Pend√™ncia com Im√≥veis - Distribui√ß√£o Aquisi√ß√£o de Sistema de Prote√ß√£o contra Descargas Atmosf√©ricas (SPDA) Substitui√ß√£o de Mobili√°rio S√ÉO JO√ÉO DEL REI - SUBSTITUI√á√ÉO DE TELHADO CDI - Sete Lagoas - Execu√ß√£o de refor√ßo do talude e obra de drenagem Controle de acesso Interior CDI - Sete Lagoas - Execu√ß√£o de bacia de conten√ß√£o coberta Aquisi√ß√£o de mobili√°rio para atender ao Estudo Estrat√©gico de Ativos (EEA) Otimiza√ß√£o dos Ativos de Itajub√° Aquisi√ß√£o de mobili√°rio para atendimento cliente interno D Impermeabiliza√ß√£o dos reservat√≥rios de √°gua AQUISI√á√ÉO DE PROJETORES SC Aquisi√ß√£o de Equipamentos e instrumentos para laborat√≥rio MS/QL Otimiza√ß√£o dos Ativos de Passos Aquisi√ß√£o de Bebedouros CEMIG Equipamentos de suporte CFTV e Controle de Acesso Kit para teste de detec√ß√£o de fuma√ßa AQUISI√á√ÉO DE BEBEDOUROS DGE ITAJUB√Å - SUBSTITUI√á√ÉO DO TELHADO E MADEIRAMENTO DO PR√âDIO Implanta√ß√£o de Cancelas com acesso eletr√¥nico e registro de ve√≠culos no edif. Julio Soares AQUISI√á√ÉO DE ELETRODOM√âSTICOS Projetores multim√≠dia RH/EC Lavadoura de pratos industrial Aquisi√ß√£o de equipamentos e mobili√°rio para o CGR Lousa eletronica CM 907914 AQUISI√á√ÉO DE FRAGMENTADORA DE PAPEL Televis√£o de 55" Redes √ìpticas da Distribuidora Centrais Telef√¥nicas da Distribuidora Multiplexadores da Distribuidora Sistemas R√°dios da Distribuidora ALMENARA E OURO PRETO - CENTRAL TELEF√îNICA PARA INSTALA√áAO DDR Atendimento de Telecom da Base Operativa do S√£o Gabriel Sistemas de Ar Condicionado da Distribuidora Instrumentos da Distribuidora Bancos de Baterias da Distribuidora Equipamentos de Linha √ìptica da Distribuidora Fontes de Alimenta√ß√£o da Distribuidora Remotas de Telecontrole da Distribuidora Sistemas de Balisamento Noturno da Distribuidora Ferramentas manual da Distribuidora Moderniza√ß√£o do Parque Microinform√°tica D Aquisi√ß√£o Microcoletores Aquisi√ß√£o Impressora LES Aquisi√ß√£o Ber√ßo Substitui√ß√£o de  Terminais Servers nas salas de telem√°tica Aquisi√ß√£o de Equipamento M√≥vel para Inspe√ß√£o de Rede Sustenta√ß√£o e Evolu√ß√£o G-DIS ATL√ÇNTIS - Aquisi√ß√£o de uma plataforma GIS (Geographic Information System) para suporte aos processos da Cemig Distribui√ß√£o, em substitui√ß√£o ao atual sistema GEMINI e aquisi√ß√£o da infraestrutura necess√°ria para suportar a nova solu√ß√£o. Aquisi√ß√£o do Sistema Cyme Crescimento da base de consumidores no CCS Evolu√ß√£o e Sustenta√ß√£o SAP Licenciamento GE - Eletric Office Solu√ß√£o de IPSs (Sistema de Prote√ß√£o contra ataques provenientes da Internet) - Equipamentos SEDE e Aureliano Chaves Evolu√ß√£o e Sustenta√ß√£o GE - Eletric Office (Magik) Licenciamento SAS Crescimento vegetativo ambiente SAP Sistemas WEB e SharePoint Sistema de selfhealing descentralizado Moderniza√ß√£o do Sistema de Aquisi√ß√£o de Dados e Monitoramento do COD e aquisi√ß√£o de EMS Registro Eletr√¥nico de Ponto - REP Projeto de Atualiza√ß√£o da Vers√£o do SAP CRM Firewall Corporativo Prote√ß√£o Gateway Exchange Crescimento do Hardware G-DIS Integra√ß√£o Atlantis x GDIS Gateway de Acesso √† Internet e Acesso a Email xOmini Desenvolvimento de Sistemas Corporativos em BPMS Aquisi√ß√£o Solu√ß√£o SAP Mobile Integra√ß√£o da rede de oscilografia das subesta√ß√µes Equipamentos para as redes LAN dos sites do interior Aquisi√ß√£o Storage (armazenamento) Mobilidade - Desenvolvimento e integra√ß√£o com Atlantis (Projeto/As built) Sistemas Especialistas - GEO e GED Licenciamento BENTLEY Atualiza√ß√£o da Cemignet/Portal Cemig Aquisi√ß√£o/Upgrade do ambiente de backup Aquisi√ß√£o do SIEM Aquisi√ß√£o de licen√ßas de Sharepoint EPM Solu√ß√£o de  Monitoramento de Rede Sustenta√ß√£o e Evolu√ß√£o PEC Firewall para implanta√ß√£o de Internet Descentralizada Firewall para Seguran√ßa de Ses Merit Conectividade - Tri√¢ngulo  e Metropolitano Canais de Atendimento Cemig - AGV/AGB/AGA Prospec√ß√£o Tecnol√≥gica, Desenvolvimento, Sustenta√ß√£o e Documenta√ß√£o de Sistemas de Engenharia que atendem os processos da empresa Cemig D Equipamentos para as redes WAN dos sites do interior Mobilidade - Aquisi√ß√£o de Equipamento M√≥vel para Projeto e Recebimento de Obras Aquisi√ß√£o de Servidores x86 Readequa√ß√µes Rede Operativa IE3000/ISE/AS Rede/Analise Vuln./Calculo Enlace Migra√ß√£o do SPF (GEDEX) Solu√ß√£o de APT - Prote√ß√£o contra ataques avan√ßados e direcionados a estruturas de rede e sistemas da Cemig. Software: Automatiza√ß√£o de Processos de Suprimentos - BPMS Expans√£o e Sustenta√ß√£o da AGV Sistema SAM Integra√ß√£o CIM - COD para falta de energia Sistema de Intelig√™ncia de Neg√≥cios de Distribui√ß√£o Antivirus para 9500 esta√ß√µes de trabalho e servidores Aquisi√ß√£o Solu√ß√£o REINF Barramentos de Integra√ß√£o de Sistemas Renova√ß√£o softwares de ger√™ncia de rede Cisco Barramento de Servi√ßos G-DIS Projeto Implanta√ß√£o do e-Social Barramento Comercial (Canais de Atendimento Virtuais e Comunica√ß√£o Banc√°ria) Licenciamento IBM Sterling
+ Licenciamento Microsoft (TrueUp Microsoft 2013) An√°lise e Desenvolvimento Sistema Retroc√°lculo Aquisi√ß√£o da plataforma de geoprocessamento da ESRI na modalidade ELA Upgrade do Sistema FROTA Reimplanta√ß√£o do HR (Back to Standard) Migra√ß√£o Ponto Negativo para Positivo (SAP HR) Aquisi√ß√£o de Licen√ßas QlikView Sistema de Gest√£o de Leituras - SGL Sistema Nix Sistema de gest√£o e monitoramento  da integra√ß√£o de comunica√ß√£o do sistema SCADA Revis√£o simplificada do SGO Aquisi√ß√£o de software espec√≠ficos para estudos de enlace e cobertura Sistema de Gest√£o de √Årvores - GDIS AR Desenvolvimento do Sistema de Recupera√ß√£o de Perdas Comerciais Novo Sistema de Controle de Documentos Regulat√≥rios Equipamento de Transmiss√£o COD/COS Upgrade do ION ENTERPRISE Integra√ß√£o em ambiente de produ√ß√£o do sistema Landis+GYr do projeto  Cidades do Futuro (P&D 423) visando disponibilizar fun√ß√µes de leitura e corte/religa automatizados Projeto: Uso M√∫tuo SADNET NetAdmin Gerenciamento das esta√ß√µes de trabalho Upgrade do SAP GRC Access Control Upgrade SAP GRC Risk Management Migra√ß√£o para TAXBRA Migra√ß√£o para NFE de Entrada Portal Geogr√°fico de Meteorologia Evolu√ß√£o do Sistema de Gest√£o - Cemig F√°cil Licenciamento de software Hyperion Software: Gera√ß√£o de Documentos ¬† Constru√ß√£o de Framework de Desenvolvimento Desenvolvimento do sistema PIC-Portal da Imagem Cemig Sistema Video Wall Sistema de Controle e Suporte Desenvolvimento GEDEX PLS-CADD Front End - Sa√∫de e Seguran√ßa do Trabalho (EH&S) Sistema de Gest√£o de Servi√ßos Corporativos em BPMS Programa para substitui√ß√£o do Sistproj Desenvolvimento do Sistema de Gest√£o de Fornecedores - SGF Software para An√°lise de Vulnerabilidades em Redes e Sistemas Programa de c√°lculo de janela de travessia e balan√ßo de cabos Aquisi√ß√£o do Software analisador de protocolo. Ex.: ASE2000.
+
+NOTA - Este software pode ser adquirido dentro do contrato das SECIs. Para isso, h√° necessidade da solicita√ß√£o atrav√©s do gerente para a EA/EP.
+ Software: Assinatura Eletr√¥nica de Documentos Licen√ßa do programa TF_SE Semirreboque modular articulado tipo linha de eixo (06 linhas) para transporte especial de cargas indivis√≠veis e excedentes de peso e/ou dimens√µes, para atender ao sistema el√©trico de pot√™ncia -SEP Aquisi√ß√£o de cesta A√©rea para Trabalhos em Linha Viva 138KV Substitui√ß√£o de Ve√≠culos da Diretoria Executiva - Distribui√ß√£o Aquisi√ß√£o de Guindaste Hidr√°ulico Veicular e Carroceria modular met√°lica p/ RDS CARRETA TANQUE CAP. 25.000LT TRANSP. OLEO ISOLANTE Aquisi√ß√£o de cesto a√©reo acoplado com bra√ßo suplementar isolado 138kV Aquisi√ß√£o de Caminh√£o e Guindaste Hidr√°ulico 25 toneladas para RDS Aquisi√ß√£o de Caminh√£o para instala√ß√£o da cesta a√©rea isolada para 138KV Substitui√ß√£o do painel de navega√ß√£o do king air Aquisi√ß√£o de tanques para combust√≠vel Aquisi√ß√£o de carroceria para caminh√£o com cesta a√©rea 138KV e montagem de carroceria Aquisi√ß√£o de Retroescavadeira compacta Kit movimenta√ß√£o circuito / sistema pneum√°tico para movimenta√ß√£o mec√¢nica de cargas de peso e dimens√£o elevado a ser instalado em caminh√£o truck para equipe de movimenta√ß√£o de cargas especiais Moderniza√ß√£o do Parque Microinform√°tica H SISJUR - Novo Sistema Jur√≠dico Coletor e analisador de dados portatil Sensores de press√£o Kit de diagnostico de analise preditiva Aquisitor de dados multicanal Aquisi√ß√£o de ferramentas e equipamentos para atendimento a manuten√ß√£o das usinas da MG/TA. Aceler√¥metros contendo base magn√©ticas e cabos Ferramentas MG/TA Descri√ß√£o: MG/LE: Aquisi√ß√£o de (1) Aquisitor de dados multicanal para an√°lise de par√¢metros din√¢micos de unidades geradoras.
+Refer√™ncia: Linx Sensor de proximidade 2 Deareadores Sensor de rota√ß√£o Descri√ß√£o: MG/LE: Aquisi√ß√£o de (1) analisador de enrolamentos - Surge Test
+Refer√™ncia: Baker Descri√ß√£o: MG/LE: Aquisi√ß√£o de (2) analisador de Isola√ß√£o TeraOhm 5 kV, com grau  prote√ß√£o contra interfer√™ncia eletomagn√©tica.
+Refer√™ncia: Metrel Descri√ß√£o: MG/LE: Aquisi√ß√£o de (1) equipamento endosc√≥pio sonda 3m Aquisi√ß√£o de espi√£o rede el√©trica COS/SEs Aquisi√ß√£o de 01 Calibrador de Processo. Ref.: FLUKE Descri√ß√£o: MG/LE: Aquisi√ß√£o de (1) Analisador de Disjuntor Port√°til. Teste de resist√™ncia est√°tica de contato. Testes de sincronismo. An√°lise de corrente da bobina e motor.
+Teste de m√≠nima corrente de pick-up. Teste da condi√ß√£o de baixa tens√£o.
+Refer√™ncia: CIBANO 500.
+PME 500-TR. EHV  KC-6A. Megger Trax. BCM MSD02. Descri√ß√£o: MG/LE: Aquisi√ß√£o de (1) Termovisor port√°til
+Refer√™ncia: Flir Adequa√ß√£o NR-12 - Equipamentos Descri√ß√£o: MG/LE: Aquisi√ß√£o de (1) Medidor de resistencia ohmica 
+Refer√™ncia: Criem IRO 103 Descri√ß√£o: MG/LE: Aquisi√ß√£o de (1) Calibrador / Gerador de Sinais.
+Refer√™ncia: Presys modelo Isocal mcs-xv Descri√ß√£o: MG/LE: Aquisi√ß√£o de (1) Oscilosc√≥pio Port√°til, 04 canais, isolados.
+Refer√™ncia: Tektronix Descri√ß√£o: MG/LE: Aquisi√ß√£o de (1) Medidor de rela√ß√£o de transforma√ß√£o Trif√°sico
+Refer√™ncia: AEMC. Megger TTR 330. Moderniza√ß√£o de notebooks j√° existentes LVDT Descri√ß√£o: MG/LE: Aquisi√ß√£o de (5) Mult√≠metros profissionais.
+Refer√™ncia: Fluke Descri√ß√£o: MG/LE: Aquisi√ß√£o de (2)  Macacos M√™canicos de 30 Toneladas
+Refer√™ncia: Guimmy Codigo GJJ3020 JOURNAL JACK.
+ Aquisi√ß√£o de 02 Aparelhos Notebooks - MG/OE 1 Drone + baterias Bomba de press√£o Aquisi√ß√£o de 01 Drone Oscilosc√≥pio Digital Minipa 60MHz, DC,AC Descri√ß√£o: MG/LE: Aquisi√ß√£o de (2) Macacos Hidraulicos, simples a√ß√£o, 25 ton.
+Refer√™ncia: Guimmy modelo GRC 251 1 B√∫ssola Aquisi√ß√£o de um Kit para  montagem de rolamento. Ref.: SKF Descri√ß√£o: MG/LE: Aquisi√ß√£o de (2) Macacos hidr√°ulicos de simples a√ß√£o, vazado, 20 TON. 
+Refer√™ncia: Guimmy modelo GRCH 202. Descri√ß√£o: MG/LE: Aquisi√ß√£o de (1)  Micr√¥metro Interno Tubular, 50 a 1000 mm 137-204.
+Refer√™ncia: Mitutoyo Descri√ß√£o: MG/LE: Aquisi√ß√£o de (2) Talhas de Corrente, 3 Ton, 5m de eleva√ß√£o.
+Ref√™rencia: Berg Steel Descri√ß√£o: MG/LE: Aquisi√ß√£o de (1) Clor√≠metro digital port√°til.
+Refer√™ncia: Instrutherm Instrumentos de Medi√ß√£o Ltda - Modelo C-300 Descri√ß√£o: MG/LE: Aquisi√ß√£o de (2) Macacos Hidr√°ulicos, simples a√ß√£o, 10 ton. 
+Refer√™ncia: Guimmy modelo GRC 102. Descri√ß√£o: MG/LE: Aquisi√ß√£o de (1) Conjunto bomba manual, acionamento macaco hidraulico.
+Refer√™ncia: Guimmy modelo  GP80C Term√¥metro de Infra Vermelho Visual 1 Compressores de Ar Obras para viabiliza√ß√£o da transfer√™ncia da equipe da MG/CS do im√≥vel locado da Cemig GT, situado na rua Comendador Jos√© Esteves, n¬∫ 40, para o im√≥vel pr√≥prio da Cemig D, situado na Rua Chagas Doria, n¬∫ 95, atualmente ocupado pela MD/VR, visando √†
+rescis√£o do contrato de loca√ß√£o do im√≥vel da MG/CS, que possui custo mensal de R$ 9 mil e √† otimiza√ß√£o da ocupa√ß√£o do im√≥vel da Cemig D. Ser√£o executadas obras na edifica√ß√£o visando  o adequado funcionamento das atividades das ger√™ncias locais. Aquisi√ß√£o de sistemas de v√≠deoconfer√™ncia para localidades que ainda n√£o o possuem. Aquisi√ß√£o de Equipamentos de Ar Condicionado para todo o Estado. Execu√ß√£o de obra civil de nova instala√ß√£o de escrit√≥rio no im√≥vel da MT/LE para recebimento do pessoal da MG/LE. Aquisi√ß√£o de mobili√°rio para atender a demandas de reposi√ß√£o por obsolesc√™ncia ao longo dos 5 anos Aquisi√ß√£o de equipamentos para cozinhas, refeit√≥rios e restaurantes das unidades prediais administrativas da regi√£o metropolitana de Belo Horizonte sob gest√£o da Infraestrutura - SC Contrata√ß√£o de projeto e execu√ß√£o de adequa√ß√µes de seguran√ßa para acesso de manuten√ß√£o em pr√©dios nas unidades AR, CI e SE-NA. Instala√ß√£o de C√¢meras  para monitoramento de eventos e ocorrencias no interior das Usinas Aquisi√ß√£o dos servi√ßos de Instala√ß√£o de sistema de vigilancia patrimonial para a Usina - UHNP Aquisi√ß√£o de 02 Aparelhos de ar condicionado tipo casete 48000 BTU para sala de reuni√µes da Usina - UHNP Aquisi√ß√£o de Bebedouros para v√°rias unidades da Cemig. Descri√ß√£o: MG/LE: Aquisi√ß√£o de (3) aparelhos de ar  condcionado, modelo split, piso/teto, 30.000 Btus Descri√ß√£o: MG/LE: Aquisi√ß√£o de (1) aparelho de ar  condcionado, modelo split, piso/teto, 30.000 Btus Substitui√ß√£o de Ar Condiconado Aquisi√ß√£o de Projetor Multim√≠dia Descri√ß√£o: MG/LE: Aquisi√ß√£o de Projetor, multim√≠dia, 3200l√∫mens, contraste 400:1,resolu√ß√£o 1024x768(xga) rela√ß√£o 4:3, painel lcd, matriz ativa, alimenta√ß√£o 127/220v,60hz,c/controle remoto,equipado c/suporte universal fixa√ß√£o ao teto,c/cabeamento interliga√ß√£o. Substitui√ß√£o da TV utilizada no Audit√≥rio do Centro de Refer√™ncia da UHE Irap√©. Aquisi√ß√£o de Projetor Multimidia Descri√ß√£o: MG/LE: Aquisi√ß√£o de (2) aparelhos de ar  condcionado, modelo parede/janela, 10.000 Btus Descri√ß√£o: UHSU: Aquisi√ß√£o de (1) refrigerador vertical 280 litros. OBS: DEMANDA REPETITIVA
+ Descri√ß√£o: UHSU: Aquisi√ß√£o de (1) aparelho de ar  condcionado, modelo janela, 10.000 Btus Constru√ß√£o de Redes √ìpticas da Geradora para interliga√ß√£o ao backbone de comunica√ß√£o Atualiza√ß√£o do parque de microinform√°tica mediante aquisi√ß√£o de microcomputadores, notebooks, Ultrabooks, dispositivos m√≥veis etc. para atender a pol√≠tica de substitui√ß√£o de 20% ao ano. Desempenho, incompatibilidade, seguran√ßa, aumento do custo de despesas, perda de produtividade. Obsolescencia de eqpto. Aquisi√ß√£o de 15 tablets para atendimento e utiliza√ß√£o do Sistema especialista de gest√£o de emerg√™ncias; treinamentos e simulados relacionados ao Plano de Atendimento de Emerg√™ncia (PAE); leitura de instrumenta√ß√£o de ausculta√ß√£o de barragens; vistorias de seguran√ßa de barragens. Licenciamento Microsoft visando manter atualizada todas as vers√µes de software Microsoft instalados na Empresa de forma a garantir a disponibilidade e a seguran√ßa das informa√ß√µes. Renova√ß√£o do licenciamento Oracle UDD, que foi celebrado em 2012 e vence em 2015, quando necessita ser renovado. Atualiza√ß√£o da plataforma de software da Hexagon, que atende os projetos e sistemas de geoprocessamento e de gerenciamento eletr√¥nico de documentos. Upgrade em software de Sistema de Seguran√ßa de Barragens e Manuten√ß√£o Civil Atualiza√ß√£o do sistema de an√°lises f√≠sico qu√≠micas da Cemig - SMO usado no laborat√≥rio de √≥leos Aquisi√ß√£o/atualiza√ß√£o de Servidores x86 para suportar o crescimento vegetativo das diversas aplica√ß√µes, possibilitando a disponibilidade de infraestrutura de processamento para atender as aplica√ß√µes atuais, como Correio Eletr√¥nico, Servidores de Arquivos, Internet, Intranet, Portal de Compras, GPJuri, Impress√£o, Bancos de Dados SQL, entre outras e novas aplica√ß√µes. Upgrade SIGO - Sistema de Informa√ß√£o da Opera√ß√£o Renova√ß√£o das licen√ßas do software HP SERVICE MANAGER. Software a ser desenvolvido por empresa de TI e tem como produto um aplicativo para Celular que relacione com os COMPDECs( Defesa Civil dos munic√≠pios) e Comunidades do entorno dos empreendimentos( barragens). Aplicativo para Tramita√ß√£o de Documenta√ß√£o T√©cnica Software de Confiabilidade Upgrade Software Geo-slope Descri√ß√£o: MG/LE: Aquisi√ß√£o de (1) software supervis√≥rio Elipse E3 Studio com chave de engenharia.
+ Aquisi√ß√£o de Hardkey software Logic Linx Renova√ß√£o da frota de ve√≠culos da Diretoria Executiva - Gera√ß√£o Ferramentas de manuten√ß√£o MT Aquisi√ß√£o de 04 Cestas a√©rea para trabalho em Linha viva 345/500 kV at√© 18m em substitui√ß√£o as extens√µes isolantes para grua. Ferramentas PO/MT_CMP e PCSA Constru√ß√£o de 2 muros: SE Mesquita e Taquaril Obra de estabiliza√ß√£o de 02 taludes ao lado das escadas entre o pr√©dio 20 e 21 do Anel Rodovi√°rio Contrata√ß√£o de projetos executivos e constru√ß√£o de muro de arrimo, sistema de drenagem e passeio externo no estacionamento adjascente ao P21 no AR Constru√ß√£o de 2 abrigos para res√≠duos perigosos e inflam√°veis na SE Emborca√ß√£o Substitui√ß√£o de aparelhos de ar condicionado Perfura√ß√£o de um novo Po√ßo artesiano Constru√ß√£o de ferramentaria para EMLT Ituiutaba Aquisi√ß√£o de sistema de monitormamento por c√¢meras, video porteiro com vigilancia eletronica, sistema de intrus√£o e sensores Aquisi√ß√£o de 5 projetores multim√≠dia Aquisi√ß√£o de 5 TV LED 40' com entrada HDMI Aquisi√ß√£o de 4 Bebedouro industrial inox reservat√≥rio 50 litros Aquisi√ß√£o de uma lavadora de alta press√£o e uma jateadora Aparelho para servi√ßos de telefonia via sat√©lite Aquisi√ß√£o de 2 ERB para Central Digital Hipath 4000 Siemens, duas licen√ßas para cada ERB, infraestrutura e civil Atualiza√ß√£o do parque de microinform√°tica para atender a pol√≠tica de substitui√ß√£o de 20% ao ano. Visa possibilitar a realiza√ß√£o plena das atividades da for√ßa de trabalho, dentro dos processos da empresa, com a utiliza√ß√£o de equipamentos. Licenciamento Microsoft de forma a manter atualizada todas as vers√µes de software Microsoft instalados na Empresa e forma a garantir a disponibilidade e a seguran√ßa das informa√ß√µes. Aquisi√ß√£o de equipamentos como plataformas a√©rea articuladas e guindastes para o processo de manuten√ß√£o da Transmiss√£o.
+Aquisi√ß√£o (f√≠sico):
+- 5 (cinco) Guindastes at√© 14 toneladas para instala√ß√£o em caminh√£o existente;
+- 1 (um) Guindaste at√© 23 toneladas para instala√ß√£o no caminh√£o existente com opcionais de guincho e controle remoto. (pre√ßo Hyva);
+- 5 (cinco) Guindastes at√© 23 toneladas para instala√ß√£o no caminh√£o existente com opcionais de guincho e controle remoto;
+- 2 (duas) Plataformas a√©reas articuladas  20 metros;
+- 3 (tr√™s) Plataformas a√©reas articuladas, m√°xima altura (Acima de 14m);
+- 2 (dois) Ve√≠culos para instala√ß√£o da plataforma.
+
+Necessidade de substitui√ß√£o dos atuais equipamentos pelos seguintes problemas:
+
+-Cesto simples, apenas um executante, aumento no tempo de execu√ß√£o das tarefas.
+-Dificuldade de entrar ao cesto, risco de queda. Foto 1.
+-Limite de altura do Cesto simples de 10 metros, insuficiente para acesso aos equipamentos acima de 345kV e alguns equipamentos de 230kV.
+-Cesto simples sem acesso ao piso. Caso ocorra queda de alguma ferramenta ou material no piso do cesto √© necess√°rio baixar a lan√ßa at√© o solo. Foto 1.
+-Movimentos bruscos da lan√ßa, n√£o linear, principalmente no in√≠cio do movimento tem provocado aumento no tempo de posicionamento dos equipamentos i√ßados e consequentemente possibilidade de danos aos equipamentos e risco para pessoas. 
+-Falta de articula√ß√µes na lan√ßa, dificultando o acesso nos equipamentos e nas manobras nos p√°tios de 138 kV, aumentando o tempo de execu√ß√£o com perda de produtividade. Cestas Masal possui apenas uma articula√ß√£o, foto 2.
+-Acidente com a equipe da CEMIG-D na cidade de Lafaiete, provocou recall, falha de projeto, em todas as cestas a√©reas, provocando transtorno nas equipes e reprograma√ß√£o de diversos servi√ßos.
+
+ Renova√ß√£o da frota de ve√≠culos da Diretoria Executiva - Transmiss√£o Aquisi√ß√£o de ferramentas para as equipes das ger√™ncias de manuten√ß√£o e servi√ßos de campo da MD Aquisi√ß√£o de equipamentos para montagem do laborat√≥rio de homologa√ß√£o de equipamentos de automa√ß√£o na cidade industrial Q14 O projeto visa cumprir as campanhas de medi√ß√£o de qualidade estabelecidas nos itens 15.6 e 15.7 do Subm√≥dulo 2.8 dos Procedimentos de Rede do ONS, imediatamente antes e depois da conex√£o de instala√ß√µes n√£o lineares √† rede b√°sica ou aos barramentos dos transformadores de fronteira, e a revis√£o 8 do M√≥dulo 8 dos Procedimentos de Distribui√ß√£o. Os equipamentos de medi√ß√£o para as campanhas do ONS e para disputas judiciais devem ser do tipo Classe A. Aquisi√ß√£o de Ferramentas manuais e Instrumentos para regionais de manuten√ß√£o Equipamento de testes de materiais e componentes eletricos e eletronicos em laboratorio, com temperatura e umidade programaveis Oscil√≥grafo digital de 12 canais para curso de Ensaios El√©ricos. Compra de ferramentas para as equipes de projetos e obras de resdes BT/MT(recomposi√ß√£o, prospec√ß√£o) Aquisi√ß√£o de 25 equipamento analisador de n√≠vel de sinal celular - AQS Equipamento para treinamento das equipes de Linha Viva. Aquisi√ß√£o de um par de Receptor GPS de dupla frequ√™ncia L1/L2 - RTK  ‚Äì Incluindo software de descarregamento e transforma√ß√£o dos dados brutos para formato RINEX e seus acess√≥rios Aquisi√ß√£o de equipamentos para testes em equipamentos de rede em Uberl√¢ndia (Fonte de corrente 300A,Hipots 10kV, Alicates volt amper√≠metro CAT IV e fontes de tens√£o VCC estabilizada) Equipamento para o curso de Ensaios El√©tricos. Equipamento para o curso de Termografia aplicada ao Sistema El√©trico. Equipamento para o treinamento de rede aerea isolada. Aquisi√ß√£o de uma esta√ß√£o total e seus acess√≥rios  (mira, trip√©, bolsae caixa de transporte, baliza e bast√£o de aluminio, baterias, controladora e trena eletr√¥nica) Aquisi√ß√£o de 4 Notebook¬¥s para utiliza√ß√£o dos t√©cnicos de automa√ß√£o e comissionamento (2 Xomni e 2 Softer analisador de protocolo) Equipamento para o curso de Resistividade e Resist√™ncia de Aterramento e T√©cnicas de Medi√ß√£o. Aquisi√ß√£o de 6 Smartphones para os fiscais de obra, com recurso de internet e boa resolu√ß√£o para registro fotogr√°fico, acesso em campo aos sistemas GESET e GEDEX.Necessidade comum em obra dos fiscais terem que enviar fotos com detalhes de montagem para os engenheiros avaliarem em escrit√≥rio. Consulta aos documentos de seguran√ßa de empreiteiras e acesso a documentos de projeto. Substitui√ß√£o de dois notebooks obsoletos (Agnaldo Neves e Ricardo Dourado).
+ Aquisi√ß√£o de 4 m√°quinas fotogr√°ficas digital com Zoom √≥tico maior que 28X Motopoda Gasolina Cabo 5 Mt Stihl Ht131 - 36.3cc 1.4/1.9 Cv para curso de poda Aquisi√ß√£o de 1 Equipamento Suparule para permitir a medi√ß√£o de dist√¢ncias / Altura. Execu√ß√£o da pavimenta√ß√£o da √°rea britada de armazenamento de Trafos, conforme condicionante. E constru√ß√£o de bacia de conten√ß√£o em novo local para armazenamento dos equipamentos Constru√ß√£o de Laborat√≥rio de Ensaios de Materiais da MS/QL em novo CDM-Centro de Distribui√ßa√µ de Materiais da CEMIG, tendo em vista a vendo dos sites atuais (quarteir√µes 1 e 2 do Jatob√°). Obras para viabiliza√ß√£o da transfer√™ncia dos funcion√°rios lotados na UHE Gafanhoto para o im√≥vel situado na Rua Itapecerica, e para o im√≥vel SE Divin√≥polis 02, visando √† desocupa√ß√£o de parte da √°rea do im√≥vel da Usina, prescind√≠vel aos neg√≥cios da empresa, para aliena√ß√£o, al√©m da redu√ß√£o de despesas com contratos de transporte por √¥nibus e de vigil√¢ncia armada. Adequa√ß√£o das √°reas do Anel Rodovi√°rio utilizadas para atividade de manuten√ß√£o e opera√ß√£o do sistema. Aliena√ß√£o do im√≥vel do centro, obras de adequa√ß√£o da SE e loca√ß√£o de im√≥vel para a ag√™ncia de atendimento. Adequa√ß√£o das √°reas do Q14 utilizadas para a atividade de manuten√ß√£o e opera√ß√£o do sistema visando o atendimento as condicionantes ambientais. Obra de instala√ß√£o do sistema de combate a inc√™ndio, Sistema de Prote√ß√£o conta Descargas Atmosf√©ricas - SPDA e substitui√ß√£o de telhado. Aliena√ß√£o do im√≥vel compartilhado, constru√ß√£o na SE e loca√ß√£o de im√≥vel para ag√™ncia de atendimento. Execu√ß√£o de adequa√ß√µes/reforma civil do im√≥vel da SE Barbacena 2. Execu√ß√£o de obra civil de nova instala√ß√£o de escrit√≥rio no im√≥vel anexo √† Subesta√ß√£o para recebimento do pessoal do im√≥vel do Centro. Aquisi√ß√£o de um sistema conex√£o multiponto para moderniza√ß√£o e amplia√ß√£o e substitui√ß√£o da unidade MCU - MGC 10,0 em utiliza√ß√£o atualmente no sistema de videoconfer√™ncia da Cemig. Substitui√ß√£o de toda a malha hidr√°ulica dos pr√©dios dentro das unidades AR, CI, IT e SE-NA dentro dos novos padr√µes de mercado e de produto Constru√ß√£o de duas bacias de conten√ß√£o. Uma com cobertura e fechamento met√°lico  na √°rea destinada ao armazenamento de equipamentos, produtos e res√≠duos perigosos (350m¬≤) e outra ligada  a um Sistema Separador de √Ågua e √ìleo  na √°rea destinada ao armazenamento de equipamentos com √≥leo (175m¬≤) Aliena√ß√£o do im√≥vel do centro, transfer√™ncia para o im√≥vel da Vila Mariana, onde ser√° constru√≠da edifica√ß√£o, e loca√ß√£o de im√≥vel para a Ag√™ncia de Atendimento. Execu√ß√£o da Instala√ß√£o do Sistema de Combate a Inc√™ndio. Restabelecimento do alarme, com substitui√ß√£o do cabeamento, central da portaria e instala√ß√£o dos novos pontos previstos no Projeto aprovado. Aquisi√ß√£o de baterias para os Nobreaks, que possuem vida √∫til m√©dia de 5 anos e precisam ser substitu√≠das de periodicamente. Aliena√ß√£o do compartilhado e transfer√™ncia das atividades para o im√≥vel situado no bairro Vila Mauric√©ia e loca√ß√£o de im√≥vel para ag√™ncia. Adequa√ß√£o do im√≥vel para recebimento da equipe. Transfer√™ncia das equipes de manuten√ß√£o de rede subterr√¢nea, da MD/MM, do pr√©dio Itamb√© para a instala√ß√£o Anel Rodovi√°rio, bem como montagem de base avan√ßada na na instala√ß√£o do Barro Preto, visando √† libera√ß√£o do pr√©dio Itamb√© e do lote situado na rua Juiz de Fora para aliena√ß√£o. Aliena√ß√£o do compartilhado e estacionamento transfer√™ncia das atividades para o dep√≥sito de materiais e loca√ß√£o de im√≥vel para ag√™ncia. Adequa√ß√£o do dep√≥sito de materiais para recebimento da equipe. Desintala√ß√£o e remo√ß√£o do telhado existente e troca total por telhado met√°lico novo e impermeabiliza√ß√£o de √°reas abertas. Instala√ß√£o de catracas na entrada principal e P21 do AR (depende do projeto de Infra.
+Infraestrutura para implanta√ß√£o de controle de acesso - AR
+Instala√ß√£o de infraestrutura para recebimento de controle de acesso no AR - Projeto elaborado
+ OBRA DE DRENAGEM, SUBSTITUI√á√ÉO DO ASFALTO EXISTENTE E IMPLANTA√á√ÉO DE ASFALTO ONDE N√ÉO H√Å Moderniza√ß√£o de salas de aula, paineis, equipamentos did√°ticos em geral. Aquisi√ß√£o de equipamentos para as subesta√ß√µes dos pr√©dios do Quarteir√£o 14. Constru√ß√£o da pista para o curso de dire√ß√£o defensiva SUBSTITUI√á√ÉO DO TELHADO EXISTENTE, QUE EST√Å MUITO DANIFICADO - BLOCO B, COMPREENDIDO PELA OFICINA, EQUIPES DA MD/UL, SA/SE E TI/TC Aliena√ß√£o do im√≥vel pr√≥prio, constru√ß√£o de edifica√ß√£o na SE e loca√ß√£o de ag√™ncia de atendimento. Casos At√≠picos - Qualquer solicita√ß√£o que fuja das atividades rotineiras. Ex.: Solicita√ß√£o de indeniza√ß√£o para empreendimento j√° constru√≠do, Averba√ß√£o de Servid√£o existente, Solicita√ß√£o de indeniza√ß√£o por danos em im√≥veis de terceiros. O empreendimento compreende a aquisi√ß√£o de sistema de prote√ß√£o contra descargas atmosf√©ricas para pr√©dios da Cemig que n√£o o possuem ou que foram danificados, como pr√©dios do Quarteir√µes 03 e 14, Anel Rodov√≠ario e Edif√≠cio Itamb√©. A instala√ß√£o desses sistemas √© obrigat√≥ria conforme  as Normas NBR-5419/2005 e NR10/2004. Substitui√ß√£o de mesas e cadeiras antigas ou danificadas SUBSTITUI√á√ÉO COMPLETA DE TELHADO Refor√ßo do talude, demoli√ß√£o da escada externa e reforma do sistema de drenagem no CDI-Sete Lagoas Instalar catracas e controle de acesso nos pr√©dios da Cemig localizados no interior do Estado Obra de bacia de conten√ß√£o em concreto armado impermeabilizada com cobertura e fechamento lateral met√°licos Aquisi√ß√£o de mobili√°rio para atender cidades do interior do estado para otimiza√ß√£o da ocupa√ß√£o predial, dando suporte ao Estudo Estrat√©gico de Ativos Obra de constru√ß√£o de edifica√ß√£o no im√≥vel Dep√≥sito de Postes para recebimento dos funcion√°rios atualmente lotados no im√≥vel Base Operativa/Ag√™ncia, o qual ser√° liberado para aliena√ß√£o por estar superdimensionado e ser prescind√≠vel aos neg√≥cios da empresa. Aliena√ß√£o de parte do terreno Dep√≥sito de Postes para aliena√ß√£o, ap√≥s desmembramento. Impermeabiliza√ß√£o interna dos reservat√≥rios de √°gua centrais inferiores e superior do Anel Rodovi√°rio, Q14, Q10 e Q3 com manta l√≠quida AQUISI√á√ÉO DE 23 PROJETORES PARA REGIONAIS DA DGE - INSTALA√á√ïES DA CEMIG D Aquisi√ß√£o de Equipamentos e instrumentos para laborat√≥rio MS/QL, para realiza√ß√£o de ensaios e adequa√ß√£o √†s necessidades atuais. Obra de adequa√ß√£o do im√≥vel compartilhado e aliena√ß√£o de parte do terreno do im√≥vel compartilhado. Ter equipamentos de reserva para reposi√ß√£o imediata. Aquisi√ß√£o de equipamentos para testes dos sistemas de alarme e combate a inc√™ndio das edifica√ß√µes. AQUISI√á√ÉO DE 19 BEBEDOURO PARA REGIONAIS DA DGE - INSTALA√á√ïES DA CEMIG D SUBSTITUI√á√ÉO DO TELHADO E MADEIRAMENTO DO PR√âDIO Automatizar controle de entrada e saida de ve√≠culos da sede AQUISI√á√ÉO DE 18 ELETRODOM√âSTICOS (REFRIGERADORES E FOG√ïES) PARA REGIONAIS DA DGE - INSTALA√á√ïES DA CEMIG D Projetores para treinamentos e apresenta√ß√µes em geral Lavadora de pratos para o refeitorio da Univercemig Aquisi√ß√£o de 6 cadeiras e 1 geladeira para atender  aos operadores de Telecom durante a escala 24/7. Lousa eletronica para sala 115 AQUISI√á√ÉO DE 3 FRAGMENTADORA DE PAPEL PARA REGIONAIS DA DGE - INSTALA√á√ïES DA CEMIG D Televis√£o para a sala de videoconfer√™ncia Constru√ß√£o de Redes √ìpticas da Distribuidora para interliga√ß√£o ao backbone de comunica√ß√£o e redu√ß√£o de alugueis de links Aquisi√ß√£o de Centrais Telef√¥nicas da Distribuidora Aquisi√ß√£o de Multiplexadores da Distribuidora para esta√ß√µes de comunica√ß√£o Aquisi√ß√£o de Sistemas R√°dios da Distribuidora para esta√ß√µes de comunica√ß√£o AQUISI√á√ÉO E INSTALA√áAO DE DDR NA CENTRAL TELEF√îNICA Aquisi√ß√£o de uma central telef√¥nica para migra√ß√£o do Sistema de Telecomunica√ß√µes da Sala de Telecomunica√ß√µes para a Sala de Telefonia. Aquisi√ß√£o de Sistemas de Ar Condicionado da Distribuidora para esta√ß√µes de comunica√ß√£o Aquisi√ß√£o de Instrumentos da Distribuidora  para suporte e manuten√ß√£o em esta√ß√µes de comunica√ß√£o Aquisi√ß√£o de conjuntos de Bancos de Baterias da Distribuidora para esta√ß√µes de comunica√ß√£o Aquisi√ß√£o de Equipamentos de Linha √ìptica da Distribuidora para esta√ß√µes de comunica√ß√£o Fontes de Alimenta√ß√£o da Distribuidora Aquisi√ß√£o de Remotas de Telecontrole da Distribuidora para esta√ß√µes de comunica√ß√£o Aquisi√ß√£o de Sistemas de Balisamento Noturno da Distribuidora para esta√ß√µes de comunica√ß√£o Aquisi√ß√£o Ferramentas manual da Distribuidora para suporte e manutena√ß√£o em esta√ß√µes de comunica√ß√£o O projeto de moderniza√ß√£o do parque de microinform√°tica refere-se √† aquisi√ß√£o de ativos de hardware e software para atendimento ao chamado kit empregado. Em virtude da alta varia√ß√£o do d√≥lar observada ao longo de 2015, o balizamento de pre√ßos demonstrou-se inferior √† expectativa dos licitantes para lotes espec√≠ficos, resultando no fracasso de dois preg√µes eletr√¥nicos (cerca de 30% do quantitativo previsto para aquisi√ß√£o no corrente ano). Ressalta-se, assim, que a taxa de obsolesc√™ncia do parque em 2016 manter-se-√° em patamar extremamente elevado, alcan√ßando cerca de 50% do ativo. Equipamento para leitura de consumo dos cosumidores do mercado cativo Substitui√ß√£o de 30 Terminais Servers nas salas de telem√°tica Aquisi√ß√£o de equipamento m√≥vel (tablets) para inspe√ß√£o, desenho de projetos e recebimento de obras de rede distribui√ß√£o em campo. O projeto refere-se aos servi√ßos de desenvolvimento de sistemas de informa√ß√£o de alta complexidade que atendem os processos Cemig D e ao Programa Conex√£o - Implanta√ß√£o de sistemas em sinergia com outras empresas do Grupo Cemig. A finalidade do projeto relaciona-se, dessa forma, √† unifica√ß√£o de processos e ferramentas nas empresas de Distribui√ß√£o do Grupo Cemig, ao atendimento mais eficiente √†s demandas do √≥rg√£o regulador, √† padroniza√ß√£o de fornecedores e tecnologias, √† melhoria na gest√£o de ativos do sistema el√©trico da rede de distribui√ß√£o da Cemig, e √† maior agilidade para os processos de expans√£o e manuten√ß√£o do sistema el√©trico. Contrata√ß√£o dos novos m√≥dulos de Mapeamento, Cadastro, Projeto e Planejamento do Sistema de Gest√£o de Redes e da infraestrutura para suport√°-los controlando a possibilidade de an√°lise, estudo, simula√ß√£o, valora√ß√£o e processamento das informa√ß√µes em um ambiente integrado, al√©m de propiciar o correto provimento das informa√ß√µes periodicamente solicitadas pelo √≥rg√£o regulador (ANEEL) no seu novo ambiente georreferenciado; Integrar os sistemas Atlantis e o SAP CCS; Expor servi√ßos de neg√≥cio reutiliz√°veis aderentes a este contexto de integra√ß√£o;  Permitir a identifica√ß√£o de logradouros que ainda n√£o possuam consumidores cadastrados. O projeto consiste na contrata√ß√£o do fornecimento, manuten√ß√£o e suporte de aplicativos especializados para c√°lculos e an√°lise de sistemas de distribui√ß√£o de energia el√©trica a serem disponibilizados em rede. Crescimento vegetativo e de usu√°rios dos sistemas comercias da Distribuidora. Evolu√ß√£o dos ambientes SAP ECC, CCS, CRM e BW de acordo com as demandas de ajuste para os sistemas; Atender aos requisitos de performance e escalabilidade. Visando diminui√ß√£o do custo operacional dos processos das √°reas de neg√≥cio (melhor desempenho); Modernizar as integra√ß√µes dos sistemas SAP ERP, CCS/CRM e BW/BO com os sistemas legados (GDIS, AGV, CTI, URA, PEC, entre outros). Trata-se do desenvolvimento e da evolu√ß√£o das funcionalidades pertinentes aos sistemas SAP ERP e SAP BI para atendimento aos processos de gest√£o empresarial, gest√£o de clientes e informa√ß√µes executivas. O escopo do projeto abrange, dessa maneira, modernizar as integra√ß√µes entre os sistemas SAP e os sistemas legados (GDIS, AGV, CTI, URA, PEC, entre outros); al√©m de atender a leis, normas, resolu√ß√µes e diretrizes governamentais ou corporativas. Licenciamento dos produtos base do sistema Atlantis Solu√ß√£o para prote√ß√£o da rede Cemig contra ataques provenientes da Internet Desenvolvimento de funcionalidades inerentes aos processos da DDC dentro do sistema Atlantis O projeto relaciona-se √† renova√ß√£o do contrato de licenciamento de software com a Microsoft, contemplando todas as licen√ßas em uso pela Cemig D, como Windows Server External Connector, Windows Server Datacenter, Sharepoint Server, Exchange Server Enterprise, CPS do Visual Studio Premium para Ultimate, CPS do Visual Studio Ultimate, Lync Sever Enterprise, e MSDN Platform. O projeto decorre da atualiza√ß√£o de vers√£o e licenciamento da plataforma de software de gerenciamento de banco de dados da ORACLE. Atualiza√ß√£o da plataforma de software do instituto SAS em uso da empresa, para atendimento aos requisitos regulat√≥rios. O projeto decorre da necessidade de upgrade da capacidade de processamento e mem√≥ria dos servidores que hospedam a solu√ß√£o SAP da Cemig, em face do crescimento vegetativo.  Alguns sistemas integrados com a solu√ß√£o SAP s√£o: SAP ECC IS-U/CCS for Utilities (SGC ‚Äì Sistema de Gest√£o comercial), SAP Customer Relationship Management - CRM e SAP Enterprise Resource Planning (ECC 6.0 EHP4). √Ä parte do crescimento vegetativo da solu√ß√£o SAP, o projeto atende tamb√©m a necessidade de processamento de projetos espec√≠ficos, como Alt√¢ntis e G-DIS. O projeto atende √† necessidade de evolu√ß√£o e desenvolvimento de softwares disponibilizados no ambiente da Intranet da Cemig. Aquisi√ß√£o e implanta√ß√£o de sistema de selfhealing descentralizado para 800 equipamentos telecontrolados da rede de M√©dia Tens√£o Aquisi√ß√£o e implanta√ß√£o de Sistema de Aquisi√ß√£o de Dados e Monitoramento com funcionalidades de EMS, OTS dentre outras definidas na Especifica√ß√£o T√©cnica, e aquisi√ß√£o de Sistema de Controle Backup, a ser implementado como servi√ßo de Colocation. Projeto de Atualiza√ß√£o da Vers√£o do SAP CRM Solu√ß√£o de Rede Baseada em Firewall para prote√ß√£o de Rede Corporativa Antivirus para verifica√ß√£o de amea√ßas em caixas particulares de emails Aquisi√ß√£o de novos servidores  visando adequar a infraestrutura a especifica√ß√£o dos projetos G-DIS 2.0 e Atlantis; Permitir o crescimento vegetativo do sistema; Atendimento ao √≥rg√£o regulador permitindo melhorias no batimento f√≠sico-cont√°bil dos ativos da Cemig Distribui√ß√£o. Corresponde ao desenho e constru√ß√£o da integra√ß√£o do ATLANTIS ao G-DIS. Permitindo que os dois sistemas trabalhem de forma integrada. Solu√ß√£o de Proxys de acesso √†
+ Internet e gateway de correio eletr√¥nico, que visa proteger a rede interna da Cemig contra acessos Indevidos √† Internet. Aquisi√ß√£o de novos servidores visando adequar a infraestrutura do sistema Scada xOMNI que encontra-se obsoleta e com vida √∫til esgotada; Permitir o crescimento vegetativo do sistema e a expans√£o da base de dados do sistema de automa√ß√£o da  Rede de Distribui√ß√£o da Cemig D; Gest√£o adequada da transi√ß√£o do sistema Scada em opera√ß√£o para o novo sitema que ser√° implantado, sem colocar em risco a opera√ß√£o do sitema el√©trico. Cria√ß√£o de solu√ß√µes baseadas nos fluxos criados pela nota√ß√£o de modelagem de processo de neg√≥cios - BPM Aquisi√ß√£o de solu√ß√£o SAP para o uso e aprova√ß√µes em dispositivos m√≥veis Aquisi√ß√£o de infraestrutura de conectividade para permitir acesso remoto aos dados dos IEDS visando oscilografia das subesta√ß√µes Troca de equipamentos de rede LAN de sites do interior de Minas, em fun√ß√£o de obsolesc√™ncia do parque O projeto concerne √† aquisi√ß√£o de equipamentos de hardware com vistas a suportar o crescimento vegetativo das demandas de armazenamento de dados das diversas aplica√ß√µes empresa, como os sistemas SAP, Condis, SAS, Arquivos, GDOC, bem como novas aplica√ß√µes. A previs√£o de expans√£o do parque decorre do crescimento vegetativo observado para as aplica√ß√µes existentes, al√©m da demanda proveniente da entrada de novas aplica√ß√µes. Salienta-se que v√°rias aplica√ß√µes, entre elas os sistemas SAP, requerem alto desempenho devido ao processamento de dados em grande volume. Constru√ß√£o de sistema para dispositivo m√≥vel integrado ao Atlantis/GDIS para projeto de rede em campo e recebimento de obras. O projeto refere-se √† prospec√ß√£o, ao desenvolvimento e √† implanta√ß√£o de solu√ß√µes baseadas nas tecnologias GED, Geoprocessamento e BPM. Atualiza√ß√£o da plataforma de software BENTLEY, ferramentas para elabora√ß√£o de projetos em desenho auxiliado por computador - CAD Atualiza√ß√£o do site da Cemig na internet e do site da intranet corporativa (Cemignet 2.0). Melhoria no ambiente de backup (hardware e software) para atendimento ao crescimento vegetativo e novas aplica√ß√µes Solu√ß√£o de Gerenciamento e Correla√ß√£o de Eventos de Seguran√ßa Considerando o cen√°rio 2018/19 para migra√ß√£o de vers√£o, a Microsoft deve soltar uma nova vers√£o em 2019, o que automaticamente para atualiza√ß√£o do 2013, sendo neste caso necess√°rio irmos para o m√≠nimo 2016. Se formos para outras tecnologia, devemos pensar no EPM tamb√©m, pois a base dele √© o SharePoint. N√£o que ele precisa ser substitu√≠do por causa da altera√ß√£o do SharePoint, mas √© um ponto a observar. Solu√ß√£o de Monitoramento de Rede  para  prover visibilidade em tempo real e hist√≥rica de solu√ß√µes Operativas. Objetiva garantir os n√≠veis adequados de disponibilidade dos servi√ßos. A finalidade do projeto diz respeito ao desenvolvimento de novas funcionalidades no Portal Eletr√¥nico de Compras ‚Äì PEC, al√©m de promover a incorpora√ß√£o dos m√≥dulos legados GALO e PGP ao novo portal. Solu√ß√£o de Rede Baseada em Firewall para implanta√ß√£o de acesso descentralizado √† Internet Solu√ß√£o de Rede Baseada em Firewall paragarantir seguran√ßa de borda para Ses Equipamentos de Rede para as
+ Rota tri√¢ngulo e metropolitana Desenvolvimento web de novos servi√ßos comerciais nos canais de atendimento oficiais da Cemig O projeto √© respons√°vel pela prospec√ß√£o, desenvolvimento, sustenta√ß√£o e documenta√ß√£o de diversos sistemas de engenharia da Cemig D. Dentre as iniciativas em andamento, podem ser destacadas: Agencia Virtual ‚Äì AGV; Sistema de Gest√£o de Projetos de Redes ‚Äì SGPR; Verde Minas; e Sistema de Monitoramento de √ìleo. Troca de equipamentos de rede WAN das cidades do interior de Minas, em fun√ß√£o de obsolesc√™ncia do parque e implanta√ß√£o de 10 roteadores em esta√ß√µes repetidoras (WAN 2) Aquisi√ß√£o de equipamento m√≥vel (tablets) para desenho de projetos e recebimento de obras de rede distribui√ß√£o em campo. Os servidores x86 s√£o os equipamentos de hardware utilizados com vistas a suportar aplica√ß√µes espec√≠ficas, como o Correio Eletr√¥nico, Servidores de Arquivos, Internet, Intranet, Portal de Compras, Ag√™ncia Virtual, GPJuri, Impress√£o Corporativa, Bancos de Dados SQL, dentre outros. O projeto objetiva substituir os equipamentos obsoletos, visando comportar o crescimento vegetativo dessas aplica√ß√µes; Aquisi√ß√£o de novos servidores visando a atualiza√ß√£o tecnol√≥gica do interior do estado; Permitir o crescimento vegetativo da infraestrutura do interior do estado; Atendimento as demandas por recursos tecnol√≥gicos das √°reas clientes, que est√£o cada dia mais crescentes e a atual infraestrutura n√£o suporta. Aquisi√ß√£o de equipamentos para readequa√ß√µes da Rede Operativa, incluindo: Spare para Rede Operativa; Projetos Executivos do Aureliano Chaves incluindo projetos de  Centros de Fia√ß√£o, COD, COS, Centro de Medi√ß√£o e as duas  SEs do  Ed. Aureliano Chaves; Aditivo de 2 localidades do projeto Merit Norte SUL (Barbacena e Lafaiete); Equipamentos de Rede para Interliga√ß√£o do Ed. Aureliano Chaves e o Barro Preto; Equipamentos para Moving do CGR (atualmente na Itamb√©) para a Sede; Equipamentos de migra√ß√£o do BackBone da  Rede de Dados Subterr√¢nea da SE Centro 1 para a SE Centro 2; Equipamentos de Rede (Roteadores Cisco IE3000) para Separa√ß√£o dos An√©is da RDS em fun√ß√£o de problemas de converg√™ncia atuais. Migra√ß√£o SPF visando compatibilizar as solu√ß√µes de GED baseadas no SPF 2014, para simplifica√ß√£o e evolu√ß√£o dos ambientes produtivos destas ferramentas. Esta solu√ß√£o protege a rede Cemig contra ataques do tipo APT, que s√£o ataques avan√ßados e direcionados a um alvo espec√≠fico. Estes ataques visam retirar de opera√ß√£o sistemas cr√≠ticos. Desenvolvimento do sistema BPMS (IBM) para automatiza√ß√£o dos processos da Cadeia de Suprimentos da Cemig. Aumentar os servi√ßos dispon√≠veis na Ag√™ncia Virtual da Cemig Constru√ß√£o e desenvolvimento do sistema SAM no ambiente SAP ECC. A integra√ß√£o do CIM com GDIS visa o registro e a cria√ß√£o notas para o restabelecimento da falta de energia na unidade consumidora Cria√ß√£o de  ferramentas anal√≠ticas para disponibiliza√ß√£o de informa√ß√µes gerenciais e estrategicas as √°reas de Negocio da Distribui√ß√£o Aquisi√ß√£o de licenciamento de 
+software Antivirus Aquisi√ß√£o da solu√ß√£o para atendimento √† obriga√ß√£o junto √† RFB, relativa a Escritura√ß√£o Fiscal Digital - REINF Constru√ß√£o de barramentos de servi√ßo para a integra√ß√£o e padroniza√ß√£o de acessos √†s informa√ß√µes corporativas mais consumidas, usando o conceito SOA - Arquitetura Orientada a Servi√ßos Softwares de Ger√™ncia de Rede Prime, ISE, DHCP, IPAM, MSE, Provision, APIC-EM, Call manager Cisco O projeto refere-se √† cria√ß√£o de um barramento de servi√ßos para o Sistema G-DIS como SOA - Service Oriented Achitecture, conforme necessidade apontada pelo Programa Conex√£o - Implanta√ß√£o de sistemas em sinergia com outras empresas do Grupo Cemig. Este projeto visa ao provimento de solu√ß√£o no sistema SAP ERP para atender ao m√≥dulo e-Social (Sistema de escritura√ß√£o fiscal digital das obriga√ß√µes fiscais, previdenci√°rias e trabalhistas) institu√≠do pelo Governo Federal com o Sistema P√∫blico de Escritura√ß√£o Digital ‚Äì SPED, atrav√©s do Decreto n¬∫ 6.022/07 e alterado pelo Decreto n¬∫ 7.979/13. Desenvolvimento de um barramento de servi√ßos comerciais usando a Arquitetura Orientada a Servi√ßos - SOA Licenciamento IBM Sterling
+ Renova√ß√£o do contrato de licenciamento de software que contempla Windows Server, Office, etc (2015). Para os demais anos, atendimento √†s demandas de novos projetos Contrata√ß√£o dos servi√ßos de desenvolvimento nos ambientes SAP ECC e SAP CCS. Contrata√ß√£o do licenciamento, suporte e atualiza√ß√£o de vers√µes dos produtos ESRI, prover as equipes de servi√ßos de campo da Cemig D com software para gest√£o execu√ß√£o das atividades, atender as demandas de diversos projetos de P&D com as ferramentas de geoprocessamento especificas, fornecer software para as equipes de espans√£o e opera√ß√£o da Cemig D. Atualiza√ß√£o tecnol√≥gica do sistema de gest√£o de Frota da Cemig, que est√° em uso desde 2004, muito obsoleto e defasado em rela√ß√£o ao processo de neg√≥cio. Aquisi√ß√£o de novas licen√ßas do softare de pain√©is de informa√ß√£o - QlikView Constru√ß√£o do m√≥dulo SGL-WEB Aquisi√ß√£o e implanta√ß√£o de sistema Solu√ß√£o Inteligente para Estudos de Prote√ß√£o de Sistemas de Distribui√ß√£o de Energia El√©trica Aquisi√ß√£o de sistema de gest√£o e monitoramento  da integra√ß√£o de comunica√ß√£o do sistema SCADA Este projeto atende a demanda para a revis√£o do Sistema de Gest√£o de Obras ‚Äì SGO, que requer melhorias evolutivas desde sua implanta√ß√£o. - Adequa√ß√£o do GeoArvores e adequa√ß√£o √† arquitetura GDIS em novo m√≥dulo integrado. Constru√ß√£o do processo de inspe√ß√£o de √°rvores com registro de podas e limpeza de faixa, manuten√ß√£o dos dados de √°rvores, incorpora√ß√£o do P&D509, integra√ß√£o com o processo de manuten√ß√£o. Constru√ß√£o de um sistema para a preven√ß√£o e recupera√ß√£o de perdas comerciais. Substitui√ß√£o do sistema Condor - Controle de Documentos Regulat√≥rios. Atualiza√ß√£o de vers√£o do sistema de gest√£o de medi√ß√£o de fronteira. Existe necessidade de investimento para desenvolvimento de integra√ß√µes com o sistema MECE e SAP/CCS para   automatiza√ß√£o da leitura dos medidores e de corte/religa Solu√ß√£o para gest√£o do compartilhamento de infraestrutura entre distribuidoras e prestadoras de servi√ßos de telecomunica√ß√µes. Aquisi√ß√£o e implanta√ß√£o de Sistema de coleta, tratamento de registros oscilogr√°ficos e localiza√ß√£o de faltas em subesta√ß√µes, linhas e redes de distribui√ß√£o O projeto refere-se √† contrata√ß√£o do licenciamento do software NetAdmin para a gest√£o e invent√°rio l√≥gico de esta√ß√µes de trabalho e demais ativos utilizados na rede de dados da Cemig. Atualiza√ß√£o da vers√£o do software de gerenciamento de acessos da SAP - Access Control Atualiza√ß√£o da vers√£o do software de gerenciamento de riscos da SAP - Risk Management Migra√ß√£o do modelo de tarifas usado na Cemig para o modelo TAXBRA Adequa√ß√£o do SAP para emiss√£o de NFE de Entrada Constru√ß√£o do portal com fei√ß√£o geogr√°fica para vis√£o dos eventos meteorol√≥gicos no sistema el√©trico. Implementa√ß√£o de melhorias no sistema Cemig F√°cil. Atualiza√ß√£o da plataforma de software HYPERION, ferramenta para elabora√ß√£o de proje√ß√µes financeiras e prestar o suporte para as analises decis√≥rias referentes ao planejamento e controle corporativo. Desenvolvimento de um sistema que fa√ßa o controle das cl√°usulas edital√≠cias e contratuais, permitindo ao usu√°rio montar os editais e contratos de forma automatizada e padronizada. Elaborar e Construir um Framework de Desenvolvimento de Sistemas Prover o desenvolvimento do sistema PIC - Portal da Imagem Cemig Desenvolvimento de software para atividades voltadas para Contratos de Suporte. Desenvolvimento da solu√ß√£o GEDEX Aquisi√ß√£o de 2 licen√ßas do software PLS-CADD Constru√ß√£o de um sistema para a √°rea de servi√ßos corporativos compartilhados, baseado na modelagem de processo de neg√≥cio; Padroniza√ß√£o e Unifica√ß√£o de ferramentas usadas nos processos assumidos pela superintend√™ncia SC. Programa para c√°lculo de rotinas de projetos de LD.
+2 licen√ßas Desenvolvimento do Sistema de Gest√£o de Fornecedores (SGF) Aquisi√ß√£o de ferramenta para an√°lise de vulnerabilidades em Redes e Sistemas. Vulnerabilidades em redes e sistemas s√£o utilizadas por atacantes cibern√©ticos para o roubo de informa√ß√µes confidenciais e invas√£o de redes corporativas e, se n√£o forem identificadas e corrigidas antes que sejam exploradas, podem causar a interrup√ß√£o total ou parcial dos neg√≥cios da Empresa. No processo de seguran√ßa da informa√ß√£o existem medidas preventivas e corretivas que podem ser tomadas de acordo com a situa√ß√£o de risco e a  linha do tempo.  A an√°lise de vulnerabilidades √© uma atividade que ocorre na fase de preven√ß√£o, onde ainda √© poss√≠vel evitar que uma amea√ßa explore uma vulnerabilidade e traga preju√≠zos financeiros e/ou √† imagem da Cemig. C√°lculo de janelas de travessias de MD sob LD e de balan√ßo de cabos.
+8 licen√ßas. Aquisi√ß√£o de 2 licen√ßas de  Software analisador de protocolos Industriais e redes Ethernet industriais
+ Imprementar a Assinatura Digital para o processo de Suprimentos Programa para calculo das tra√ß√µes e flechas em barramentos flex√≠veis em subesta√ß√µes SEMIRREBOQUE MODULAR, ARTICULADO, DE 6 LINHAS DE EIXO,  SUSPENS√ÉO HIDR√ÅULICA DIRECIIONAL, PERCO√áO ARTICULADO, PARA TRANSPORTE DE CARGAS INDIVIS√çVEIS E EXCEDENTES DE PESO E/OU DIMENS√ïES PARA ATENDIMENTO AO SISTEMA EL√âTRICO DE POT√äNCIA; Aquisi√ß√£o de cesta a√©rea 138KV Renova√ß√£o da frota de ve√≠culos da Diretoria Executiva - Distribui√ß√£o Instalar nos caminh√µes equipamentos hidraulicos para movimenta√ß√£o, i√ßamento e remo√ß√£o, que permite carregar, transportar e descarregar equipamentos CARRETA TANQUE CAP. 25.000LT TRANSP. OLEO ISOLANTE Aquisi√ß√£o de cesta a√©rea acoplado com bra√ßo suplementar isolado 138KV Aquisi√ß√£o de caminh√£o e equipamento hidraulico para movimenta√ß√£o, i√ßamento e remo√ß√£o, que permite carregar, transportar e descarregar equipamentos de at√© 25 toneladas Aquisi√ß√£o de caminh√£o para instala√ß√£o da cesta a√©rea isolada para 138 kV Servi√ßos atualiza√ß√£o do sistema de Avionics da aeronave King Air B200 - Prefixo: PT-WLK Atualiza√ß√£o tecnol√≥gica do tanque de combust√≠vel, j√° que o atual est√° validade ultrapassada e requer inspe√ß√µes trimestrais (despesa operacional) Aquisi√ß√£o de carroceria para caminh√£o com cesta a√©rea 138 kV e Montagem da carroceria Aquisi√ß√£o de Retroescavadeira compacta para manuten√ß√£o da via de acesso para trabalho das equipes de Linhas de Distribui√ß√£o CONJUNTO COM INTENSIFICADOR DE PRESS√ÉO HIDRAULICO COMPOSTO DE MAN√îMETRO, SISTEMA DE DUPLA A√á√ÉO, COM VALVULA REGULADORA DE PRESS√ÉO DE 4 VIAS, 3 POSICOES /FUN√áOES DA VALVULA: AVAN√áO / RETEN√á√ÉO/ RETORNO, DE VAZ√ÉO  44 pol¬≥ / min, PESO: 7,26 Kg; Atualiza√ß√£o do parque de microinform√°tica para atender a pol√≠tica de substitui√ß√£o de 20% ao ano. Constru√ß√£o do novo sistema jur√≠dico, em curso desde 2013. Falha no diagnostico de equipamentos podendo levar a indisponibilidade operativa e consequente perda de receita da gera√ß√£o Indisponibilidade de unidades geradoras devido a n√£o termos ferramentas e equipamentos adequados para testes e reparo. Ademais podem ocorrer falhas provenientes de interven√ß√µes realizadas de forma equivocada devido a ferramentas e equipamentos com defeito ou desajustado. Falha no processo de execu√ß√£o da manuten√ß√£o por falta de dispositivos e ferramentas, podendo levar a indisponibilidade operativa e consequente perda de receita da gera√ß√£o Defici√™ncia no atendimento √† demandas de execu√ß√£o de manuten√ß√£o dos ativos da gera√ß√£o. 
+Eleva√ß√£o de √≠ndices de indisponibilidade operativa de usinas. 
+Penaliza√ß√£o por parte de org√£o regulador. Ausencia de manuten√ß√£o dos instrumentos de barragem afeta indiretamente a seguran√ßa das barragens OBS: J√° autorizado na CRCA 085/2016 - Revis√£o de macro projetos ciclo 2014/2018
+Defici√™ncia no atendimento √† demandas de execu√ß√£o de manuten√ß√£o dos ativos da gera√ß√£o. 
+Eleva√ß√£o de √≠ndices de indisponibilidade operativa de usinas. 
+Penaliza√ß√£o por parte de org√£o regulador.
+ OBS: J√° autorizado na CRCA 085/2016 - Revis√£o de macro projetos ciclo 2014/2018
+Defici√™ncia no atendimento √† demandas de execu√ß√£o de manuten√ß√£o dos ativos da gera√ß√£o. 
+Eleva√ß√£o de √≠ndices de indisponibilidade operativa de usinas. 
+Penaliza√ß√£o por parte de org√£o regulador. Impossibilidade de diagn√≥sticos corretos e de ajustes/parametriza√ß√£o das Usinas. Falhas nos processos de manuten√ß√£o e opera√ß√£o que necessitam de equipamentos corretamente calibrados/parametrizados para seu funcionamento. Penaliza√ß√£o perante o Minist√©rio do Trabalho Maior tempo para retorno das unidades geradoras que depende de equipamentos eletronicos que necessitam de notebooks para diagnosticos e manuten√ß√£o Defici√™ncia no atendimento √† demandas de execu√ß√£o de manuten√ß√£o dos ativos da gera√ß√£o. 
+ Impossibilidade de diagn√≥sticos corretos e de ajustes/parametriza√ß√£o de equipamentos eletromec√¢nicos das Usinas. A aus√™ncia de inspe√ß√£o visual afeta diretamente a seguran√ßa das barragens Falhas em equipamentos, manuten√ß√£o corretiva e descontinuidade de gera√ß√£o. OBS: J√° autorizado na CRCA 085/2016 - Revis√£o de macro projetos ciclo 2014/2018
+Defici√™ncia no atendimento √† demandas de execu√ß√£o de manuten√ß√£o em equipamentos de usinas.
+Eleva√ß√£o de √≠ndices de indisponibilidade operativa de usinas.
+N√£o encontrar dispon√≠vel, no momento da necessidade, o citado equipamento para loca√ß√£o. Falha nos processos de montagem de equipamentos eletromec√¢nicos das Usinas. OBS: J√° autorizado na CRCA 085/2016 - Revis√£o de macro projetos ciclo 2014/2018
+Descumprimento de requisito legal.
+Autua√ß√£o e multa por parte de √≥g√£o fiscalizador governamental.
+ Ausencia de manuten√ß√£o dos instrumentos de barragem afeta diretamente a seguran√ßa das barragens N√£o redu√ß√£o de despesa operacional, relativa √† loca√ß√£o de im√≥vel para a Cemig GT, no munic√≠pio de Lavras. Impossibilidade de conectividade de todas as unidades ao sistema de videoconfer√™ncia que j√° disp√µem do servi√ßo.                        Impossibilidade para implanta√ß√£o de VC em novas localidades.                               Dificuldade na reposi√ß√£o de equipamentos defeituosos. Dificuldade no fornecimento de aparelhos de ar condicionado para as instala√ß√µes da Cemig e consequentemente, na garantia da climatiza√ß√£o de ambientes conforme a Portaria 3523, de 28/08/1998 do Minist√©rio da Sa√∫de. N√£o redu√ß√£o de despesa operacional, relativa √† loca√ß√£o de im√≥vel para a Cemig GT, no munic√≠pio de Ipatinga. - Aumento de m√≥veis sucateados;
+- Atraso na execu√ß√£o dos servi√ßos de montagem e desmontagem de mobili√°rio, comprometendo o planejamento ocupacional;
+- Aumento de reclama√ß√µes dos clientes;
+- N√£o cumprimento √† Norma Regulamentadora 17, que visa a estabelecer par√¢metros que permitam a adapta√ß√£o das condi√ß√µes de trabalho √†s caracter√≠sticas psicofisiol√≥gicas dos trabalhadores, de modo a proporcionar um m√°ximo de conforto, seguran√ßa e desempenho eficiente. As condi√ß√µes de trabalho incluem aspectos relacionados ao levantamento, transporte e descarga de materiais, ao mobili√°rio, aos equipamentos e √†s condi√ß√µes ambientais do posto de trabalho e √† pr√≥pria organiza√ß√£o do trabalho. Insatisfa√ß√£o de empregados por infraestrutura inadequada para sua utiliza√ß√£o em hor√°rio de almo√ßo; contamina√ß√£o por oxida√ß√£o de alimentos armazenados em equipamentos antigos; manuten√ß√£o muito frequente em equipamentos de destina√ß√£o dom√©stica ou antigos utilizados atualmente; alimentos descartados por temperatura do ambiente excessiva; Sem esses acessos n√£o √© poss√≠vel executar essa manuten√ß√£o, tendo que contratar equipamentos ou empresas especializadas, pois h√° risco para quem o executa. E tamb√©m h√° o risco do servi√ßo ser feito sem autoriza√ß√£o, sem seguran√ßa e que aconte√ßa algum incidente. Inibir invas√µes, furtos e monitorar o acesso de pessoas na uisnas Dificuldade de acompanhamento e confirma√ß√£o das condi√ß√µes operacionais dos equipamentos eletromec√¢nicos da Usina. Degrada√ß√£o das condi√ß√µes ergon√¥micas das √°reas das Usinas que concentram um maior n√∫meros de pessoas por longos per√≠odos de tempo. Dificuldade no fornecimento de bebedouros para as instala√ß√µes da Cemig e consequentemente, no fornecimento de √°gua para os funcion√°rios conforme normas regulamentadores. Aumento do gasto em despesa com manuten√ß√£o dos aparelhos de ar condicionado existentes.
+Ficar com ambiente sem climatiza√ß√£o em caso de falha que decrete o final da vida √∫til do equipamento.
+ OBS: J√° autorizado na CRCA 085/2016 - Revis√£o de macro projetos ciclo 2014/2018
+Aumento do gasto em despesa com manuten√ß√£o do aparelho de ar condicionado existente.
+Ficar com ambiente sem climatiza√ß√£o em caso de falha que decrete o final da vida √∫til do equipamento.
+ N√£o atendimento a requistos de conforto termico e ruidos para trabalhadores Nenhum Limita√ß√£o da efici√™ncia das reuni√µes.
+Limita√ß√£o dissimina√ß√£o da estrat√©gia coorporativa.
+Limita√ß√£o na eexcu√ß√£o de treinamentos nas sede do MG/LE.
+ Falha e consequente ausencia de equipamento de m√≠dia para apresenta√ß√£o da Usina durante Visitas da Comunidade, Prestadores de Servi√ßo, autoridades, etc. Falha e consequente falta de equipamento para execu√ß√£o de reuni√µes da equipe local. OBS: J√° autorizado na CRCA 085/2016 - Revis√£o de macro projetos ciclo 2014/2018
+Aumento do gasto em despesa com manuten√ß√£o dos aparelhos de ar condicionado existentes.
+Ficar com ambiente sem climatiza√ß√£o em caso de falha que decrete o final da vida √∫til do equipamento.
+ OBS: J√° autorizado na CRCA 085/2016 - Revis√£o de macro projetos ciclo 2014/2018
+Penaliza√ß√£o por em fiscaliza√ß√£o do MTb. 
+Danos a sa√∫de do empregado.
+Dano intang√≠vel a imagem da CEMIG. Perda de comunica√ß√£o por falta de alimenta√ß√£o comercial, penalidades previstas em contrato - Falta de suporte e incompatibilidade do produtos com o sistema operacional nos servidores de produ√ß√£o da Cemig. Envelhecimento do parque de software existente na empresa; Falta de suporte para o uso dos produtos e a resolu√ß√£o de problemas; Degrada√ß√£o do ambiente e limita√ß√£o da performance. Se o sistema n√£o for atualizado, podemos n√£o ter equipe t√©cnica qualificada para corrigir futuros problemas, devido √† arquitetura de software e hardware antiga usada pelo mesmo. Aumento da obsolesc√™ncia do sistema Falha grave no software que pode acarretar a perda de controle da opera√ß√£o e hist√≥rico de interven√ß√µes das unidades geradoras da Cemig Al√©m da n√£o conformidade legal, envolve riscos de falha de comunica√ß√£o para a comunidade e Defesa Civil. Impactos em claims contratuais, cronogramas de obras e rotinas da Engenharia de G e T. Falha no diagnostico e prioriza√ß√£o de investimentos em equipamentos da gera√ß√£o, podendo levar a indisponibilidade operativa e consequente perda de receita da gera√ß√£o Falha grave no software que pode acarretar a perda de controle do monitoramento da Seguran√ßa em Barragens das usinas da Cemig OBS: J√° autorizado na CRCA 085/2016 - Revis√£o de macro projetos ciclo 2014/2018
+Defici√™ncia no atendimento √† situa√ß√µes de falha em sistemas supervis√≥rios de opera√ß√£o de usinas, com interfer√™ncia negativa na comunica√ß√£o de dados operativos relacionados √† teleassist√™ncia de usinas pelo COS-CEMIG, e COR-ONS.
+Penaliza√ß√£o por parte de org√£o regulador. Aumento de despesas com manuten√ß√£o, indisponibilidade dos ve√≠culos. Produtividade das rotinas de manuten√ß√£o, mantendo-se as condi√ß√µes de seguran√ßa para os empregados, e cumprimento dos requisitos da ReN Aneel n¬∫ 669/2015 - Requisitos M√≠nimos de Manuten√ß√£o Multas do MTE; Restri√ß√£o de ferramentas para execu√ß√£o de servi√ßos em linha viva; eleva√ß√£o dos custos de Parcela Vari√°vel. Produtividade; atraso na realiza√ß√£o e an√°lises de testes de integra√ß√£o/monitoramento de ativos; seguran√ßa de pessoal; Risco de acidentes com a popula√ß√£o, vandalismo, invas√µes e roubos na instala√ß√£o Tombamento do muro; acidente com empregados e terceiros; danificar ativos da Cemig; deslizamento de solo Tombamento do muro de toras de madeira, podendo ocasionar danos materiais e acidentes de trabalho. Perda do AVCB, multas ambientais, contamina√ß√£o de solo Ru√≠do elevado, calor excessivo no ambiente de trabalho, prejudicando o desempenho dos empregados.
+Risco de falha e danos nos equipamentos digitais por alta temperatura e condi√ßoes ergon√¥micas desfavor√°veis, baixa qualidade do ar, desconforto t√©rmico. Faltar √°gua na SE S√£o Gotardo 2. Danos ao ferramental da equipe devido ao mal acondicionamento e riscos de les√µes devido √† posturas inadequadas Furtos, roubos, perdas materiais e risco √† integridade das pessoas da instala√ß√£o Defici√™ncia nos treinamentos da equipe e de terceiros
+Demora na realiza√ß√£o de reuni√µes que necessitam de proje√ß√£o de imagem  e tamb√©m dificuldade na apresenta√ß√£o do processo de primeiro acesso para atendimento ao sistema de gest√£o.
+Manobras indevidas e falha na identifica√ß√£o dos alremes e eventos gerados pelo SSCD. Precariza√ß√£o da seguran√ßa da instala√ß√£o, dificuldade de ministrar treinamentos, n√£o conformidade em auditorias do SIG devido √† qualidade/entendimento dos treinamentos e apresenta√ß√µes para visitantes. N√£o atender as normas de sa√∫de e seguran√ßa.
+Indisponibilidade de √°gua filtrada e refrigerada para equipes de manuten√ß√£o de campo. Necessidade de comprar grande volume de √°gua mineral refrigerada para equipes durante servi√ßos em campo. Aumento com despesas com √°gua.
+Ac√∫mulo de √≥leo no ch√£o, apresentando risco de queda de pessoas. Demora no restabelecimento de linhas de transmiss√£o, onde n√£o √© possivel comunicar com a equipe, Risco de n√£o execu√ß√£o de servi√ßos e perman√™ncia da equipe na instala√ß√£o sem poder executar manuten√ß√µes em linhas de transmiss√£o. Falha no atendimento ao COS com perda da qualidade de atendimento e falha de comunica√ß√£o durante manobras Comprometimento da produtividade, seguran√ßa e condi√ß√µes ergon√¥micas para a realiza√ß√£o das atividades de manuten√ß√£o do sistema el√©trico;
+Falta de ferramentas de trabalho para as equipes de manuten√ß√£o, e a n√£o adequa√ß√£o legal, comprometendo a seguran√ßa de empregados e a produtividade das equipes;
+Manter na frota ve√≠culos obsoletos, com alto √≠ndice de indisponibilidade, podendo at√© mesmo comprometer a seguran√ßa dos empregados e sua produtividade.
+ Comprometer a produtividade das equipes, a qualidade dos servi√ßos prestados  e atendimento aos indices de qualidade de fornecimento da Distribui√ß√£o. A automa√ß√£o da distribui√ß√£o √© essencial para atingir objetivos melhoria de processos. O n√£o desenvolvimento de novas solu√ß√µes e tecnologias para equipamentos de rede e SEs  implica em n√£o obten√ß√£o da redu√ß√£o de custos operacionais e de agrega√ß√£o de receita bem como melhoria dos indicadores de qualidade, dentre eles o DEC. Risco de penalidades por descumprimento da legisla√ß√£o ANEEL e ONS. Tem como objetivo utilizar crit√©rios para homologa√ß√£o de medidores eletr√¥nicos visando levantar sua vida √∫til(13 anos), por meio do ensaio de vida acelerada, onde o medidor √© submetido a c√¢mara clim√°tica com temperatura de 85¬∞C e 87% de umidade, durante um per√≠odo de tempo calculado com referencia na NBR16078. A aquisi√ß√£o de uma c√¢mara clim√°tica pela CEMIG √© de essencial import√¢ncia para o acompanhamento/verifica√ß√£o da conformidade do modelo aprovado no projeto Sinergia, ou seja, possibilitar as verifica√ß√µes posteriores nos medidores de fornecimento, garantindo a conformidade com o produto aprovado nos ensaios de vida acelerada. Estes testes evitaram erro no faturamento e de custos de manuten√ß√£o. A falta de treinamento das equipes impossibilitar√° as manuten√ß√µes preventivas e corretivas dos disjuntores, ocasionando altos √≠ndices de defeitos e indisponibilidade do sistema el√©trico. Equipes produzindo menos Eleva√ß√£o de custos de OPEX com servi√ßo de campo para  manuten√ß√£o do pontos que apresentam baixa performance para opera√ß√£o do COD.  N√£o ser√° capturado melhoria dos indicadores de qualidade, dentre eles o DEC A falta de treinamento das equipes impossibilitar√° as manuten√ß√µes preventivas dos equipamentos de Linha Viva, ocasionando altos √≠ndices de defeitos e indisponibilidade do sistema el√©trico. Aumento do custo de m√£o-obra pr√≥pria com o uso das tecnologias atuais;
+Aumento do riscos de m√° qualidade do projetos;
+Risco de atraso nas obras;
+ A Cemig tem plano de investimento nos pr√≥ximos anos para aplica√ß√£o  de religadores em cumprimento a a√ß√µes pactuadas no Plano de Resultados da Aneel visando melhoria do DEC. A automa√ß√£o da distribui√ß√£o √© essencial para atingir objetivos melhoria de processo, sendo que a falta de recurso compromete a melhor  avalia√ß√£o de equipamentos e produtividade da equipe A falta de treinamento das equipes impossibilitar√° as manuten√ß√µes preventivas dos equipamentos de subesta√ß√µes, ocasionando altos √≠ndices de defeitos e indisponibilidade do sistema el√©trico. Dependencia de software  e hardware (Notebooks) das equipes de manuten√ß√£o regional que nem sempre estao disponiveis . Contribui para a morosidade na tomada de decis√£o do engenheiro de obra. Demora na disponibiliza√ß√£o de informa√ß√µes de campo e presta√ß√£o de contas em sistemas corporativos.
+ A fiscaliza√ß√£o, no solo, da montagem de estrturas em LD¬¥s , p√≥rticos etc.. Durante o pre-comissionamento, ocasionando o retrabalho do comissionamento das equipes de LD¬¥s regionais. Estruturas montadas/instaladas em alturas e/ou dist√¢ncias diferente do projetado. Restri√ß√£o a renova√ß√£o da licen√ßa de opera√ß√£o do CDA Igarap√©, suspens√£o das atividades e multas, poss√≠veis contamina√ß√µes dos solos e len√ß√≥is freaticos e gera√ß√£o de passivos ambientais para a Cemig. Caso o projeto n√£o seja executado, haver√° comprometimento da capacita√ß√£o da CEMIG nos ensaios para a devida verifica√ß√£o da qualidade dos materiais adquiridos e aplicados no sistema el√©trico, e n√£o alcance de apoio aos forncecedores no desenvolvimento tecnol√≥gico do parque industrial brasileiro.
+Al√©m disso, ir√° inviabilizar a desocupa√ß√£o do Q1, onde est√£o montados os laborat√≥rios atuais, para aliena√ß√£o e consequentemente a apura√ß√£o de receita para a companhia. N√£o cumprimento de meta estabelecida no Acordo de Metas da Iniciativa 9 - Otimiza√ß√£o do Portf√≥lio de Im√≥veis da Cemig D, a qual prev√™ a obten√ß√£o de receita com a aliena√ß√£o de im√≥vel inserv√≠vel, e √† redu√ß√£o de despesas operacionais. Impossibilidade de desocupa√ß√£o total da √°rea do im√≥vel da UHE Gafanhoto, prevista para ser alienada, inviabilizando a sua aliena√ß√£o e √† redu√ß√£o de custos operacionais como servi√ßo de transporte de √¥nibus, vigil√¢ncia armada, conserva√ß√£o e limpeza, impostos e taxas, entre outros. Restri√ß√£o a obten√ß√£o de licen√ßa de opera√ß√£o do Anel Rodovi√°rio, suspens√£o das atividades e multas, poss√≠veis contamina√ß√µes dos solos e len√ß√≥is freaticos e gera√ß√£o de passivos ambientais para a Cemig. N√£o cumprimento do Acordo de Metas da Iniciativa 9 do Programa de Adequa√ß√£o da Cemig D ao Regulat√≥rio, a qual prev√™ a obten√ß√£o de receita com a aliena√ß√£o de im√≥vel inserv√≠vel, e √† redu√ß√£o de despesas operacionais. Multa, suspens√£o da licen√ßa de opera√ß√£o do Q14 e/ou fechamento do Q14, poss√≠veis contamina√ß√µes dos solos e len√ß√≥is freaticos e gera√ß√£o de passivos ambientais para a Cemig. Infiltra√ß√£o do telhado podendo avariar equipamentos e materiais; seguran√ßa em rela√ß√£o a combate a inc√™ndio, SPDA e instala√ß√µes el√©tricas Impossibilidade de conex√£o entre todos os terminais de sistema de videoconfer√™ncia. Negativa do fafricante Polycom, em prestar manuten√ß√£o corretiva na MGC 100, por se tratar de equipamento ultrapassado e sem pe√ßas de reposi√ß√£o. Rompimento de tubula√ß√µes; interrup√ß√£o de abastecimento em local de trabalho; contamina√ß√£o em √°gua pot√°vel; atendimentos emergenciais aos vazamentos; dificuldade para manuten√ß√£o; impacto em outros sistemas construtivos, aumentando custo de manuten√ß√£o Multas e/ou suspens√£o das atividades de manuten√ß√£o, poss√≠veis contamina√ß√µes dos solos e len√ß√≥is freaticos e gera√ß√£o de passivos ambientais para a Cemig. Falha completa dos nobreaks, o que pode provocar interrup√ß√£o no fornecimento de energia para √°reas cr√≠ticas da empresa, como COS, COD e TI, e consequentemente, diversos preju√≠zos em falhas operacionais e multas no Sistema El√©trica da Cemig. N√£o cumprimento de meta estabelecida no Projeto de Centraliza√ß√£o Administrativa da Cemig no Edif√≠cio Aureliano Chaves, relativa √† obten√ß√£o de receita com a aliena√ß√£o do pr√©dio Itamb√©. Perda do controle da pontualidade dos empregados. Dificuldade no controle do fluxo de pessoas na unidade.
+Impossibilidade de implanta√ß√£o  do sistema eletr√¥nico de controle de acesso. Dificuldade no controle do fluxo de pessoas na unidade. Aumento da execu√ß√£o de despesa operacional, visto que h√° constantes problemas (buracos) no alfalto existe, gerandos gastos em despesa operacional para corre√ß√£o, bem como alagamento de √°rea quando de chuvas. Os buracos tamb√©m causam dados a ve√≠culos que circulam no local e impacto no Clima dos empregados que utilizam a instala√ß√£o. Impossibilitar√° reposi√ß√£o de materiais e equipamentos desgastados, impossibilitando os treinamentos. Caso os equipamentos entrem em falha, h√° risco de interrup√ß√£o no fornecimento de energia, acidentes e inc√™ndio nas edifica√ß√µes envolvidas. H√° tamb√©m riscos de multas por parte da Aneel pelas irregularidades nas medi√ß√µes de energia. A falta de treinamento das equipes impossibilitar√° as manuten√ß√µes preventivas dos equipamentos de Linha de Transmiss√£o e subesta√ß√µes, ocasionando altos √≠ndices de defeitos e indisponibilidade do sistema el√©trico. Aumento nos custos de manuten√ß√£o (despesa operacional), danos a bens da Companhia quando de chuvas e vazamento dentro da instala√ß√£o, impacto direto no clima organizacional com a insatisfa√ß√£o e reclama√ß√£o dos empregados Processos Judiciais, insatisfa√ß√£o do cliente, aumento de gastos para empresas. A n√£o execu√ß√£o do projeto traz risco de dano aos equipamentos e √†s pessoas que que trabalham nas edifica√ß√µes que n√£o possuem SPDA caso ocorra a queda de um raio (descarga el√©trica). H√° tamb√©m risco de multas pelos √≥rg√£os competentes, por n√£o atender √†s normas de seguran√ßa. Impossibilitar√° atividades rotineiras. Queda da caixa de escada; desmoronamento do talude em que os caminh√µes de linha viva estacionam; transbordamento do sistema de drenagem pluvial e alagamento do p√°tio de estacionamento externo; enxurradas em √©pocas de chuva Dificuldade no controle e identifica√ß√£o de pessoas e, circula√ß√£o no interior das unidades do interior. Contamina√ß√£o do solo por √≥leo; passivo ambiental Aumento da √°rea constru√≠da para viabilizar a libera√ß√£o de um im√≥vel. N√£o cumprimento de meta estabelecida no Acordo de Metas da Iniciativa 9 - Otimiza√ß√£o do Portf√≥lio de Im√≥veis da Cemig D, a qual prev√™ a obten√ß√£o de receita com a aliena√ß√£o de im√≥vel inserv√≠vel, e √† redu√ß√£o de despesas operacionais. Impossibilidade de desocupa√ß√£o de im√≥vel superdimensionado, previsto para ser alienado, inviabilizando a sua aliena√ß√£o e √† redu√ß√£o de custos operacionais. Em pouco tempo deixar√° de atender normas da ANVISA; comprometer a qualidade da √°gua pot√°vel consumida pelos trabalhadores do local ‚Ä¢ Aumento nos custos de manuten√ß√£o (despesa operacional), uma vez que os atuais equipamentos obsoletos s√£o submetidos e reiterados consertos
+‚Ä¢ Comprometimento de realiza√ß√£o de reuni√µes de trabalho por falta de equipamento. A n√£o execu√ß√£o pode levar ao risco de baixar a qualidade dos materiais adquiridos pela CEMIG e at√© mesMO de paralizar a realiza√ß√£o de ensaios dos laborat√≥rios da MS/QL. Indisponibilidade dos equipamentos atuais. Dificuldade na realiza√ß√£o das manuten√ß√µes preventivas nos detectores de fuma√ßa, e aumento na chance de falha desses detectores. ‚Ä¢ Aumento nos custos de manuten√ß√£o (despesa operacional), uma vez que os atuais equipamentos obsoletos s√£o submetidos e reiterados consertos
+‚Ä¢ impacto direto no clima organizacional com a insatisfa√ß√£o e reclama√ß√£o dos empregados por trabalharem em um ambiente sem o adequado fornecimento de √°gua pot√°vel. Permanencia de controles manuais n√£o precisos. Hist√≥rico comprometido. ‚Ä¢ Aumento nos custos de manuten√ß√£o (despesa operacional), uma vez que os atuais equipamentos obsoletos s√£o submetidos e reiterados consertos Impossibilitar√° ministra√ß√£o das aulas te√≥ricas. M√°quina √© essencial para economia de m√£o de obra e tempo. Risco de afastamento de funcion√°rio.
+Risco de processos contra a Cemig.
+Aumento do hor√°rio de intervalo de descanso do operador.
+N√£o atendimento as normas de opera√ß√£o. N√£o h√° riscos. Descarte inapropriado de documenta√ß√£o da Companhia, podendo comprometer a seguran√ßa da informa√ß√£o Equipamento essencial para acompanhamento das videoconfer√™ncias em Sete Lagoas. Perda de comunica√ß√£o por falta de alimenta√ß√£o comercial, penalidades previstas em copntrato Falha de comunica√ß√£o com as equipes regionais, aumento do custo de O&M Continuidade de gastos em despesa operacional com custo mensal de Recepcionista para atendimento telef√¥nico Perda do Sistema de Telefonia para os usu√°rios do S√£o Gabriel e/ou multa contratual Queima dos equipametos de comunica√ß√µ por temperatura alta nas esta√ß√µes de comunica√ß√£o Auemento do tempo de reparo, risco de queima de equipamentos por uso de instrumentos inadequados Colis√£o de aeronaves, multas pelos √≥rg√£os competentes Aumento de tempo de reparo, riscos ergom√©tricos Intensifica√ß√£o da taxa de obsolesc√™ncia do parque de microinform√°tica; aumento da frequ√™ncia de falhas e mau funcionamento dos equipamentos; aumento da indisponibilidade de equipamentos para manuten√ß√£o ou reposi√ß√£o; restri√ß√µes na instala√ß√£o e execu√ß√£o de novos programas ou vers√µes; aumento da exposi√ß√£o de riscos de seguran√ßa da informa√ß√£o; perda do suporte especializado do fornecedor; degrada√ß√£o do desempenho e produtividade da for√ßa de trabalho. N√£o faturamento, afetando diretamente o caixa da empresa
+Descomprimento da regula√ß√£o - Multa Indisponibilidade do telecontrole das SEs com forte impacto na opera√ß√£o do sistema el√©trico e  degrada√ß√£o dos indicadores de qualidade, dentre eles o DEC. Perda de oportunidade de ganho de produtividade na inspe√ß√£o da manuten√ß√£o, processo de elabora√ß√£o e execu√ß√£o de projetos de expans√£o da rede de distribui√ß√£o; Perda de oportunidade de melhoria de qualidade e seguran√ßa na opera√ß√£o de rede subterr√¢nea; Perdas comerciais, devido √† maior dificuldade na identifica√ß√£o de fraudes em servi√ßos de inspe√ß√£o de rede por empresas contratadas. Paralisa√ß√£o de todos os servi√ßos de manuten√ß√£o evolutiva dos m√≥dulos de Opera√ß√£o e Despacho - OP, Georreferenciamento - GE, Manuten√ß√£o - MN, Servi√ßo de Campo - SC, e Gest√£o da Qualidade - IQ do Sistema G-DIS. H√°, dessa forma, impacto direto nas atividades di√°rias de toda a Distribuidora, inclusive servi√ßo de campo e atendimentos emergenciais, com destaque para o regime de funcionamento do sistema, 24x7. Adicionalmente, menciona-se a limita√ß√£o no atendimento das demandas da DDC relativas ao sistema G-DIS, conduzidas atualmente dentro do Programa Conex√£o, tais como a nova vers√£o 2.0 do G-DIS, integra√ß√µes com o projeto Atlantis, SAP ECC e SCADA. Perda de sincronismo de processos entre Cemig e Light; limita√ß√£o e desempenho degradado da solu√ß√£o atual; baixa produtividade para provimento de novas solu√ß√µes para gest√£o dos ativos da rede de distribui√ß√£o; limita√ß√£o da quantidade de usu√°rios com acesso √† aplica√ß√£o; obsolesc√™ncia da ferramenta atual, com mais de uma d√©cada de uso; perda de oportunidade de redu√ß√£o de custos operacionais; incapacidade de atendimento a algumas demandas do √≥rg√£o regulador (Aneel/Prodist);
+perda da melhoria do processo de capitaliza√ß√£o e gest√£o de ativos da Cemig Distribuidora.
+ Dificuldade da realiza√ß√£o do planejamento de expans√£o do sistema el√©trico e an√°lises de atendimento de carga da Malha Centro (2.034 MVA). Vers√µes desktop n√£o possui capacidade de executar os c√°lculos de fluxo de pot√™ncia de todos os dados da Malha Centro. Esse problema √© solucionado com o Cyme Server.
+Descontinuidade dos Dados hist√≥ricos de demanda, existentes desde 1984, comprometendo a proje√ß√£o da distribui√ß√£o espacial da carga e consequente a otimiza√ß√£o dos investimentos.
+N√£o otimiza√ß√£o da rede implicando em aumento de Perdas T√©cnicas, investimentos adicionais, viola√ß√£o de Requisitos Regulat√≥rios como DEC, DIC/FIC/DMIC, DRC/DRP, perda de Flexibilidade Operativa.
+A atual quantidade de licen√ßas Cyme √© insuficiente para permitir a produ√ß√£o adequada das equipes de Planejamento, Opera√ß√£o e Engenharia, ocasionando descumprimento dos prazos regulat√≥rios.
+Continuidade do disp√™ndio de Hh com o processo de obten√ß√£o e valida√ß√£o de dados, j√° que os casos ajustados ficam dispon√≠veis apenas nas esta√ß√µes de trabalho. Descumprimento contratual perante a SAP Incompatibilidade dos sistemas da Cemig com os requisitos legais e regulat√≥rios nas esferas federal, estadual e municipal; Multas e encargos pelo n√£o atendimento dos compromissos obrigat√≥rios dentro do prazo esperado pelos agentes governamentais; Defasagem entre a vers√£o vigente dos sistemas e as regras de neg√≥cio existentes nas √°reas. Impossibilidade de implanta√ß√£o de novos m√≥dulos e projetos de atualiza√ß√£o (migra√ß√£o de vers√£o, aplica√ß√£o de notas corretivas e evolutivas); paralisa√ß√£o dos servi√ßos de desenvolvimento das solicita√ß√µes da Cemig D referentes aos sistemas SAP; incapacidade de atendimento das demandas das √°reas de neg√≥cio e da diretoria da Cemig; impossibilidade de corre√ß√£o de eventuais incidentes nas fun√ß√µes dos m√≥dulos SAP; tornar prec√°ria a gest√£o de recursos humanos, financeiros e controladoria, suprimentos, ativos, tributos e projetos; defasagem dos processos automatizados em rela√ß√£o aos processos reais; n√£o atendimento a determina√ß√µes legais e regulat√≥rias (Aneel, SEFAZ, Receita Federal, Receita Estadual, INSS, Minist√©rio do Trabalho, etc); grande risco de penalidades e multas municipais, estaduais e federais; risco de processos judiciais trabalhistas, sindicais e institucionais. Falha no controle de ativos da DDC Invas√µes a aplica√ß√µes e ambientes cr√≠ticos, com indisponibilidade de ambientes Operativos e Corporativos. Inconformidade do sistema com o processo da distribui√ß√£o Perda do direito de renova√ß√£o do contrato, que ocorre anualmente. Nesse caso, alguns impactos podem ser mencionados, como a perda na economia de custos, j√° que a renova√ß√£o, com direito √† vers√£o atualizada, custa cerca de 25% do valor da aquisi√ß√£o de uma nova licen√ßa; a limita√ß√£o das funcionalidades das licen√ßas e exposi√ß√£o a falhas de seguran√ßa, devido √† desatualiza√ß√£o das aplica√ß√µes. Obsolesc√™ncia do ambiente de gerenciamento de banco de dados; risco de indisponibilidade em decorr√™ncia de incidentes cr√≠ticos, devido √† perda da garantia de suporte e da disponibilidade de evolu√ß√µes de fun√ß√µes e de ferramentas; assim como degrada√ß√£o de performance do ambiente SAP. Defasagem tecnol√≥gica perante o software usado no setor de energia para atendimento regulat√≥rio. Incapacidade de processamento dos servidores para absor√ß√£o das demandas vegetativas, regulat√≥rias e fiscais, tais como crescimento do n√∫mero de consumidores; projeto de leitura e impress√£o simult√¢nea de faturas; nota fiscal eletr√¥nica de entrada; al√©m da necessidade de processamento de dados de projetos cr√≠ticos, como Atl√¢ntis e G-DIS. N√£o sendo poss√≠vel sua realiza√ß√£o em 2016, restar√° prejudicado o dimensionamento adequado do parque de servidores, assim como a garantia da capacidade de processamento de dados requisitada pelos diversos sistemas operacionais da Cemig D. Impossibilidade de adequa√ß√£o dos sistemas legados √†s novas regras e estruturas da Empresa, perda da efici√™ncia operacional dos processos informatizados, em virtude da defasagem de automa√ß√£o dos processos das √°reas de neg√≥cio; incapacidade de implanta√ß√£o de novas funcionalidades na Cemignet20, e n√£o atendimento a determina√ß√µes regulat√≥rias. N√£o redu√ß√£o do custos de Opex com servi√ßo de campo nas ocorr√™ncias no SEP. N√£o ser√° capturado melhoria dos indicadores de qualidade, dentre eles o DEC Impacto no atendimento aos clientes; Defasagem tecnol√≥gica; Computadores infectados ou usu√°rios n√£o autorizados podem ter acesso √† rede, provocando infec√ß√µes, roubo de informa√ß√µes, indisponibilidade de servi√ßos etc... Contamina√ß√£o com virus e outros Malwares de arquivos contidos em pastas particulares do exchange Os projetos G-DIS 2.0 e Atlantis est√£o em andamento com contratos anuidos pela Aneel. N√£o fornecer o hardware implica em descontinuidade desses projetos e perda do investimento realizado nos projetos G-DIS 2.0 e Atlantis; V√°rias demandas est√£o aguardando a implanta√ß√£o do G-DIS 2.0 e Atlantis, sem hardware teremos que implementar solu√ß√µes duas vezes, sendo uma na vers√£o atual. Duplicidade de equipe para cadastramento em paralelo em sistemas distintos; Riscos operacionais por diverg√™ncia na rede cadastrada e rede operada. Impossibilidade de controle no acesso √† Internet e risco de Invas√µes decorrentes de acessos a sites e p√°ginas com virus e conte√∫dos maliciosos. Ocorr√™ncia de falhas na infraestrutua do sistema com severos riscos operativos para a Cemig D devido a este sistema ser a ferramenta exclusiva para a opera√ß√£o,  controle e supervis√£o de todo os sistema el√©trico de alta e m√©dia tens√£o da Cemig D; Aumento do DEC em fun√ß√£o de eleva√ß√£o do tempo m√©dio de atendimento - TMA decorrente de deslocamentos de equipes locais, com graves consequencias para a manuten√ß√£o do contrato de concesss√£o da Cemig D; Impacto negativo na disponbilidade e qualidade do fornecimento de energia el√©trica para clientes da Cemig D, bem como na seguran√ßa de pessoal pr√≥prio, terceiros e instala√ß√µes da empresa, al√©m da eleva√ß√£o dos custos com deslocamento de pessoal para realiza√ß√£o de comandos locais. Falta de otimiza√ß√£o e evolu√ß√£o para os processos empresariais Falta de usa solu√ß√£o mais moderna para as aprova√ß√µes gerenciais relativas ao sistema SAP na Cemig. Eleva√ß√£o de custos de OPEX com servi√ßo de campo para  an√°lise e  localiza√ß√£o de faltas e ocorr√™ncias no SEP. N√£o ser√° capturado melhoria dos indicadores de qualidade, dentre eles o DEC Alto √≠ndice de defeitos e falhas nestes equipamentos provocando indisponibilidades de rede das localidades onde eles est√£o instalados. Limita√ß√£o da capacidade de processamento de dados das solu√ß√µes da empresa. Como ressaltado, trata-se de aplica√ß√µes de desempenho cr√≠tico e que, por essa raz√£o, requerem alto n√≠vel de performance. Perda de oportunidade de ganho de produtividade no processo de elabora√ß√£o e execu√ß√£o de projetos de expans√£o da rede de distribui√ß√£o; Perda de oportunidade de visibilidade e controle de obras e previsibilidade de realiza√ß√£o. Incapacidade de atendimento de solicita√ß√µes das √°reas de neg√≥cio da Cemig, relativas aos sistemas. Limita√ß√£o da quantidade de licen√ßas para os usu√°rios na Cemig; Falta de suporte para o uso dos produtos e a resolu√ß√£o de problemas; Obsolesc√™ncia dos produtos usados pela Empresa. Imagem da Empresa prejudicada e associada ao antigo e desatualizado. Descumprimento de controles de Auditoria e riscos de ataques em fun√ß√£o de n√£o correla√ß√£o de logs de seguran√ßa Sobre recurso √© preciso saber se isso √© colocado na conta da casa ou se √© algo que devemos aumentar e j√° inserir no rateio percentual, visto que o SharePoint, assim como EPM, est√£o com vers√£o 2010 que j√° n√£o mais recebe atualiza√ß√£o. Indisponibilidade e baixo desempenho de aplica√ß√µes cr√≠ticas por falta de visibilidade e Gerenciamento. Incapacidade de evolu√ß√£o da ferramenta respons√°vel pelo processo de aquisi√ß√µes da empresa; o comprometimento da disponibilidade do sistema;  a perda de sinergia na incorpora√ß√£o de m√≥dulos legados num √∫nico sistema; e limita√ß√£o das funcionalidades do Portal Eletr√¥nico de Compras. Necessidades constantes de aumento de links, sem op√ß√£o de trafegar dados menos priorit√°rios por canais de mais baixo custo. Riscos de Invas√£o a redes de Ses provocando indisponibilidade e perda de Opera√ß√£o por parte dos Centros de Ger√™ncia Risco de n√£o aproveitamento das rotas de r√°dio tri√¢ngulo e metropolitana, com impossilibilidade  de interliga√ß√£o √† rede, de localidades pr√≥ximas a estas rotas. Falta de canais de atendimento dispon√≠veis, aumento de clientes nas ag√™ncias de atendimento presencial da Cemig. Impacto em diversas iniciativas, paralisando as adequa√ß√µes de processo, desenvolvimento de novos sistemas ou m√≥dulos, implementa√ß√£o de automa√ß√µes, entre outros, impedindo a evolu√ß√£o das ferramentas e opera√ß√µes de rotina das √°reas da Cemig D. Comprometimento da capacidade de processamento das aplica√ß√µes atendidas, com degrada√ß√£o de desempenho das mesmas; O crescimento vegetativo da infraestrutura ser√° inviabilizada devido a obsolesc√™ncia do hardware, bem como, a impossibilidade de crescimento da capacidade de processamento. Indisponibilidades de estruturas de rede Operativa como COS, COD. Indisponibilidades da Rede Subterr√¢nea de Dados, N√£o migra√ß√£o da SE Centro 1 para a SE Centro2 Impossibilidade de corre√ß√£o das falhas existentes nas vers√µes atuais do sistema; impossibilidade de desenvolvimento das evolu√ß√µes j√° programadas junto √†s √°reas de neg√≥cio; descumprimento de obriga√ß√µes contratuais. Indisponibilidade e baixo desempenho  de ambientes e aplica√ß√µes operativas e corporativas cr√≠ticas, roubos bem sucedidos de Informa√ß√µes. Processos de contrata√ß√£o despadronizados, pulverizados e sem controle das etapas e workflow. Migra√ß√£o dos consumidores para canais de atendimento de maior custo para a Cemig D Atrasos nos procedimentos e processos das equipes nas √°reas de neg√≥cio (engenharia); Multas pelo n√£o atendimento dos compromissos obrigat√≥rios dentro do prazo esperado pelos agentes governamentais. O registro do in√≠cio de falta √© auditado pela Aneel para apura√ß√£o dos indicadores e calculo de compensa√ß√µes financeiras.  A Cemig fica sujeita a penaliza√ß√µes na auditoria de avalia√ß√£o dos indicadores de qualidade  a Aneel quando existe discrep√¢ncia no momento em que a Cemig tem conhecimento da falta de energia em rela√ß√£o ao registro no GDIS Incapacidade de an√°lise de dados estrat√©gicos da distribui√ß√£o reduzindo as informa√ß√µes para decis√µes importantes para os ganhos de neg√≥cio da empresa. Infec√ß√£o de microcomputadores da Cemig, provocando indisponibiloidade e roubo de informa√ß√µes Descumprimento de obriga√ß√µes perante √≥rg√£o federais. Multiplica√ß√£o de interfaces e duplicidade ou desencontro de informa√ß√µes Riscos de indisponibilidade de Rede por falta de ger√™ncia das solu√ß√µes adotadas. Perda de sinergia no compartilhamento de servi√ßos; despadroniza√ß√£o de fornecedores e tecnologias; piora no tempo de resposta e no processamento das requisi√ß√µes; perda na distribui√ß√£o de carga de solicita√ß√µes em outro ambiente computacional. N√£o cumprimento das obriga√ß√µes da Cemig perante o governo federal, evitando-se, dessa forma, o risco de multa e/ou penalidades ante a Secretaria da Receita Federal do Brasil (RFB), o Minist√©rio do Trabalho e Emprego (MTE), o Instituto Nacional do Seguro Social (INSS), a Caixa Econ√¥mica Federal (CEF), o Conselho Curador do Fundo de Garantia por Tempo de Servi√ßo (FGTS) e a Justi√ßa do Trabalho. Respostas divergentes considerando um mesmo tipo de solicita√ß√£o; Impacto no atendimento comercial da Cemig, pelo aumento do uso dos canais virtuais; Alto custo para manter interfaces replicadas e despadronizadas. Atrasos nos procedimentos e processos das equipes nas √°reas de neg√≥cio (engenharia e recursos humanos); Multas pelo n√£o atendimento dos compromissos obrigat√≥rios dentro do prazo esperado pelos agentes governamentais. Uso de software n√£o adequado para a gera√ß√£o de informa√ß√£oes ao √≥rg√£o regulador Paralisa√ß√£o das funcionalidades do sistema, em fun√ß√£o do longo tempo de sua exist√™ncia. Falta de licen√ßas para atendimento das √°reas solicitantes de pain√©is de informa√ß√£o. A Cemig tem plano de investimento nos pr√≥ximos anos para aplica√ß√£o  de religadores em cumprimento a a√ß√µes pactuadas no Plano de Resultados da Aneel visando melhoria do DEC. O n√£o atendimento das  a√ß√µes pode acarretar penaliza√ß√µes com reflexo inclusive no contrato de concess√£o Eleva√ß√£o da indisponibilidade do telecontrole das SEs com forte impacto na opera√ß√£o do sistema el√©trico e  degrada√ß√£o dos indicadores de qualidade, dentre eles o DEC. Dificuldade para a gest√£o das obras e empreendimentos da Distribuidora; em aus√™ncia de uma revis√£o na modelagem de dados do sistema atual; e em baixa performance da customiza√ß√£o, com gera√ß√£o de relat√≥rios de an√°lise inadequados. N√£o efetuar gest√£o e prioriza√ß√£o de podas e limpezas de faixa de maneira eficiente incorrendo em riscos de utiliza√ß√£o de or√ßamento dispon√≠vel de forma emp√≠rica e pouco eficaz. Crescimento das perdas comerciais que impactam a receita; Diminui√ß√£o da arrecada√ß√£o. Ocorr√™ncia de falhas na opera√ß√£o e na gest√£o do sistema; Impacto no processo de envio e recep√ß√£o de documentos. O sistema instalado em campo com +/_ 3.500 UC de BT sem ainda possibilidade de  utiliza√ß√£o de todas suas funcionalidades. A n√£o execu√ß√£o acarretaria em n√£o redu√ß√£o de despesas leitura (30 mil/ano), corte/religa (proje√ß√£o de 12 mil/ano) e incremento de receita com recupera√ß√£o da inadimpl√™ncia mais ganhos intang√≠veis com automatiza√ß√£o e disponibiliza√ß√£o de dados de on-line para os processos internos. Continuar com os processos de contrata√ß√£o morosos e inconsistencias entre f√≠sico e cont√°bil. N√£o redu√ß√£o do custos de Opex com servi√ßo de campo para  an√°lise e localiza√ß√£o de faltas e ocorr√™ncias no SEP. Degrada√ß√£o dos indicadores de qualidade, dentre eles o DEC Impossibilidade de atualiza√ß√£o tecnol√≥gica do produto. Em decorr√™ncia da obsolesc√™ncia da ferramenta, os seguintes impactos podem ser mencionados: aumento do tempo de atendimento de chamados relativos a suporte de esta√ß√£o de trabalho, administra√ß√£o de chaves de acesso e libera√ß√£o de direitos de acessos; impossibilidade da execu√ß√£o de rotinas automatizadas pela solu√ß√£o; perda de suporte perante o fornecedor. Falha de controles SOX Continuidade de uso de um modelo de tarifas inadequado na Companhia. Falha nas reten√ß√µes de impostos e tarifas. Falta de funcionalidades para gest√£o; Aus√™ncia de informa√ß√µes importantes para a tomada de decis√£o. Ocorr√™ncia de falhas na opera√ß√£o e na gest√£o do sistema; Impacto no fluxo de arrecada√ß√£o da empresa. Uso de ferramental inadequado para o planejamento financeiro da Cemig; Falta de suporte para o uso dos produtos e a resolu√ß√£o de problemas; Baixa produtividade dos profissionais usu√°rios da solu√ß√£o. Morosidade na confec√ß√£o de editais e contratos, falta de padroniza√ß√£o e controle das cl√°usulas utilizadas. Variedade de modelos e estruturas para os novos sistemas Gastos sem controle nos an√∫ncios e comunicados da Empresa Acompanhamento manual das atividades, aumentando o risco de remunera√ß√£o indevida por produtividade. Indisponibilidade das solu√ß√µes tecnol√≥gicas para todos os usu√°rios; Atrasos nos procedimentos e processos das equipes nas √°reas de neg√≥cio; Ociosidade dos usu√°rios que ficam aguardando a libera√ß√£o das licen√ßas em uso (fila de espera). Comprometimento ao atendimento dos projetos de expans√£o do ciclo tarif√°rio (2018/2022).
+Comprometimento da produtividade da equipe devido √† indisponibilidade de licen√ßas suficientes para trabalhar com o SPELT. Baixa produtividade das equipes centralizadas; Falta de padroniza√ß√£o das ferramentas utilizadas; Demora no atendimento aos servi√ßos corporativos compartilhados. Paraliza√ß√£o de atividades de projetos executivos de LD com comprometimento de prazos e custos dos planos de expans√£o.
+Impossibilidade de realizar a elabora√ß√£o e a confer√™ncia de projetos contratados que utilizem resultados destas rotinas, que s√£o comuns. Uso de ferramental inadequado para o processo de compras da Cemig; Falta de suporte para o uso dos produtos e a resolu√ß√£o de problemas; Baixa produtividade dos profissionais usu√°rios da solu√ß√£o. Descontinuidade de servi√ßos informatizados
+Roubo de informa√ß√µes confidenciais e invas√£o de redes corporativas Atendimento √† demanda continuar√° com a EA/EP, consumindo recurso humano de um profissional em tempo integral e comprometendo seu desempenho e o atendimento √†s demandas de expans√£o. Contribui para a morosidade na identifica√ß√£o de problemas de integra√ß√£o de equipamentos e conex√£o via redes de automa√ß√£o das novas SEs. Continuar com os processos de contrata√ß√£o morosos, com assinatura f√≠sica de documentos, impress√£o e altos custos com os Correios. Comprometimento de atendimento aos projetos de expans√£o no prazo desejado dentro do ciclo tarif√°rio. Sucateamento do ferramental das equipes de transporte e movimenta√ß√£o de cargas especias, elevados custos de manuten√ß√£o, grande indisponibilidades por falta de pe√ßas de reposi√ß√£o, n√£o atendimento dos prazos pactuados dos atendimentos √†s,  emerg√™ncias, servi√ßos programados e de  manuten√ß√£o do sistema el√©trico de pot√™ncia- sep, dificuldade de roteiriza√ß√£o em fun√ß√£o do comprimento do conjunto transportador risco de impactos negativos dada as restri√ß√µes gerados na infraestrutura vi√°ria, ambiental,  mobilidade, acessibilidade √†s instala√ß√µes(ses, usinas, oficinas manuten√ß√£o); 
+Aplica√ß√£o de multas expressivas √† cemig, por interrup√ß√£o do fornecimento de energia a consumidores em limites exorbitantes, fora dos previstos em lei, com impactos diretos no DEC, FEC, DIC e DMIC.
+ Comprometer a produtividade das equipes e atendimento aos indices de qualidade de fornecimento da Alta Tens√£o. Comprometer a qualidade dos servi√ßos prestados e  a produtividade das equipes de Rede de Distribui√ß√£o Subterr√¢nea Paralisa√ß√£o das atividades de manuten√ß√£o alta tens√£o Comprometer a produtividade das equipes da rede de distribui√ß√£o subterr√¢nea A n√£o atualiza√ß√£o e homologa√ß√£o do sistema junto ao √≥rg√£os competentes restringe a prioridade de pouso em rela√ß√£o √†s demais aeronaves dotadas destes recursos. Item 2 do PC 4500027415 pendente de pagamento. Aguardando o registro no FAA e valida√ß√£o da ANAC para que a aeronave possa entrar em opera√ß√£o. Aumento da despesa operacional. Comprometer a produtividade das equipes, atendimentos emergenciais e aumentar a utiliza√ß√£o de recursos de despesas. RISCO DE OCOR√äNCIA DE ACIDENTES, BAIXA PRODUTIVIDADE DOS ATENDIMENTOS, OBSOLESC√äNCIA DO FERRAMENTAL, ELEVADO CUSTO MANUTEN√á√ÉO, RISCO DO N√ÉO ATENDIMENTO EFICAZ  √ÄS EMERG√äNCIAS DO SISTEMA EL√âTRICO DE POT√äNCIA- SEP, JUNTO AS INSTALA√á√ÉOES ENERGIZADASPR√ìPRIAS E/OU TERCEIROS, USINAS, OFICINAS MANUTEN√á√ÉO,PR√ìPRIAS E/OU TERCEIROS;   
+Aplica√ß√£o de multas expressivas √† Cemig, por interrup√ß√£o do fornecimento de energia a consumidores em limites exorbitantes, fora dos previstos em lei, com impactos diretos no DEC, FEC, DIC e DMIC. Obsolesc√™ncia do sistema antigo; falta de interface com os sistemas legados;     -     -     ê  ◊£p=
+«]@˙      - F  ∞  ﬂ  »   5  Â  ,  ≤∫’ßT@¬  2   H   œ   6   X  fffffÊN@E      &   -   a   P   ã   æW≠Là|æ@    x      - ïCãlÁKU@/›$qA@   gffffÊ+@˛‘xÈ&±(@V-Ú1@I+áˆ0@ÕÃÃÃÃÃÏ?¬ °E∂Û›?¬  ê  ˙      ®ü7©`;@2   P   k      P«c
+4§@    
+   f˜‰a°‡]@   E   - ,  }   2   0   333333@   ÕÃÃÃÃÃ¸?     ¬  ê  Y  ñ   ,    K   »            X  ¥   x   R   ˙   àc]‹ZNƒ@    ^        @=@ÕÃÃÃÃLM@   - ˙   333333Û?   d      €  ê¬ı(\üJ@:¥»væﬂ @‹   ¬  ê  lÉ¿ ár@ñ   Ó  2      K   x   »   6   Ù  ,  fffffÊN@E   ^  &   =   B   -   _   H   ffffff(@”Mb8 æ@2   x       Z      Çî0cˇÄ@- ü  ß     
+   <      ÕÃÃÃÃåI@$ÅïCK$@   ñ      ¬  X  ^  d      Ù  ˙   ≠›v°+ƒ≤@d       333333O@   ÕÃÃÃÃÃ@ÕÃÃÃÃÃÙ?,  £      %         - q=
+◊£`@333333Û?P   ffffffM@      Ñ¿ °E∂&@»   ¥»væü⁄,@À   U   (   <   ïCãlÁKU@/›$qA@⁄˘~jºt.@gffffÊ+@˛‘xÈ&±(@X  ¬  X  o
+  Ë  2   ^  ˙   ñ      K   ∞  ¯     ^   x   +áôËÃ@k          N  -   d   fffffÊO@-      É¿ °E∂6@»   x   íV≠7@K      P   ê  ¬  X  ñ   ˙      2   6   fffffÊN@E   ^      &   ,  rhëÌ¸‹∂@         ‡_@                  ÅïCãlØB@     @=@- 333333Û?˙   hfffffC@-   R∏ÖÎ—+@Ñ¿ °E∂F@»   (   ¬  X  ‚  d   ,  Ë     2      ^   Z  ¨Zt‰π@    )     - È  ˙   ÕÃÃÃÃÃ<@.      R∏ÖÎ—;@Ë     É¿ °E∂6@»   #   ‹˘~jº‘@@     ¿H@(   í  ¬  X  N    d   Ó  ,  K         P   2   æ   7   Zd;?<∆@             2   B>ËŸ¨öW@      ¯?◊£p= >@>        †Y@Çî0cˇÄ@?   ]è¬ı(\Z@è†¯1ÊæP@^  ñ   <      333333Û?      »   öôôôôô+@R∏ÖÎ—K@   Ñ¿ °E∂&@q   t   (         - o  &    ¬  	  ≈    m  d   K   G   P        ¨      6   ,  J   fffffÊN@fffff∆Q@æ   %        @D@]   öôôôôyê@]“≠,®∆@    d   k   2   x   Z      
+         )       ‡_@B>ËŸ¨öW@^   333333O@         ÕÃÃÃÃÃ@      ¯?ÕÃÃÃÃÃÙ?     @=@ÕÃÃÃÃLM@,  ê  ÕÃÃÃÃºb@€=yX(ò~@£   Ü   }   E           †Y@Éî0cˇê@X9¥»ˆ∫Ü@?   ü  q=
+◊£`@È  ]è¬ı(\Z@π  è†¯1ÊæP@^  ñ   ˙   <   0      ÕÃÃÃÃÃ@   ÕÃÃÃÃÃ¸?p    à   P   G·zÆWX@Ë  K   £p=
+◊c\@q      	¨ZdH@33333k@   ”MbXÈ@@À   »            m  ñCãlÁKe@/›$qQ@ê¬ı(\üJ@o  Ó|?5^:=@fffffÊ;@˛‘xÈ&±8@V-Ú1@I+áˆ0@:¥»væﬂ @ÕÃÃÃÃÃÏ?¬ °E∂Û›?X  ‹     |  )  Ω    ‹  ‚  Y  Ù  NbX˘∫≠@l  ,  K  R  Ó  ∞  X    ¯  s  Ã  J  Ñ  g  ¨      ÿ   ¡  fffffÊn@öôôôôaq@|  v         Pc@´   í   a   _   ]   H   (   ffffff(@öôôôôyê@¥   Z  R   s  ü “qÙ@    Jé;•mS@¥   R∏ÖÎ—;@»   
+   (   ¬  X  d   2   ,              T  ‰4ÙGØ@    z  ñ   £   ,   Jé;•mS@R∏ÖÎ—+@
+   (   ˜S„•õ‘V@ÕÃÃÃÃÃ(@¬  X  d   Ë  2   »   Ù           #   KqUŸU˝≤@    fffff˛u@Jé;•mS@h6»$£»p@F      €˘~jº,Q@(   T„•õƒp^@ÕÃÃÃÃÃ(@2   ¬  Ë  d   K   ,  Ù  º  »      ‹     Ã  X  $   ÕÃÃÃÃ,W@      -   ˙D¥¶Ω@    Jé;•mS@   €˘~jº,Q@öôôôôYW@(   ˜S„•õ‘V@   ÕÃÃÃÃÃ8@'  †  Ë  ¬  d   2   ^  ë     ˙   ,     K      ÕÃÃÃÃLF@—Ëé!]“@    Jé;•mS@2   cX9¥,a@(      öôôôôôB@¬  Ë  d   ñ   ^     ‹  ˙      K      ·í„L<±@       
+         ¯?˙   Jé;•mS@H   k   l   Pçón√i@(   <   #   ÕÃÃÃÃÃ8@–  ¬  e  d   K   ,  Ù  Ó  ê          $   ÕÃÃÃÃ,W@S’Qf®¿@    2   +            ÅïCãl@q=
+◊£p˘?ñ   Jé;•mS@<   8  5¬GiŸR@H   º   Ä   cX9¥,a@ÕÃÃÃÃÃ(@¬  _
+  d   ,  (   ê  Ù  0äy±V=æ@    ,  Jé;•mS@7   q=
+◊£`@ñ  £*Öƒf[@B`Â–"ªC@ç   ê         ìVçY@#   €˘~jº,Q@¬  d   Ë  (      ñ   ⁄+9‡È±@    .   #   ffffff(@öôôôôô@öôôôôô	@ÕÃÃÃÃÃ@ffffff@öôôôôô@333333@öôôôôô@Q   Jé;•mS@?  ˜ÈCô_@ç   †   \è¬ı(L_@x      ìVçY@»   d   7      ¬  ,  K   (   ∞     ê  $   ñ   ≠”Pcú≥@       
+      Jé;•mS@°]>L¬a@¨   \è¬ı(L_@&   ìVçY@F   d   2   ¬  ,  ‚  ƒ	  ^  (         «ì¥M+Ê∑@    ∞rhëÌ|@Jé;•mS@   …N?®Àe@°E∂Û˝W@ú   L   F   \è¬ı(L_@(   ìVçY@7   ?   2   ¬    ,  d   K   ^     =      ˙   s	áﬁzm≥@    2      Jé;•mS@ffffföÅ@     ¿F@l+ˆó›SF@ñ   !   
+                  ¯?&⁄~«
+j@Ä   \è¬ı(L_@-   †   îVçi@¯   i   ¬  <   ˙   (         ˆ	  0¨Zêp@ãlÁ˚©![@Ωü/›¥T@ÏQ∏ÖªF@Pçón≥E@2¨Z4C@—"€˘~Í;@Pçónc:@shëÌ|?*@ffffffˆ?≤ùÔß∆KÁ?d   ‹   &  ,  –  æ         Ù  $   ä     »   }5Õ‹⁄Æ…@          2   .   +   #      
+      ffffff(@ÅïCãl@öôôôôô@∞rhëÌ|@öôôôôô	@ÕÃÃÃÃÃ@ffffff@öôôôôô@333333@öôôôôô@q=
+◊£p˘?      ¯?z  fffff˛u@,  ˙   ñ   £   Q   ,   mUŸwÖ#ç@ffffföÅ@h6»$£»p@<   F              ¿F@7   q=
+◊£`@  ¥   l+ˆó›SF@!            ˝†™L‹â@ê   ‚zÆGq`@Ö  ‰  e   d   R∏ÖÎÛÄ@x   –   †   nÉ¿ )É@¯   ;  7âA`ÂwÖ@33333Ä@   ¬  »   –"€˘~s@“   ?   s   (        _@      ∆  0¨Zêp@ãlÁ˚©![@Ωü/›¥T@ÏQ∏ÖªF@Pçón≥E@2¨Z4C@—"€˘~Í;@Pçónc:@shëÌ|?*@ffffffˆ?≤ùÔß∆KÁ?'  †  Ë  ‹   |  Õ  _
+    ‹  ‚  ƒ	  –  R  l  •  ê  ∞  º  Ó  °   Ã    Ù  X    ä  ÕÃÃÃÃ,g@|   ]   ffffffV@T  K   ˘˚¨_‚Îı@    Jé;•mS@Ù  x   - »Àïüäo@|   ]è¬ı(Lo@2   «   îVçi@i   w  d   ,  (   »               T  X  ^  p  ¥   ÿ—Ô}ŒÑ∏@    9   ¥   O  Jé;•mS@
+   ‹<Ñ‰Pi@)   x   ]è¬ı(Lo@7     -≤ùÔßÜY@i   w  d   Ë  2   ,  ,  ƒ	  (   »                    ≥˝ç[’¡@    Jé;•mS@/ìo∂πn`@<      ]«}e¬c@P   t   \è¬ı(L_@  ìVçY@F   w  ı
+  d   »   ,  j     (   º     ‹        Ñ  2   (  
+    ﬂ≤ÚP4«@    Jé;•mS@   ÛEõÊl`@   _   d   \è¬ı(L_@A     F   n   w  ,  (      »      
+   L•∆ó¸¶@    Jé;•mS@   Ç¿
+ΩLÑ]@}   ^   `   F   d   #   õ   w  »   ,  (            
+   w2ÉäW¢@    ˙   d   #   Jé;•mS@   S –ÑMY@P   c   Ø         ∏  w  »   ,  (      ê     
+      ;.®D˝nπ@    æ   d         .   Jé;•mS@º     Ç¿
+ΩLÑ]@A   P   <   w  Q  2   ,  (         
+   X  ñ   ;âA≈Oº@    d   fffff÷j@6  Jé;•mS@—   q=
+◊£`@^  9‚›RÕ.Z@   ·zÆG…U@ß∆K7·P@P   2   w  ,  Ë  »   (         
+   ñ   nW≥ëQ[≤@    Y   R      Jé;•mS@¶  Ì4§ŒºU@!   ·zÆG…U@ß∆K7·P@     ‡P@x   K   d         á     w  ,  »   (   ∞     ê  
+   2   ñ   ôÎÊB—π@       2   Jé;•mS@·zÆG…e@ß∆K7·`@     ‡P@F   (  ¢   õ   w  ,  ‚  d   »   (      ‹        
+   O«càƒµ@    q=
+◊£p$@™Ò“Mb08@     ·zÆG…e@ß∆K7·`@á   A   J   2   d
+  w  ,  d   »   (         
+   ˙   &1¨º#π@    2            x           †T@F∂Û˝‘Ë[@   „–"€˘Vp@oÉ¿ Qi@á   <   ≠   d   
+         3   ∞rhë%a@æü/›ÏX@¨Zd;èW@è¬ı(\oG@   ÕÃÃÃÃÃ@w    ,  ñ   »   (   –  F   Ù  ÅïC[c«@    d   Y   æ   2               q=
+◊£p$@9   x   R         .   ™Ò“Mb08@fffff÷j@6  ˙   ¥   O  #   ›qäéDHà@/ìo∂πn`@<           †T@—   q=
+◊£`@  ¿  Ù  F∂Û˝‘Ë[@   i   áÖg˝∞·ì@i  õƒ ∞rÇà@ô  ,  ë¬ı(\˝Ç@ï  ÜÎQ∏yá@*  U  ˘~jºtãy@≠   Å  ä  J   A      
+         Î  á     (  ¢   õ    ∞rhë%a@æü/›ÏX@¨Zd;èW@è¬ı(\oG@ÕÃÃÃÃÃ@d
+  î  Q    ‹  ‚  ı
+  Ë  –  ¨  ,  j     ƒ	  ‡  ∞  X  º     ê  R  ,    å   ñ   Ñ  »   l      T  ^  p  ¡øfì¡ÔÛ@    Ù  „–"€˘Vp@'1¨Ri@     Pi@7   w  x   2   (            ^  /›$É°@    “   O  „–"€˘Vp@oÉ¿ Qi@     Pi@-   w  x   Ë  2   (            DãlÁ˚‹¶@    g   Ø   ·zÆGà°@·zÆG…e@?   ß∆K7·`@     Pi@(   w  x   d   º           
+   áŸŒ˜X≤@       P   »   d   ·zÆG…e@å   ß∆K7·`@á   #   w  x   (            
+   2   Zd;ﬂO	ú@    ê     d            )@      P   ◊   ·   ·zÆG…U@å   ß∆K7·P@á   #   w  x   ∏  (         
+   ålÁ˚)£¥@    ,   _´ãCs@A   <   ‹   ·   å        ‡P@   †  w  x   d   P         
+   ñ   µJ∞8π@    K   $   ,     ‚   å   '   w  x   2   (            Ù  
+   »   ò	           ¿I@,  W   7   q=
+◊£`@–    }   ˙   w  x   Ë  d   (            
+   ñ   ÏQ∏à∞@ê      §p=
+◊£∞?   1     	  j   x   »   d      w  ,  (      
+   ñ   {ÆG!Ø@       @  Ñ  P   ˙   w  ,  ‚  x   d   Z   Ó        
+   a        l        ‹   d   2   îV◊Ç@∞rhëÌ l@V-™W@{ÆG·˙I@ÅïCãÃH@¶õƒ ∞ÚE@ÅïCãlÁ?@-≤ùÔ'>@Ê–"€˘˛-@öôôôôô˘?:¥»væüÍ?w  –  ,  x   (   Z      
+      %ÅïÉ∂π@    ?      À        ¿H@?{ÆGÅV@êN]˘,ßd@
+      ä  Õ   ﬂ   †   <            \  w  ,  ¥   d   (   Z     »   ñ   2   3ûACﬂ9¡@ê      ?         À   §p=
+◊£∞?l   ,        ¿H@     ¿I@,  “   O  g   Ø   LupÎ£@@  '  d   <   $            )@      ?{ÆGÅV@7   q=
+◊£`@  î  Ù  êN]˘,ßd@
+      ö  4  Ô  ±ùÔß∆Ùç@o  ‹˘~jº5á@±  x   Î   ﬂ   »   †   '   2               ¸!  îV◊Ç@∞rhëÌ l@V-™W@{ÆG·˙I@ÅïCãÃH@¶õƒ ∞ÚE@ÅïCãlÁ?@-≤ùÔ'>@Ê–"€˘˛-@öôôôôô˘?:¥»væüÍ?˙   å   î  –  ‹  ‚  Ë    ∏  0  º  &  Ó    ¬  ñ   ë   ^  :
+‹nÍ@    H  »   w  x   2   (         ™   {      “   >  æ   w  x   Ë  2   (         w      z   H  Ø   (   w  x   d   j        2      (  
+   á      H  õ   n   w  x   d   P         
+   ®      á   o   w  x   d   (   <      
+   W      x   n      –  w  d   P      2   
+   ô      <     o   w  x   2   (         
+   E           hq@effffr@     0j@q=
+◊£`@Ë  '   d
+  w  ,  x   d   P   2         
+      ñ   R∏ÖÎHª@    33333Û_@   æ  X     w  ,  x   ƒ	  ÕÃÃÃÃÅ§@d   (      
+   4333≥Êæ@       –  w  ,  ‚  x   d   (   Z         
+         \      é      2   w  –  ,  x   d   Z      (      
+   ˙   Ê      2   u   öôôôôô[@     @E@¡ÑÎQ∏~S@◊ûY†M@ﬂ   †   <            
+  ÅïCãlj@·zÆGQU@°E∂Û˝DP@ÅïCã‹A@Î&1¨A@!∞rhë->@…væüÔ5@¨Zdª4@¨Zd;ü$@öôôôôôÒ?Á˚©Ò“M‚?w  ,  ¥   d   Ï	  (   Z      P   ñ   
+   ÕÃÃÃÃLI@ÿ*¡¬üø@    2   u      33333Û_@öôôôôô[@\   <           @E@     hq@effffr@“   z   é      ¡ÑÎQ∏~S@     0j@q=
+◊£`@ß	  ◊ûY†M@  œ  ‚  ﬂ   X  †   '                  Ø  ÅïCãlj@·zÆGQU@°E∂Û˝DP@ÅïCã‹A@Î&1¨A@!∞rhë->@…væüÔ5@¨Zdª4@¨Zd;ü$@öôôôôôÒ?Á˚©Ò“M‚?d
+  î  –  ‹  ‚  Ë  ƒ	  ÕÃÃÃÃÅ§@  j  Ï	  b  ä  »   ,  d   ¬  (  333333b@™   ˙   ñ   tò//Ï$Á@ê  »   ƒ   æ   £   ñ   x   u   Z   <   7   2   .   +   #                     ffffff(@q=
+◊£p$@
+      ÅïCãl@öôôôôô@   ∞rhëÌ|@öôôôôô	@ÕÃÃÃÃÃ@ffffff@öôôôôô@333333@öôôôôô@q=
+◊£p˘?      ¯?Â  l  §p=
+◊u@ÓÎ¿9#öi@ö   öôôôôŸ_@j   ™Ò“Mb08@   ÕÃÃÃÃÃ@ÕÃÃÃÃÃÙ?     Ëd@ÕÃÃÃÃå@ÕÃÃÃÃLM@öôôôômó@Ñ  33333å@û  €=yX(ò~@F  ·   ﬂ   Ø   Ü   }   q   d           †Y@ „§⁄•@LupÎ£@ﬁOçóÆ*î@   @  '  F   6   4         )@        Tt@?        |ç@ÕÃÃÃÃÑ@Û  ]è¬ı(\Z@¡)  Ë  X  D∂Û˝‘Ë{@^  ,  ˙   0   !   ÕÃÃÃÃÃ@      ÕÃÃÃÃÃ¸?   l  kÖÎw¢@   É¿ °≈Iù@  `  6^∫Iå≠ñ@™  o  P  0  ı       æë@‘  Ó  ¯S„•õ¯Ü@⁄    ¬  §  âlÁ˚©#u@.     Ì   ¥   õ   å   P   (      …q  yÈ&1ñù@|?5^∫<à@W9¥»v~Ç@o  ΩtìFt@-≤ùÔ_s@›$Åï%q@F∂Û˝‘Ïh@¨Zd;èg@ê¬ı(\oW@ÀÃÃÃÃÃ@'  '  †  ∏  ¥_  ˆ/  m%  ∏$  L  j  N  |  à  gfffÊ≤@î  NbX˘∫≠@ÿ  ¨  X    ∏  ç
+  
+  Ï	  ƒ	  `	  4  –  l  ÷  §  ‹  ‚  ∞  ù  ~  $        ¯  À  ¿  ±  g  ¸     ú  ä  ÕÃÃÃÃîÄ@Ù  ¡  öôôôô	{@öôôôô!y@|  v         n@Á   …   33333sf@a   _   ]   H   ®
+  öôôôôyê@º  p  h  Z  ™   R   s  ®˘Ìã÷≈AÑ          Çà @D    Ñ!ÑÇ$ÑBBBBÑ          Çà @D    Ñ!ÜÇ$ÑBbBBÑ         Çà @D    Ñ!ƒÇ$ÑBbBBÑ          Çà @D    Ñ1ÑÇ$ÑBbBBƒ0                        Ä      `   Ñ         Çà @D    ÑAÑÇ$ÑBbBBƒ0        Çà @D    Ñ!ÑÇ$ÑBbBB		A	Ç0AA!àÑààBDÑB!ÑB!ÑÇ$ÑBbBB
+
+Ñ 
+       
+ Çà @D    Ñ!ÑÇ$ÑBbBB
+DQ                        Ä          Ñ          Çà @d   Ñ!ÑÇ$ÑBbBBAÇ0A
+a!àÇààBDÑB!ÑB!ÑÇ$ÑBbBBAÇ0A 
+A!àÇààBDƒB!ÑB!ÑÇ$ÑBbBBA     
+          @¿        Ä         	Ña     Ç                    Ä          
+Ña     A ÄÇààBD Ñ!ÑÇ$ÑBbBBAÇ0A B!àÇààBDÑB!ÑB!ÑÇ$ÑBbBBAÇ0AA
+!àÇààBDÑB!ÑB!ÑÇ$ÑBbÇBƒ0         Çà @D@  Ñ!ÑÇ$ÑBbBBAÇ0A A!àÇààBDÑB!ÑB!ÑÇ$ÑBbBBAÇ0AA !àÇààBDÑB!ÑB!ÑÇ$ÑBbBBAÇ0AA(!àÇààBDÑB!ÑB!ÑÇ$ÑBbBBAÇ0A A!àÇààBDƒB!ÑB!ÑÇ$ÑBbBBƒqÇ0@	A!àÇààBDÑD!ÑB!ÑÇ$ÑBbCBÑ          Çà @D   Ñ!Ñ Ç$ÑBbBBAÇ0A
+A0!àÇààBDÑB!ÑB!ÑÇ$ÑBbBBAÇ0A ÇB!àÇààBDÑB!ÑB!ÑÇ$ÑBbBBÑa     A ÄÇààBDÑ!Ñ!ÑÉ$ÑBbBB
+DQ                        Ä          	Ñ         Çà @D    Ñ!ÑÇ$ÑBbBB 
+
+ DQ                          Ä          !!Ç                         Ä          ""AÇ0A C!àÇààBDÑB!ÑB!ÑÇ$ÑBbBB#
+#DQ    (                     Ä          $$Ña     A ÄÇààBDÑÇ!Ñ!ÑÇ$ÑBbBB%%AÇ0A  ÇC!àÇààBDÑB!ÑB!ÑÇ$ÑBbBB&&A Ç0A "D!àÇààBDÑB!ÑB!ÑÇ$ÑBbBB''A!Ç0A $ÇD!àÇààBDÑB!ÑB!ÑÇ$ÑBbBB((A"Ç0A &E!àÇààBDÑB!ÑB!ÑÇ$ÑBbBB))A#Ç0A (ÇE!àÇààBDÑB!ÑB!ÑÇ$ÑBbBB**A$Ç0A *F!àÇààBDÑB!ÑB!ÑÇ$ÑBbBB++Ç%     ,           @        Ä          ,
+,DQ&     .           
+         Ä          --Fí'   	 00A Ä       !Ü!ÑÇ          ..Ü¢(   
+`  8                   Ä      †   //Ü¢)   ä                     Ä    Ä   ` 00Fí*    8               !ÑÇ          11Ü¢                          Ä        22Ü¢+¿  
+                    P  Ä         33Ü¢, @ 
+                    `  Ä  `       44Ü¢-       	               p  Ä          55Üa      ÄÇààBDÑ!Ñ!Ñ Ç$ÑBbBB66Üa.     A ÄÇààBDÑ!Ñ!ÑÑ$ÑBbBB77Ü¢   
+ 	  
+                 @Ä    †   Ä 8 8AÇ0ÑBA!àÇààBDÑ B!ÑB!ÑÇ$ÑBbBB9!
+9AÇPAA!àÇààBDÑB!ÑB!ÑÇ$ÑBbBB:"
+:∆qÇ0CA!àÇààBDB!ÑB!Ñ Ç$ÑBb BB;#;Ç   à                      Ä          <$<AÇ0A(A!àÇààBDÑB!ÑB!ÑÇ$ÑBbBB=%=∆≤/                         Ä          >&>∆≤/                         Ä          ?&>∆≤/                        Ä          @'?A0Ç`AA!àÇààBDÑB!ÑB!ÑÇ$ÑBbBBA(@A&Ç0A@A!àÇààBDÑB!ÑB!ÑÇ$ÑBbBBB!AA1ÇpAA!àÇààBDÑB!ÑB!ÑÇ$ÑBbBBC)B√21AÅ@!àÜààBDÑB!ÑB!ÑÇ&ÑBb¬BD *CJ”3Ç0A2A!àÇà»BDÑB!ÑB!àÇ&ÑBcBCE"*DJQ4B1AA!àÇààBDÑB!ÑB!ÑÇ$ÑBbBBF *EL”5ÇÄA4A!àÇààBDÑB!ÑB!äÇ&ÑBdBDG$  å„6Ç0A6AÇ!àÇàBDåB!Ñ¬!ÑÇ$ÑBbBBH&+FÃÛ7Ç0AH8A"à ÇåàBDÑB!à!ÑÇ&ÜBbBBI&,GÃÛ8Ç0AA!àÇààBDÑB!äB!Ñ Ç&àBbBBJ(-HLQ9Ñ0AAÇ2àÇààBDÑB!Ñ!ÑÇ&ÑBbBBK*  ÃÛ:ÇêA:A!à(ÇààBDÑB!ÑB!ÑÇ&ÑBbBBL,.I;Ç0AA !àÇààBDÑB!ÑB!ÑÇ$ƒBbBBM *JL”<Ç0A<ÇF!àÇààBDÑB!ÑB!ÑÇ&ÑBbBBN./Kå =Ç0AA"!àÇààBDÑB!ÑB!ÑÇ$BbBBO0*LL!Ç0A8A!àÇààBDÑB!ÑB!ÑÇ&ÑBbBBP20Må„>Ç†ôÑPA!àÇààBDÑB!ÑB!ÑÇ$ÑBbBBQ41Nå$?Ö±A@Cå Çà @D  B!ÑB!ÑÇ$ÑBbBBR.2 Oå @Ü0A>A!à0ÇààBDÑB!ÑB!ÑÇ$ÑBbBBS.  å AÇ0AA!àÇààBDÑB!ÑB"ÑÇ$ÑBbBBT63PLQÇ0AA!àÇààBDÑB!Ñ¬"ÑÇ$ÑBbBBU4QAÇ¿AA!àÇààBDÑB!ÑB!ÑÇ$ÑBbBBV82!RåaBÇ–AA!àÇààBDÑB!ÑB!ÑÇ$ÑBbBBW:5"Sé¢C    X                     Ä          X<6#T–4	D   `@ß!Œ8    Œ"F2ÃCÉå)¬$ÑBbB   Y>7U–4	EÇ0AA$!à  Ä ÑB!ÑB!Ñ¬$DÇ       Z@8$V	FÇ  E B¡!à  Ä ÑB!ÑB!Ñ¬$ÑBbB   [B9WE	G   !  D       @           ¿         \:Xí¢H   
+    &                   ¿         ];Yí¢I   
+    (                   ¿ §≈     ^B<ZRU	   !  F              @    ¿          _B=[íe	A   !    *                   ¿         `B>\RU	J   !  H       Ä            ¿          aB?]RU	   !    ,                   ¿  ¿       bB@^“u	K   !  J  .     ¿            ¿         c1í¢L     L             Ä      ≈         dBA_Ü	   !    0                   ¿         eBB`Rñ	M   !    2                   ¿         fBCaí¶	N   !    4                   ¿         gBDb“∂	   !    6                   ¿  	       h)B√OÇ0èEN·H8!àáààBDÑB!ÑB!Ñ¬&ÑBb‚BiBE%c‘4P«·!¶hAÇSêÇààBDÑb!Ñb!Ñ¬&ÑBbBBjBFd‘4«·!¶0AÇSêÇààBDÑb!Ñb!Ñ¬&ÑBbBBk *&eV”$QÇ0APA:!íÇààBDÑ(B!ÑB!é¬&ÑBfBEF *'fX”(RÇARA<!àÇààBDÑ0B!ÑB!ê¬&ÑBgBFlBG(gE	S   !¿    >                   ∆         m:5)hö¢T    p                     ¿          nDH*i«	U 0"  T° @       H@;     ê“ 	   Ë  ß oFIj\◊	V   #  "  B           @@       9          pHJkúÁ	W  $  V             P       	          qJ +l√X   % xX# QD                            rLK,m‹˜Y   & Ä                      	          sNL-n
+Z   ' à8                               tPM.o\
+[  (                        	          uFNp\◊	?	  #     Ä          `       	          vRO/q
+   ) ê                                wTPrú(
+
+  *                        	          xFQ0s\◊	\  #     Ä          `       	          yNRt
+]   '  Z@                              zVRu
+   +   @                              {XRv
+   ,  `F                             |TPwú(
+   *                       	          }ZS	x‹8
+   -                       	          ~NR1t
+N   ' ò                                VRy
+N   + (\Ä                              Ä\T2zI
+^LÆ†                      	          ÅVRu
+_   + ®^†                              ÇVRu
+_   +  $ XH                          @  ÉZU{‹8`  -                        	          ÑZV|‹8
+`  -                        	          Ö^R3}
+   / ∞`¿                              ÜVRu
+/   + @.‡                              áVRu
+/   + @.‡                              à\W4~I
+a  .                        	          â`X5^Y.b !0Á∏  J   ¿–               	  
+  f  äbYÄûi
+c   1  %  L     `     é!Ñ£    (Î	á  ãZ6Å^ídÇ %â¡b&!       ÄCGs–)E¥           å`[Ç^Y
+e   0  d'  N    @ Ä
+–   0ÜƒV 	 0*   çd\É^íf   2  f( `P          HÄ    ò2Gä9       é`]7Ñ^Y2g  (0(h© R        T  :   	¿A.!      è^8Öû¢h 0äDôj*)        T\ÑTB              êd\Ü^íi   2  l+ hT          `Ä    ⁄:WJ       ë\á^íj     n, pV          h      C	gNRP      í\9à^ík   ãh…p≠I @A        âïñJ               ì_:âû¢l   
+Är
+ X                 @     @    î`;äû¢m @-ä¢—tÆjzZ         Äi
+¶XQâ‘úK
+wêZq      ï`aã^Y
+n   0  v/Ä            ∞⁄Z
+    	          ñd\<å^ío P12…Ÿx0´          pã∆               ó=/û¢p   
+ ‡z1¿Ç\   	                      †  ò`]>ç^Y
+G `5∞È                      	          ôbéû¢G   
+    ^                        `  ¿ ö\è^íq @ |2‚          x’^c              õc?ê^ír p	 ~        * ñÑ                   úd\@ë^ís   2@ÍÄ   û!  Ä1                       ù^íû¢8   
+  3   ¿I          @iåE            ûdAìû¢t  8jÚÇ x  R  @:                     üfeîû¢u   3  Ñ                               †hfï
+v   4   à`   
+                      ¿  °gñû¢   
+  ÜÉ *                 ¿     Ä    ¢hh,ó
+Y   4 Ä                                £fi,òû¢Y   3 Ä                                §d\Bô^íw  <2  à    X  ÄB                       •C2û¢x Ä
+    b                      $     ¶jj/ö^íZ   5 êF {,	                         ‡  ßkõû¢Z   
+  n *                 ¿     Ä    ®hl-ú
+[   4 à                              ©fiùû¢[   3  6@                              ™m.ûû¢4[èíA
+                                 ´n/üû¢y †E  F  ,               ‡     ¿       ¨o†û¢8y @
+  äÇ                            ≠p°û¢z     å4  *           Ä               ÆqD¢^í ∞I	
+    "                            Ø1û¢     
+  d                        	  ∞r£û¢{   
+  é5        H \    Ñ             ±fs§û¢|   3 0ê`Cf                            ≤bt-•ûi
+   1     $                            ≥d\E¶^í}   2  í   &`  ¿R ﬁ                   ¥7û¢A   
+  6 h                       †  ‡ µußû¢A¿                                   ∂v8®û¢~  H
+                                  ∑fw©û¢   3 7`ëF                             ∏fi™û¢   3   x                              πx´û¢                        V           ∫fy¨û¢   3    f        †                     ªlzF≠
+   6 ¯î8Äõj!                            ºn{Æ
+Ä   7  ñ†                              Ωp|GØ√  8                                  ær}3∞
+   9 ∞`9¿°l"                         @  øf~±û¢_   3  8                 Ä             ¿h≤
+`   4                                  ¡ÄH≥ √ÅB3Åò:¡´n#!àèàà¬Ñ†B!ÑB'Ñ'ÑÇ	bb
+B¬ÅI¥ √ÇÇ¿Aö;·p$aàêààBDÑB!ÑB!Ñ'ÑBbJB√ÄJµ √ÉÇ–Aú<r%qàëààBDÑB!ÑB!ƒ'ÑBbKBƒÄK∂ √ÑÇ3Aû=!t&!àíààBDÑB!ÑB!ÑP'ÑBbLB≈fÇ∑†¢¬·L3¶AÇSêÇààBDÑb!Ñb!Ñ'ÑBbBB∆ÉL∏ √Ö«·¶AÇSêÇààBDÑb!Ñb!Ñ'ÑBbBB«ÑMπ √ÜÇ‡A†>Av'ÅàìààBDÑB!ÑB!ÑX'ÑBbMB»ÖN∫ √áÇA¢?ax(ëàîààBDÑB!ÑB!Ñ`'ÑBbNB…ÄOª √àÇ A§@Å¥z)°àïààBDÑB!ÑB!Ñ'ÑBbOB ÄPº √âÇ0A¶A°º|*±àñààBDÑB!ÑB!Ñ'ÑBbPBÀÄQΩ √äÇ0A®B¡ƒ~+¡àóààBDÑB!ÑB!Ñ'ÑBbQBÃÄRæ √ã¬3A™C·ÃÄ,!àòààBDÑB!ÑB!Ñ'ÑBbRBÕÜSø √Ç0A¨	’Ç-—àôààBDÑB!ÑB!Ñ'ÑBbSBŒáT¿ √åÇ0AÆD!›Ñ.·àöààBDÑB!ÑB!Ñ'ÑBbTBœ àU¡b”<çÇA6EAÜ/!àÇàBDƒN!ÑB!Ñ'ÑBkBI–Lâ¬‚˜éÇ0&A∞A!àÇààXBDÑB!ÑB!Ñ)ÑBbBB—Lâ¬‚˜èÇ0&A≤A!àÇàà`BDÑB!ÑB!Ñ)ÑBbBB“Lâ¬‚˜VÇ0&A¥A!àÇààhBDÑB!ÑB!Ñ)ÑBbBB”täV√b◊ê4:A∂aàÇààBDÑB!ÑB!Ñ)ÑBbBB‘vãWƒ‚yBvê0;AAà!àÇààBDÑB!ÑB!Ñ'Ñ"	bBB’våX≈‰ÛDëQ$Rª™π∆çÂä0Ùhj[ôUsÈ¨"çœË†sç˜ má“b≤)Ã!ï
+!÷vçY∆‰yJíí4V;À"ªAÇ´rÇààkJD§B!Ñ!Ñ'ÑBbBB◊&éZ«‰ÛìÇ@·ºGA!àÇààBDDB!ÑBÖ)ÑBbBBÿxè[»d”îÇ0<æHAËå1!àÇààBDÑB)ÑB!Ñ'ÑBbVB$Ÿ&ê\…‰ÛLïÇ0Xì™*¡IÆıé2!àúààBƒÑ–)ÑB!bu'ÑB‰%∑
++)⁄&ë] ‰ÛñÇ0ìK¬JAê3!àÇààB‰ÑQ!ÑB!Ñx'ÑBb(BB€zí^À$√óì0=AKA!àÇààBDÑB!ƒB!Ñ'ÑBbBB‹&ìÃ‰ÛòÇ0A¬J,˘é2!»zù›Ÿ{kßïM˙"DJB∆Éók”-M-ÿ"L-F|î:Õd”ôÇP>A¥LAí4!àÇààBDÑòB!ÑB!§'ÑBnBGH&ï:Œ‰ÛPôÇ0A0µLAí4%àÄÇ†àBDÑB!§!Ñ'ñBbBB›&ñœ‰ÛôÇ0AƒA5!àÇààBDÑR!ÑB!Ñ'ÑBbBb	ﬁ ó–d”öÇ0A∆¡6!àÇààBDÑB!ÑB!Ñ'ÑBbBÇ	ﬂ&ò_—‰ÛõÇ`",ã»†Óçî7!ãﬁ%Ñ1iiÕ™&DJ«ÉßX3Â1è1Ë&≠1‡&ô“‰ÛõÇ0AƒM.!ãÇà»{LDÍS˚bDNH¶ç)ÑBbBB·v*`”‰yVú“t^;G;AÇ≠ÇààBDÑB!Ñ!Ñ'ÑBbBB‚& a ‰ÛùÖ^ìlÉ A!§ëÇàHåMD¨B!ÑB!Ñ'ÑBbBB„~ö‘dûÇ0?ANA !àÇààBDÑB©|œ(cu'ÑBbBB‰zõb’$√üï0=AOA!àÇààBDÑB!™B!Ñ'ÑBbBBÂzúc÷$√†Ç0=A@PA8&àÇààBDÑB!ƒB!Ñ'ÑBbB(BÊvù◊‰y°Ç0;AAñ!àÇààBDÑB!ÑB!Ñ'ÑTbBBÁvû:ÿ‰y¢ÇêZªÈπÃA!nõÇààîBDÑB!ÑB!Ñ'ÑBbBBËzüdŸ$√£Ç0=AHQAÇ&àÇààBDÑB!B!Ñ'ÑBbBBÈ †⁄d”§Ç0AA9!àüààBDÑB!ÑB!Ñ'ÑBbBBI&,G‰Û•Ç0ARA!àÇààBDÑB!¨B!Ñ'ÑBbBBÍ&°,€‰Û¶Ç†b,SœSoô:!à£ jbö.S¶ToÖP9Èï∑ör6ŒÎ&¢‹‰Û¶Ç0A–‘O!àÇààBDÑB!ÑB!'ÑBbBBÏ £›d”ßÇ0A¿UA!àÇààODÑB!qB!Ñ)ÑBbBBÌz§ﬁ$√ßÇ0=A“VAö!àÇà»BDÑB!ÑB!Ñ'ÑBbBBÓ •ﬂd”®Ç0AMA!àÇààBDÑB!ÑB!Ñ'ÑBbBBÔv¶D‡‰y®Ç0;A∏¥WA!»íÇà•PDÑB!®xB(Ñ'ÑBbBB&ß·‰Û©Ç0A4Xù;!à£aÆfùQu«®’;Ûç—YVû«‹{6:6:/Õ5Ò&®:‚‰Û™Ç0MAû!àÇààBDÑB!ÑB!Ñ'ÑBb8BBÚ&©„‰Û´Ç0A»YA!àÇàà®BDÑB°&îŒ!Ñ'ÑBbBBÛ *‰d”¨Ç0AIA!àÇààBDÑB!ÑB!Ñ†'ÑBbBBÙz™Â$√¨Ç0=AIA!àÇààBDÑB!B!Ñ'ÑBbBBı ´Êd”¨Ç0A¿A!àÇààBDÑB!ÑB!Ñ'ÑBbBBˆz¨eÁ$√¨B5=A‘A!àÇààBDÆB!ÑB!Ñ'ÑBbBB˜&≠Ë‰ÛX≠ÇµÅ[7-.Ü<!…´¢àËµNÖáa√Kµô“I+¨◊Ñ7>≤=.O8¯zÆÈ$√ÆÇ0L=AŒÿP!àÇààBDÑB!ÑB!Ñ'ÑBbBB˘zØÍ$√ÆÇ4=AŒXA!àÇààBD∞B!ÑB*Ñ'ÑBbBB˙z∞fÎ$√ÆÇ¿=AA!àÇààBDÑB!ÑB!Ñ'ÑBbBB˚&±Ï‰ÛØÇ@-ì≠÷ZAx=!àãÚ™Ä¢∂≈B\w&“Sm¥Á`åWB3B˘1=¸&≤Ì‰Û∞Ç0`¡36FÜ=!à££ÚjùÆ∂Û©’[w&“Sm¥Á`åWB3Bõ0A˝z§gÓ$√±Ç0=¡ÿA!àÇàBDÑB!ÑB!Ñ'ÑBbBB˛v¶Ô‰y≤Ç0;A⁄[A!àÇààBD¥B!∏B!Ñ'ÑBbBBˇ ≥d”≥Ç0A‹A†!àÇààBDÑB!ÑB!Ñ'ÑBbBB {¥hÒ$√¥ñ0=AA!àÇààBDÑB!ÑB!Ñ'ÑBbBB{ i $√µÇ–=A  !         @   @              'µÚ‰ÛVÇ0A"A C!àÇààBDÑB!ÑB!Ñ'ÑBDbBB{∂jÛ$√∂Ç0=A`ﬂA'àÇàHBDÑB!ÑB!Ñ'ÑBbBB'∑kÙ‰Û∑äefÓk›A!{Çà»ªRD¶B!ÑB!Ñ'ÑBbBB'∏lı‰Û\∏ ÂFìŒs·\pì*æ7Ò£†à»≈≥Dvi’lª&ìjÔæ'ÑîxJTF<1‚	'πmˆ‰Û`6Ç0AA¯àÇààBDÑB!ÑB!Ñ'ÑBbBB'∫˜‰Û6Ç0AA¢?!à¬%ûEÑB!ÑB!Ñ)Ñò‚	Ç	b7Bwª,¯‰y66;A6]!˘§ÇHØÇààBD¶B!ÑB!Ñ'ÑBbÇB	{º˘$√6Ç0=A^A!àÇààBDÑB!ƒB!Ñ'ÑBbBB
+'Ωn˙‰ÛdπBfìIxAQâÇààBDÑB!ÑB!Ñ'ÑBbBB'æ˚‰ÛGÇ0A_A=!à§ààbEÑB!BÖ'DBLbB8Ò8{øo¸$√∫Ç0=AÄ=A@!àÇààBDÑB!DB!Ñ'ÑBbB<Bw¿_˝‰Ûqäef;å7AIÖÇààBDÑíB!Ñ!Ñ'ÑBbBB'¡p˛‰ÛhªòÊ¶AÇiëÇààBDÑB!Ñ!Ñ'ÑBbBB'¬qˇ‰Ûlº¬6hAêe`qñ*>*à•ØÇŸπB!ºßTkÔæ'ÑîxJTF<AF!* e”ΩÇ0A‚Å!àÇààBDÑB!ÑB!Ñ'ÑBbBB}*e”ΩÇ0>A‚Å!àÇààBDÑB!ÑB!Ñ'ÑBbBB'√gÂÛpWÇ0AAÇ*àÇààBDÑB!Ñ!Ñ'ÑBbBB'ƒÂÛWÇ0A4A=!àÇààBDÑ¬)ÑB!Ñ'ÑBbBB('≈ÂÛWÇ0A4⁄1â!àÇààBDÑB!Ñ@B!Ü'ÑBbBB'  ‰ÛWÇ0Aò5A!àÇààBDƒB!ÑB!Ñ'ÑBbBB'  ‰ÛWÇ0Aò5A!àÇààBDƒB!ÑB!Ñ'ÑBbBB'∆ÂÛWÇ0AUA!àÇààBDÑB!ÑBqÖ'ÑBbBB' ÂÛæÇ0Ar°¶A!à®¶àà∞¢D≤hV!D¬#ñ'DB
+qΩ3S8'«_ÂÛø7AA!àÇààBDÑB!ÑB!Ñ)ÑBbBB'»ÂÛøB7AÜ¡!àÇààBDÑB!ÑB!Ñ)ÑBbBB'…	ÂÛøÇ0A"A¯!àÇààBDÑB!B"ﬁ'ÑBbBB*
+%√øÇ0A6A!àÇààBDÑB-ÑB!Ñ'ÑBbBBw rÂyv¿ä•f;§AÇ(±ÇààBDÑB!Ñ!Ñ'ÑBbBB'ÀsÂÛx¡Ç7lA®ÂA+àÇà»BD∫B!ÑB!Ñ'ÑBbBB'ÃtÂÛ|¬¬7pA∞ÁAÇ+ÇàHµSDFB!ÑB!Ñ'ÑBbBB q  $√í08AA!àÇààBDÑB!ÑB!Ñ'ÑBbBBO0*LdÇ0AŒA!àÇààBDDB!ÑB!Ñ'ÑBbBB!' ÂÛÇ0AXA!àÇààBDÑBÒ"DB!Ñ'ÑBbBB"'ÕuÂÛ√Ç0!ºA!àÇààBDÑB!ÑB!Ñ)ÑBbBB#'ŒvÂÛƒÇvOƒA!ÄÇààBDÑB!ÑB!Ñ)ÑBbBB$'œ,ÂÛY8AA!àÇààBDÑB!ÑB!Ñ)ÑBbBB%Å–-•¢Z5@AA§!àÇààBDÑB!ÑB!Ñ'ÑÇ
+bBB&'—ÂÛZÇ0A4°!àÇààBDÑB!ÑB!Ñ'ÑBbBB''—ÂÛZÇ0A8]!!àÇààBDÑB!ÑBÅÖ'ÑBbBB('“ÂÛZÇ0AZAà!àÇààBDÑB!ÑB''ÑBbBB)'”ÂÛZÇ0AZAà!àÇààBDÑB!ÑB''ÑBbBB*'‘wÂÛÄ≈ŸEyŒ3A,óÇààBDÑB!ÑB!Ñ'ÑBbBB+'’xÂÛÑ∆B8|A»ÈAÇ,à£Çà«BDÑB!ÑB!Ñ'ÑBbBB,'÷ÂÛyÇ0AaA!àÇààBDÑB!Ñ¬+Ñ'ÑBbBB-'◊ÂÛy„FìDrAÇSb¥ÇàH«BDÑB!Ñb!Ñ'ÑBbBB.'ÿyÂÛà«õ8AFAÇxI¥ÇààBDÑB!Ñ!Ñ'ÑBbBB/'ŸzÂÛå»€8APAsâªÇààBDÑB!Ñ!Ñ'ÑBbBB0q D $√ò08AA!àÇààBDÑB!ÑB!Ñ'ÑBbBB1'⁄DÂÛÇ†bŒ[A!àÇààBDÑB!ÑB!Ñ)ÑBbBB2'€ÂÛê…9AÍA-àÇààœBDÑB!ÑB!Ñ'ÑBbBB3!‹e”Ç AA!àÇààBDÑB!ÑB!Ñ)ÑBbBB4'  ‰ÛAÇ`A!àÇààBDÑB!ÑB!Ñ'ÑBbBB51›{ eï Ç0AAÇ-àÇààBDÑB!Ñ!Ñ'ÑBbBB6!ﬁ|!e”ÀB9AA!àÇààBDÑB!ÑB!Ñ)ÑBbBB7'ﬂ}"ÂÛòÃÇ0A–A!àÇààBDÑB!ÑB!Ñ'ÑBbBB8É‡8#e~Ç0AAA.àÇààBDÑB!ÑB!Ñ'ÑBbBB9!·~$e”ÕÇ9AA!àÇààBDÑB!ÑB!Ñ)ÑBbBB:{‚%%√Ç0=AA!ÑÇààBDÑB!ÑB!Ñ)ÑBbBB;'„&ÂÛ3AA!àÇààBDÑB!ÑB!Ñ'ÑBbBB<!‰Ä'e”¬9AA!àÇààBDÑ!ÑB!Ñ)ÑBbBB=ÖÂ('ä
+Œ   B  Ïb   Ä         p                >;Êg)ß¢Æ    U              Ä                ?;5Å*ß¢œ    ÿ                                @;Á+ß¢–     c  ®            ê      ˜          A;Ë,ß¢ø     ‹           Ä                   B;Ê_-ß¢ø        2                            C;È.ß¢—     d              †                D;ÊÇ/ß¢“                  ∞                E;ÍÉ0ß¢ú”   ù                                 F;Î1ß¢Z  Ä                                  G;Ê2ß¢y                  P                 H;Ï3ß¢‘       B   ¿                         IÖÌÑ4'ä
+’  B                                  J!*;5i”†–Ç0@AÓ›N§C!àÇààBDÑB!ÑB!DB'ÑBb
+BBHK'ÓÖ6ÎÛ§÷ 2AAÇµÇààBDÑB!ÑB!ÑB'ÑBbBBF *-k”®qÇêA8]A§D!àÇààBDÑ∞B!ÑB!∞B'ÑBuBT   Ü    ◊!á p‰ÒeÚ.´Eè˜ƒ'wÛ◊¥˚˝æ◊ÕˇØUú≥« „§πRñJﬁG5N                                                                                                                                                            
